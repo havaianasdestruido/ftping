@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Check the FTP endpoints in the ftp-sites.org list and append a JSONL report."""
+"""Check the FTP endpoints in the ftp-sites.org list and write dated JSONL and JSON reports."""
 
 from __future__ import annotations
 
 import argparse
 import json
 import math
+import os
 import socket
 import sys
 import time
@@ -27,6 +28,7 @@ DEFAULT_TIMEOUT_SECONDS = 5.0
 DEFAULT_WORKERS = 64
 SOURCE_TIMEOUT_SECONDS = 30.0
 REPOSITORY_ROOT = Path(__file__).resolve().parent.parent
+SUCCESS_SUFFIX = "-success"
 
 
 @dataclass(frozen=True)
@@ -94,6 +96,11 @@ def load_sites(source_url: str = SITES_URL, sites_file: Path | None = None) -> l
     return sites
 
 
+def utc_timestamp() -> str:
+    """Return the current UTC time as an ISO-8601 string with a trailing Z."""
+    return datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
+
+
 def probe_site(site: Site, timeout: float = DEFAULT_TIMEOUT_SECONDS) -> dict[str, object]:
     """Check whether an FTP endpoint accepts a TCP connection on its port."""
     started = time.perf_counter()
@@ -111,8 +118,7 @@ def probe_site(site: Site, timeout: float = DEFAULT_TIMEOUT_SECONDS) -> dict[str
             "message": str(exc)[:500],
         }
 
-    checked_at = datetime.now(timezone.utc).isoformat(timespec="milliseconds")
-    checked_at = checked_at.replace("+00:00", "Z")
+    checked_at = utc_timestamp()
     latency_ms = round((time.perf_counter() - started) * 1000, 3)
 
     return {
@@ -154,6 +160,48 @@ def write_report(
     return report_path
 
 
+def write_success_report(
+    records: Iterable[dict[str, object]],
+    reports_dir: Path,
+    report_date: date | None = None,
+) -> Path:
+    """Write reports/YYYY-MM-DD-success.json holding only the endpoints that were up.
+
+    Unlike the JSONL report, this file is replaced by each run, so it always
+    mirrors the most recent check of the day and stays a single valid JSON
+    document that consumers can load in one pass.
+    """
+    day = report_date or datetime.now(timezone.utc).date()
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    success_path = reports_dir / f"{day.isoformat()}{SUCCESS_SUFFIX}.json"
+
+    all_records = list(records)
+    up_records = [record for record in all_records if record.get("status") == "up"]
+    document = {
+        "date": day.isoformat(),
+        "generated_at": utc_timestamp(),
+        "checked": len(all_records),
+        "up": len(up_records),
+        "servers": [
+            {key: value for key, value in record.items() if key != "error"}
+            for record in up_records
+        ],
+    }
+
+    payload = json.dumps(document, ensure_ascii=False, indent=2) + "\n"
+    # Write to a temporary file first so an interrupted run cannot leave a
+    # half-written report behind for the commit step to pick up.
+    temp_path = success_path.with_name(f".{success_path.name}.tmp")
+    try:
+        temp_path.write_text(payload, encoding="utf-8")
+        os.replace(temp_path, success_path)
+    except BaseException:
+        temp_path.unlink(missing_ok=True)
+        raise
+
+    return success_path
+
+
 def positive_float(value: str) -> float:
     try:
         parsed = float(value)
@@ -176,7 +224,10 @@ def positive_int(value: str) -> int:
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Check FTP server TCP reachability and append a daily JSONL report."
+        description=(
+            "Check FTP server TCP reachability, append a daily JSONL report, and write "
+            "a dated success JSON report with the endpoints that were up."
+        )
     )
     parser.add_argument(
         "--sites-file",
@@ -192,7 +243,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--reports-dir",
         type=Path,
         default=REPOSITORY_ROOT / "reports",
-        help="directory for dated JSONL reports (default: ./reports)",
+        help="directory for dated JSONL and success JSON reports (default: ./reports)",
     )
     parser.add_argument(
         "--timeout",
@@ -216,6 +267,7 @@ def main(argv: list[str] | None = None) -> int:
         sites = load_sites(source_url=args.source_url, sites_file=args.sites_file)
         records = probe_sites(sites, timeout=args.timeout, workers=args.workers)
         report_path = write_report(records, args.reports_dir)
+        success_path = write_success_report(records, args.reports_dir)
     except (OSError, URLError, UnicodeError, ValueError) as exc:
         print(f"ftping: {exc}", file=sys.stderr)
         return 1
@@ -224,7 +276,8 @@ def main(argv: list[str] | None = None) -> int:
     down_count = len(records) - up_count
     print(
         f"Checked {len(records)} FTP endpoints: {up_count} up, {down_count} down. "
-        f"Appended JSONL report to {report_path}."
+        f"Appended JSONL report to {report_path}. "
+        f"Wrote {up_count} reachable endpoint(s) to {success_path}."
     )
     return 0
 
