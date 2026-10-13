@@ -1,3 +1,4 @@
+import ftplib
 import json
 import socket
 import tempfile
@@ -5,10 +6,16 @@ import unittest
 from datetime import date
 from pathlib import Path
 
+from unittest import mock
+
+from scripts import ping_sites
 from scripts.ping_sites import (
     Site,
+    _entry_from_list_line,
+    _entry_from_mlsd,
     parse_site_list,
     probe_site,
+    write_directory_listings,
     write_report,
     write_success_report,
 )
@@ -225,6 +232,79 @@ class WriteSuccessReportTests(unittest.TestCase):
 
         self.assertEqual(second_path.name, "2026-10-13-success-1.json")
         self.assertEqual(third_path.name, "2026-10-13-success-1.json")
+
+
+class ListingParsingTests(unittest.TestCase):
+    def test_mlsd_facts_map_to_entry_types(self) -> None:
+        self.assertEqual(
+            _entry_from_mlsd("pub", {"type": "dir"}),
+            {"name": "pub", "type": "directory", "size": None},
+        )
+        self.assertEqual(
+            _entry_from_mlsd("readme.txt", {"type": "file", "size": "120"}),
+            {"name": "readme.txt", "type": "file", "size": 120},
+        )
+        self.assertIsNone(_entry_from_mlsd(".", {"type": "cdir"}))
+        self.assertIsNone(_entry_from_mlsd("..", {"type": "pdir"}))
+
+    def test_unix_list_lines_are_parsed(self) -> None:
+        self.assertEqual(
+            _entry_from_list_line(
+                "drwxr-xr-x    2 ftp  ftp  4096 Oct 13 13:09 my dir"
+            ),
+            {"name": "my dir", "type": "directory", "size": 4096},
+        )
+        self.assertEqual(
+            _entry_from_list_line("-rw-r--r--    1 ftp  ftp  10 Jan 01 2020 a.txt"),
+            {"name": "a.txt", "type": "file", "size": 10},
+        )
+        self.assertEqual(
+            _entry_from_list_line("lrwxrwxrwx 1 ftp ftp 4 Jan 01 2020 link -> target"),
+            {"name": "link", "type": "link", "size": 4},
+        )
+        self.assertIsNone(_entry_from_list_line("total 8"))
+
+
+class WriteDirectoryListingsTests(unittest.TestCase):
+    def test_lists_only_up_hosts_once_each_under_dir(self) -> None:
+        records = [
+            record("ftp://mirror.example.org/", "mirror.example.org", "up"),
+            record("ftp://mirror.example.org/pub", "mirror.example.org", "up"),
+            record("ftp://dead.example.org/", "dead.example.org", "down"),
+        ]
+        entries = [{"name": "pub", "type": "directory", "size": None}]
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports_dir = Path(temp_dir)
+            with mock.patch.object(
+                ping_sites, "list_root_directory", return_value=entries
+            ) as listing:
+                paths = write_directory_listings(records, reports_dir)
+            files = sorted(p.relative_to(reports_dir).as_posix() for p in reports_dir.rglob("*") if p.is_file())
+            document = json.loads((reports_dir / "dir" / "mirror.example.org.json").read_text("utf-8"))
+
+        self.assertEqual(listing.call_count, 1)
+        self.assertEqual(files, ["dir/mirror.example.org.json"])
+        self.assertEqual([p.name for p in paths], ["mirror.example.org.json"])
+        self.assertEqual(document["status"], "ok")
+        self.assertEqual(document["url"], "ftp://mirror.example.org/")
+        self.assertEqual(document["path"], "/")
+        self.assertEqual(document["entries"], entries)
+
+    def test_ftp_failure_is_recorded_without_failing(self) -> None:
+        records = [record("ftp://locked.example.org/", "locked.example.org", "up")]
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports_dir = Path(temp_dir)
+            with mock.patch.object(
+                ping_sites,
+                "list_root_directory",
+                side_effect=ftplib.error_perm("530 Login incorrect."),
+            ):
+                write_directory_listings(records, reports_dir)
+            document = json.loads((reports_dir / "dir" / "locked.example.org.json").read_text("utf-8"))
+
+        self.assertEqual(document["status"], "error")
+        self.assertEqual(document["error"]["type"], "error_perm")
+        self.assertEqual(document["entries"], [])
 
 
 if __name__ == "__main__":
