@@ -7,7 +7,7 @@ A daily reachability monitor for the FTP endpoints in the [ftp-sites.org list](h
 - `.github/workflows/daily-ftp-ping.yml` runs every day at **03:17 UTC** and can also be started manually with **Actions → Daily FTP reachability → Run workflow**.
 - `scripts/ping_sites.py` downloads the current list from the Gist, then checks every valid FTP endpoint concurrently by opening a TCP connection (normally port 21). This is a TCP reachability check, not an ICMP echo ping, which makes it suitable for GitHub-hosted runners.
 - Each run appends one JSON object per endpoint to `reports/YYYY-MM-DD.jsonl`, using the UTC date. A rerun on the same day appends to that day's file; it never truncates reports or removes older dates.
-- Each run also writes `reports/YYYY-MM-DD-success.json`, which lists **only the endpoints that answered** (status `up`) for that date. Because it is one JSON document rather than a log, a rerun on the same day replaces that day's success file, so it always reflects the latest check; success files from earlier dates are never touched.
+- Each run also writes `reports/YYYY-MM-DD-success.json`, which lists **only the endpoints that answered** (status `up`) for that date. Reruns never overwrite an existing report: if the day's success file is already there, the new report is written next to it as `reports/YYYY-MM-DD-success-1.json`, then `-2`, and so on, so every run's results are kept.
 - Each JSONL record includes the check timestamp, URL, host, port, `up`/`down` status, connection latency, and error details when a connection fails. A down site is recorded but does not fail the workflow.
 - The workflow commits the report back to the branch on which it ran. It requests `contents: write` permission for this.
 

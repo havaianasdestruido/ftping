@@ -160,6 +160,23 @@ def write_report(
     return report_path
 
 
+def available_report_path(reports_dir: Path, name: str) -> Path:
+    """Return reports_dir/name, or the first free -1, -2, ... variant of it.
+
+    Reruns must not clobber reports that earlier runs already wrote, so a
+    taken name gets a numeric suffix before the extension:
+    ``2026-10-13-success.json``, ``2026-10-13-success-1.json``,
+    ``2026-10-13-success-2.json``, and so on.
+    """
+    candidate = reports_dir / name
+    stem, suffix = Path(name).stem, Path(name).suffix
+    counter = 1
+    while candidate.exists():
+        candidate = reports_dir / f"{stem}-{counter}{suffix}"
+        counter += 1
+    return candidate
+
+
 def write_success_report(
     records: Iterable[dict[str, object]],
     reports_dir: Path,
@@ -167,13 +184,17 @@ def write_success_report(
 ) -> Path:
     """Write reports/YYYY-MM-DD-success.json holding only the endpoints that were up.
 
-    Unlike the JSONL report, this file is replaced by each run, so it always
-    mirrors the most recent check of the day and stays a single valid JSON
-    document that consumers can load in one pass.
+    This report stays a single valid JSON document that consumers can load in
+    one pass. Reruns never overwrite an existing report: if the day's success
+    file already exists, the new one is written next to it as
+    ``2026-10-13-success-1.json``, then ``-2``, and so on, so every run's
+    results are kept.
     """
     day = report_date or datetime.now(timezone.utc).date()
     reports_dir.mkdir(parents=True, exist_ok=True)
-    success_path = reports_dir / f"{day.isoformat()}{SUCCESS_SUFFIX}.json"
+    success_path = available_report_path(
+        reports_dir, f"{day.isoformat()}{SUCCESS_SUFFIX}.json"
+    )
 
     all_records = list(records)
     up_records = [record for record in all_records if record.get("status") == "up"]

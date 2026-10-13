@@ -147,23 +147,23 @@ class WriteSuccessReportTests(unittest.TestCase):
     def test_writes_an_empty_server_list_when_nothing_is_up(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             reports_dir = Path(temp_dir)
-            write_success_report(
+            success_path = write_success_report(
                 [record("ftp://dead.example.org/", "dead.example.org", "down")],
                 reports_dir,
                 date(2026, 10, 13),
             )
-            write_success_report([], reports_dir, date(2026, 10, 13))
-            document = json.loads((reports_dir / "2026-10-13-success.json").read_text("utf-8"))
+            document = json.loads(success_path.read_text("utf-8"))
             leftovers = sorted(path.name for path in reports_dir.iterdir())
 
+        self.assertEqual(success_path.name, "2026-10-13-success.json")
         self.assertEqual(document["up"], 0)
         self.assertEqual(document["servers"], [])
         self.assertEqual(leftovers, ["2026-10-13-success.json"])
 
-    def test_replaces_the_previous_run_and_leaves_other_days_untouched(self) -> None:
+    def test_reruns_get_numbered_names_without_overwriting_earlier_files(self) -> None:
         with tempfile.TemporaryDirectory() as temp_dir:
             reports_dir = Path(temp_dir)
-            write_success_report(
+            first_path = write_success_report(
                 [record("ftp://old.example.org/", "old.example.org", "up")],
                 reports_dir,
                 date(2026, 10, 13),
@@ -171,21 +171,60 @@ class WriteSuccessReportTests(unittest.TestCase):
             prior_day = reports_dir / "2026-10-12-success.json"
             prior_day.write_text('{"servers": []}\n', encoding="utf-8")
 
-            write_success_report(
-                [
-                    record("ftp://new-a.example.org/", "new-a.example.org", "up"),
-                    record("ftp://new-b.example.org/", "new-b.example.org", "up"),
-                ],
+            second_path = write_success_report(
+                [record("ftp://new-a.example.org/", "new-a.example.org", "up")],
+                reports_dir,
+                date(2026, 10, 13),
+            )
+            third_path = write_success_report(
+                [record("ftp://new-b.example.org/", "new-b.example.org", "up")],
                 reports_dir,
                 date(2026, 10, 13),
             )
 
-            document = json.loads((reports_dir / "2026-10-13-success.json").read_text("utf-8"))
-            urls = [server["url"] for server in document["servers"]]
+            first_urls = [
+                server["url"]
+                for server in json.loads(first_path.read_text("utf-8"))["servers"]
+            ]
+            second_urls = [
+                server["url"]
+                for server in json.loads(second_path.read_text("utf-8"))["servers"]
+            ]
+            third_urls = [
+                server["url"]
+                for server in json.loads(third_path.read_text("utf-8"))["servers"]
+            ]
             prior_day_contents = prior_day.read_text(encoding="utf-8")
+            leftovers = sorted(path.name for path in reports_dir.iterdir())
 
-        self.assertEqual(urls, ["ftp://new-a.example.org/", "ftp://new-b.example.org/"])
+        self.assertEqual(first_path.name, "2026-10-13-success.json")
+        self.assertEqual(second_path.name, "2026-10-13-success-1.json")
+        self.assertEqual(third_path.name, "2026-10-13-success-2.json")
+        self.assertEqual(first_urls, ["ftp://old.example.org/"])
+        self.assertEqual(second_urls, ["ftp://new-a.example.org/"])
+        self.assertEqual(third_urls, ["ftp://new-b.example.org/"])
         self.assertEqual(prior_day_contents, '{"servers": []}\n')
+        self.assertEqual(
+            leftovers,
+            [
+                "2026-10-12-success.json",
+                "2026-10-13-success-1.json",
+                "2026-10-13-success-2.json",
+                "2026-10-13-success.json",
+            ],
+        )
+
+    def test_reuses_a_numbered_name_when_the_file_is_gone(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports_dir = Path(temp_dir)
+            write_success_report([], reports_dir, date(2026, 10, 13))
+            second_path = write_success_report([], reports_dir, date(2026, 10, 13))
+            second_path.unlink()
+
+            third_path = write_success_report([], reports_dir, date(2026, 10, 13))
+
+        self.assertEqual(second_path.name, "2026-10-13-success-1.json")
+        self.assertEqual(third_path.name, "2026-10-13-success-1.json")
 
 
 if __name__ == "__main__":
