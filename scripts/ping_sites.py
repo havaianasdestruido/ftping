@@ -4,9 +4,11 @@
 from __future__ import annotations
 
 import argparse
+import ftplib
 import json
 import math
 import os
+import re
 import socket
 import sys
 import time
@@ -29,6 +31,8 @@ DEFAULT_WORKERS = 64
 SOURCE_TIMEOUT_SECONDS = 30.0
 REPOSITORY_ROOT = Path(__file__).resolve().parent.parent
 SUCCESS_SUFFIX = "-success"
+DIRECTORY_REPORTS_NAME = "dir"
+LISTING_TIMEOUT_SECONDS = 15.0
 
 
 @dataclass(frozen=True)
@@ -223,6 +227,156 @@ def write_success_report(
     return success_path
 
 
+_UNIX_LIST_LINE = re.compile(
+    r"^([\-dlbcps])\S*\s+\d+\s+\S+\s+\S+\s+(\d+)\s+\S+\s+\S+\s+\S+\s+(.+)$"
+)
+
+
+def _entry_from_mlsd(name: str, facts: dict[str, str]) -> dict[str, object] | None:
+    kind = facts.get("type", "").lower()
+    if kind in {"cdir", "pdir"} or name in {".", ".."}:
+        return None
+    if kind == "dir":
+        entry_type = "directory"
+    elif kind == "file":
+        entry_type = "file"
+    elif "slink" in facts.get("os.unix", "").lower():
+        entry_type = "link"
+    else:
+        entry_type = "other"
+    size = facts.get("size")
+    return {
+        "name": name,
+        "type": entry_type,
+        "size": int(size) if size is not None and size.isdigit() else None,
+    }
+
+
+def _entry_from_list_line(line: str) -> dict[str, object] | None:
+    match = _UNIX_LIST_LINE.match(line.strip())
+    if match is None:
+        return None
+    flag, size, name = match.groups()
+    if flag == "d":
+        entry_type = "directory"
+    elif flag == "-":
+        entry_type = "file"
+    elif flag == "l":
+        entry_type = "link"
+        name = name.split(" -> ", 1)[0]
+    else:
+        entry_type = "other"
+    if name in {".", ".."}:
+        return None
+    return {"name": name, "type": entry_type, "size": int(size)}
+
+
+def list_root_directory(
+    host: str, port: int, timeout: float = LISTING_TIMEOUT_SECONDS
+) -> list[dict[str, object]]:
+    """Log in anonymously and return the entries of the server's root directory.
+
+    MLSD gives reliable file types, so it is tried first. Servers that do not
+    support it fall back to LIST, whose Unix-style lines are parsed best-effort.
+    """
+    with ftplib.FTP() as ftp:
+        ftp.connect(host, port, timeout=timeout)
+        ftp.login()  # anonymous
+        try:
+            entries = []
+            for name, facts in ftp.mlsd("/", facts=["type", "size"]):
+                entry = _entry_from_mlsd(name, {k.lower(): v for k, v in facts.items()})
+                if entry is not None:
+                    entries.append(entry)
+            return entries
+        except ftplib.error_perm:
+            pass
+
+        lines: list[str] = []
+        ftp.retrlines("LIST /", lines.append)
+        entries = []
+        for line in lines:
+            entry = _entry_from_list_line(line)
+            if entry is not None:
+                entries.append(entry)
+        return entries
+
+
+def _safe_filename(host: str) -> str:
+    return "".join(c if c.isalnum() or c in ".-_" else "_" for c in host)
+
+
+def build_directory_listing(
+    record: dict[str, object], timeout: float = LISTING_TIMEOUT_SECONDS
+) -> dict[str, object]:
+    """Describe the root directory of one up endpoint; never raises on FTP errors."""
+    host = str(record["host"])
+    port = int(record["port"])
+    listing: dict[str, object] = {
+        "host": host,
+        "url": f"ftp://{host}/",
+        "port": port,
+        "checked_at": record["checked_at"],
+        "listed_at": None,
+        "path": "/",
+        "login": "anonymous",
+        "status": "ok",
+        "error": None,
+        "entries": [],
+    }
+    try:
+        listing["entries"] = list_root_directory(host, port, timeout=timeout)
+    except (*ftplib.all_errors, OSError, ValueError, UnicodeError) as exc:
+        listing["status"] = "error"
+        listing["error"] = {"type": type(exc).__name__, "message": str(exc)[:500]}
+    listing["listed_at"] = utc_timestamp()
+    return listing
+
+
+def write_directory_listings(
+    records: Iterable[dict[str, object]],
+    reports_dir: Path,
+    timeout: float = LISTING_TIMEOUT_SECONDS,
+    workers: int = DEFAULT_WORKERS,
+) -> list[Path]:
+    """Write reports/dir/<host>.json with the root listing of every up endpoint.
+
+    Only endpoints whose status is ``up`` are listed. Each host is listed once
+    even if several URLs point at it. Each file is replaced atomically with the
+    latest snapshot; git history keeps earlier snapshots.
+    """
+    up_records: dict[str, dict[str, object]] = {}
+    for record in records:
+        if record.get("status") == "up":
+            up_records.setdefault(str(record["host"]), record)
+
+    directory = reports_dir / DIRECTORY_REPORTS_NAME
+    directory.mkdir(parents=True, exist_ok=True)
+
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        listings = list(
+            executor.map(
+                lambda record: build_directory_listing(record, timeout=timeout),
+                up_records.values(),
+            )
+        )
+
+    written: list[Path] = []
+    for listing in listings:
+        path = directory / f"{_safe_filename(str(listing['host']))}.json"
+        temp_path = path.with_name(f".{path.name}.tmp")
+        try:
+            temp_path.write_text(
+                json.dumps(listing, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+            )
+            os.replace(temp_path, path)
+        except BaseException:
+            temp_path.unlink(missing_ok=True)
+            raise
+        written.append(path)
+    return written
+
+
 def positive_float(value: str) -> float:
     try:
         parsed = float(value)
@@ -289,6 +443,9 @@ def main(argv: list[str] | None = None) -> int:
         records = probe_sites(sites, timeout=args.timeout, workers=args.workers)
         report_path = write_report(records, args.reports_dir)
         success_path = write_success_report(records, args.reports_dir)
+        listing_paths = write_directory_listings(
+            records, args.reports_dir, workers=args.workers
+        )
     except (OSError, URLError, UnicodeError, ValueError) as exc:
         print(f"ftping: {exc}", file=sys.stderr)
         return 1
@@ -298,7 +455,9 @@ def main(argv: list[str] | None = None) -> int:
     print(
         f"Checked {len(records)} FTP endpoints: {up_count} up, {down_count} down. "
         f"Appended JSONL report to {report_path}. "
-        f"Wrote {up_count} reachable endpoint(s) to {success_path}."
+        f"Wrote {up_count} reachable endpoint(s) to {success_path}. "
+        f"Wrote {len(listing_paths)} root directory listing(s) to "
+        f"{args.reports_dir / DIRECTORY_REPORTS_NAME}."
     )
     return 0
 

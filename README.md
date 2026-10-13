@@ -9,12 +9,33 @@ A daily reachability monitor for the FTP endpoints in the [ftp-sites.org list](h
 - Each run appends one JSON object per endpoint to `reports/YYYY-MM-DD.jsonl`, using the UTC date. A rerun on the same day appends to that day's file; it never truncates reports or removes older dates.
 - Each run also writes `reports/YYYY-MM-DD-success.json`, which lists **only the endpoints that answered** (status `up`) for that date. Reruns never overwrite an existing report: if the day's success file is already there, the new report is written next to it as `reports/YYYY-MM-DD-success-1.json`, then `-2`, and so on, so every run's results are kept.
 - Each JSONL record includes the check timestamp, URL, host, port, `up`/`down` status, connection latency, and error details when a connection fails. A down site is recorded but does not fail the workflow.
+- For every endpoint in `reports/YYYY-MM-DD-success.json`, the run also logs in anonymously over FTP, lists the server's **root directory**, and writes `reports/dir/<host>.json` (for example `reports/dir/ftp.website.org.json`). Each file lists the root files and folders with their type and size. Only `up` endpoints are listed, each host once. A failed login or listing is recorded in the file's `status`/`error` fields and does not fail the workflow. Each file is replaced on every run, so older snapshots are kept in Git history.
 - The workflow commits the report back to the branch on which it ran. It requests `contents: write` permission for this.
 
 Example report line:
 
 ```json
 {"checked_at":"2026-10-13T03:17:00.123Z","url":"ftp://mirror.example.org/","host":"mirror.example.org","port":21,"status":"up","latency_ms":18.42,"error":null}
+```
+
+Example root listing (`reports/dir/mirror.example.org.json`):
+
+```json
+{
+  "host": "mirror.example.org",
+  "url": "ftp://mirror.example.org/",
+  "port": 21,
+  "checked_at": "2026-10-13T03:17:00.123Z",
+  "listed_at": "2026-10-13T03:17:01.002Z",
+  "path": "/",
+  "login": "anonymous",
+  "status": "ok",
+  "error": null,
+  "entries": [
+    {"name": "pub", "type": "directory", "size": null},
+    {"name": "README.txt", "type": "file", "size": 1024}
+  ]
+}
 ```
 
 Example success report (`reports/YYYY-MM-DD-success.json`), containing only the reachable endpoints:
