@@ -5,7 +5,13 @@ import unittest
 from datetime import date
 from pathlib import Path
 
-from scripts.ping_sites import Site, parse_site_list, probe_site, write_report
+from scripts.ping_sites import (
+    Site,
+    parse_site_list,
+    probe_site,
+    write_report,
+    write_success_report,
+)
 
 
 class ParseSiteListTests(unittest.TestCase):
@@ -89,6 +95,97 @@ class WriteReportTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp_dir:
             report_path = write_report([], Path(temp_dir), date(2026, 1, 2))
         self.assertEqual(report_path.name, "2026-01-02.jsonl")
+
+
+def record(url: str, host: str, status: str) -> dict[str, object]:
+    return {
+        "checked_at": "2026-10-13T03:17:00.000Z",
+        "url": url,
+        "host": host,
+        "port": 21,
+        "status": status,
+        "latency_ms": 12.5,
+        "error": None if status == "up" else {"type": "TimeoutError", "message": "timed out"},
+    }
+
+
+class WriteSuccessReportTests(unittest.TestCase):
+    def test_writes_only_up_servers_with_date_and_success_suffix(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports_dir = Path(temp_dir)
+
+            success_path = write_success_report(
+                [
+                    record("ftp://mirror.example.org/", "mirror.example.org", "up"),
+                    record("ftp://dead.example.org/", "dead.example.org", "down"),
+                ],
+                reports_dir,
+                date(2026, 10, 13),
+            )
+
+            self.assertEqual(success_path.name, "2026-10-13-success.json")
+            document = json.loads(success_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(document["date"], "2026-10-13")
+        self.assertEqual(document["checked"], 2)
+        self.assertEqual(document["up"], 1)
+        self.assertEqual(
+            document["servers"],
+            [
+                {
+                    "checked_at": "2026-10-13T03:17:00.000Z",
+                    "url": "ftp://mirror.example.org/",
+                    "host": "mirror.example.org",
+                    "port": 21,
+                    "status": "up",
+                    "latency_ms": 12.5,
+                }
+            ],
+        )
+        self.assertTrue(str(document["generated_at"]).endswith("Z"))
+
+    def test_writes_an_empty_server_list_when_nothing_is_up(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports_dir = Path(temp_dir)
+            write_success_report(
+                [record("ftp://dead.example.org/", "dead.example.org", "down")],
+                reports_dir,
+                date(2026, 10, 13),
+            )
+            write_success_report([], reports_dir, date(2026, 10, 13))
+            document = json.loads((reports_dir / "2026-10-13-success.json").read_text("utf-8"))
+            leftovers = sorted(path.name for path in reports_dir.iterdir())
+
+        self.assertEqual(document["up"], 0)
+        self.assertEqual(document["servers"], [])
+        self.assertEqual(leftovers, ["2026-10-13-success.json"])
+
+    def test_replaces_the_previous_run_and_leaves_other_days_untouched(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            reports_dir = Path(temp_dir)
+            write_success_report(
+                [record("ftp://old.example.org/", "old.example.org", "up")],
+                reports_dir,
+                date(2026, 10, 13),
+            )
+            prior_day = reports_dir / "2026-10-12-success.json"
+            prior_day.write_text('{"servers": []}\n', encoding="utf-8")
+
+            write_success_report(
+                [
+                    record("ftp://new-a.example.org/", "new-a.example.org", "up"),
+                    record("ftp://new-b.example.org/", "new-b.example.org", "up"),
+                ],
+                reports_dir,
+                date(2026, 10, 13),
+            )
+
+            document = json.loads((reports_dir / "2026-10-13-success.json").read_text("utf-8"))
+            urls = [server["url"] for server in document["servers"]]
+            prior_day_contents = prior_day.read_text(encoding="utf-8")
+
+        self.assertEqual(urls, ["ftp://new-a.example.org/", "ftp://new-b.example.org/"])
+        self.assertEqual(prior_day_contents, '{"servers": []}\n')
 
 
 if __name__ == "__main__":
