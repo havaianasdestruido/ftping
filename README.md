@@ -191,4 +191,27 @@ Run the tests with:
 python -m unittest discover -s tests -v
 ```
 
+## Explore the reports in a notebook
+
+[`ftping_analysis.ipynb`](ftping_analysis.ipynb) loads everything under `reports/` into pandas and renders charts
+for the output data: daily reachability, latency distributions, failure reasons, listing methods and login errors,
+the largest FTP roots, the most common `FEAT` features, and a per-host drill-down. The rendered tables and images
+stay embedded in the notebook on purpose — outputs are not cleared after a test run, so the committed `.ipynb`
+doubles as the rendered report, viewable directly on GitHub.
+
+It needs Python 3.10+ with `pandas`, `matplotlib` and `numpy` (plus `jupyter`/`ipykernel` to run it):
+
+```bash
+pip install pandas matplotlib numpy jupyter
+jupyter lab ftping_analysis.ipynb
+```
+
+or re-execute it headlessly after a new daily report lands (this refreshes every table and figure in place):
+
+```bash
+jupyter nbconvert --to notebook --execute --inplace ftping_analysis.ipynb
+```
+
+The notebook finds `reports/` relative to its own location, so no paths need updating when new dates appear.
+
 For scheduled runs, ensure GitHub Actions is enabled for the repository and that workflow runs are allowed to write repository contents (the workflow declares `permissions: contents: write`). Scheduled workflows start only after this workflow is present on the repository's default branch.
