@@ -1,0 +1,63 @@
+{
+  "host": "ftp.rz.tu-bs.de",
+  "url": "ftp://ftp.rz.tu-bs.de/",
+  "port": 21,
+  "scheme": "ftp",
+  "checked_at": "2026-10-14T03:41:23.107Z",
+  "tcp_latency_ms": 414.757,
+  "started_at": "2026-10-14T03:43:55.680Z",
+  "listed_at": "2026-10-14T03:43:57.499Z",
+  "duration_ms": 1819.496,
+  "path": "/",
+  "login": "anonymous",
+  "status": "ok",
+  "error": null,
+  "listing_method": "list",
+  "timestamps_timezone": "server-local",
+  "unparsed_lines": 0,
+  "server": {
+    "welcome": "220 Welcome to ftp.rz.tu-bs.de",
+    "login_response": "Login successful.",
+    "system": "UNIX Type: L8",
+    "features": [
+      "EPRT",
+      "EPSV",
+      "MDTM",
+      "PASV",
+      "REST",
+      "SIZE",
+      "TVFS"
+    ],
+    "encoding": null
+  },
+  "root": {
+    "name": "/",
+    "type": "directory",
+    "size": null,
+    "modified_at": null,
+    "created_at": null,
+    "accessed_at": null,
+    "changed_at": null,
+    "created_by": null,
+    "group": null,
+    "uid": null,
+    "gid": null,
+    "permissions": null,
+    "mode": null,
+    "perm": null,
+    "unique_id": null,
+    "media_type": null,
+    "link_target": null
+  },
+  "summary": {
+    "entries": 0,
+    "files": 0,
+    "directories": 0,
+    "links": 0,
+    "other": 0,
+    "file_bytes": 0,
+    "oldest_modified_at": null,
+    "latest_modified_at": null
+  },
+  "entries": []
+}

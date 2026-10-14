@@ -1,0 +1,79 @@
+{
+  "host": "ftp6.ua.freebsd.org",
+  "url": "ftp://ftp6.ua.freebsd.org/",
+  "port": 21,
+  "scheme": "ftp",
+  "checked_at": "2026-10-14T03:42:29.958Z",
+  "tcp_latency_ms": 421.553,
+  "started_at": "2026-10-14T03:44:13.012Z",
+  "listed_at": "2026-10-14T03:44:15.153Z",
+  "duration_ms": 2141.014,
+  "path": "/",
+  "login": "anonymous",
+  "status": "ok",
+  "error": null,
+  "listing_method": "list",
+  "timestamps_timezone": "server-local",
+  "unparsed_lines": 0,
+  "server": {
+    "welcome": "220 gaia.colocall.net FTP server (Version 6.00LS) ready.",
+    "login_response": "Guest login ok, access restrictions apply.",
+    "system": "UNIX Type: L8 Version: BSD-199506",
+    "features": [
+      "MDTM",
+      "REST",
+      "SIZE"
+    ],
+    "encoding": null
+  },
+  "root": {
+    "name": "/",
+    "type": "directory",
+    "size": null,
+    "modified_at": null,
+    "created_at": null,
+    "accessed_at": null,
+    "changed_at": null,
+    "created_by": null,
+    "group": null,
+    "uid": null,
+    "gid": null,
+    "permissions": null,
+    "mode": null,
+    "perm": null,
+    "unique_id": null,
+    "media_type": null,
+    "link_target": null
+  },
+  "summary": {
+    "entries": 1,
+    "files": 0,
+    "directories": 1,
+    "links": 0,
+    "other": 0,
+    "file_bytes": 0,
+    "oldest_modified_at": "2026-08-30T23:41:00",
+    "latest_modified_at": "2026-08-30T23:41:00"
+  },
+  "entries": [
+    {
+      "name": "pub",
+      "type": "directory",
+      "size": 512,
+      "modified_at": "2026-08-30T23:41:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": "0",
+      "group": "0",
+      "uid": null,
+      "gid": null,
+      "permissions": "drwxr-xr-x",
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    }
+  ]
+}

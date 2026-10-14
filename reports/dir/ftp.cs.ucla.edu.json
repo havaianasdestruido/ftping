@@ -1,0 +1,83 @@
+{
+  "host": "ftp.cs.ucla.edu",
+  "url": "ftp://ftp.cs.ucla.edu/",
+  "port": 21,
+  "scheme": "ftp",
+  "checked_at": "2026-10-14T03:41:31.916Z",
+  "tcp_latency_ms": 302.911,
+  "started_at": "2026-10-14T03:43:57.499Z",
+  "listed_at": "2026-10-14T03:43:58.649Z",
+  "duration_ms": 1149.899,
+  "path": "/",
+  "login": "anonymous",
+  "status": "ok",
+  "error": null,
+  "listing_method": "list",
+  "timestamps_timezone": "server-local",
+  "unparsed_lines": 0,
+  "server": {
+    "welcome": "220 (vsFTPd 3.0.5)",
+    "login_response": "Login successful.",
+    "system": "UNIX Type: L8",
+    "features": [
+      "EPRT",
+      "EPSV",
+      "MDTM",
+      "PASV",
+      "REST",
+      "SIZE",
+      "TVFS"
+    ],
+    "encoding": null
+  },
+  "root": {
+    "name": "/",
+    "type": "directory",
+    "size": null,
+    "modified_at": null,
+    "created_at": null,
+    "accessed_at": null,
+    "changed_at": null,
+    "created_by": null,
+    "group": null,
+    "uid": null,
+    "gid": null,
+    "permissions": null,
+    "mode": null,
+    "perm": null,
+    "unique_id": null,
+    "media_type": null,
+    "link_target": null
+  },
+  "summary": {
+    "entries": 1,
+    "files": 0,
+    "directories": 1,
+    "links": 0,
+    "other": 0,
+    "file_bytes": 0,
+    "oldest_modified_at": "2026-09-21T21:15:00",
+    "latest_modified_at": "2026-09-21T21:15:00"
+  },
+  "entries": [
+    {
+      "name": "stat_ser",
+      "type": "directory",
+      "size": 36864,
+      "modified_at": "2026-09-21T21:15:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": "487",
+      "group": "94",
+      "uid": null,
+      "gid": null,
+      "permissions": "drwxr-sr-x",
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    }
+  ]
+}

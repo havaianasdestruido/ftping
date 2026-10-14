@@ -1,0 +1,58 @@
+{
+  "host": "ftp.intel.com",
+  "url": "ftp://ftp.intel.com/",
+  "port": 21,
+  "scheme": "ftp",
+  "checked_at": "2026-10-14T03:40:46.887Z",
+  "tcp_latency_ms": 522.775,
+  "started_at": "2026-10-14T03:43:47.236Z",
+  "listed_at": "2026-10-14T03:43:47.372Z",
+  "duration_ms": 135.98,
+  "path": "/",
+  "login": "anonymous",
+  "status": "error",
+  "error": {
+    "type": "ConnectionResetError",
+    "message": "[Errno 104] Connection reset by peer"
+  },
+  "listing_method": null,
+  "timestamps_timezone": null,
+  "unparsed_lines": 0,
+  "server": {
+    "welcome": null,
+    "login_response": null,
+    "system": null,
+    "features": [],
+    "encoding": null
+  },
+  "root": {
+    "name": "/",
+    "type": "directory",
+    "size": null,
+    "modified_at": null,
+    "created_at": null,
+    "accessed_at": null,
+    "changed_at": null,
+    "created_by": null,
+    "group": null,
+    "uid": null,
+    "gid": null,
+    "permissions": null,
+    "mode": null,
+    "perm": null,
+    "unique_id": null,
+    "media_type": null,
+    "link_target": null
+  },
+  "summary": {
+    "entries": 0,
+    "files": 0,
+    "directories": 0,
+    "links": 0,
+    "other": 0,
+    "file_bytes": 0,
+    "oldest_modified_at": null,
+    "latest_modified_at": null
+  },
+  "entries": []
+}

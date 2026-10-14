@@ -1,0 +1,83 @@
+{
+  "host": "ftp.eiffel.com",
+  "url": "ftp://ftp.eiffel.com/",
+  "port": 21,
+  "scheme": "ftp",
+  "checked_at": "2026-10-14T03:40:41.539Z",
+  "tcp_latency_ms": 73.606,
+  "started_at": "2026-10-14T03:43:46.528Z",
+  "listed_at": "2026-10-14T03:43:47.776Z",
+  "duration_ms": 1248.088,
+  "path": "/",
+  "login": "anonymous",
+  "status": "ok",
+  "error": null,
+  "listing_method": "list",
+  "timestamps_timezone": "server-local",
+  "unparsed_lines": 0,
+  "server": {
+    "welcome": "220 Welcome to Eiffel Software FTP site.",
+    "login_response": "Login successful.",
+    "system": "UNIX Type: L8",
+    "features": [
+      "EPRT",
+      "EPSV",
+      "MDTM",
+      "PASV",
+      "REST",
+      "SIZE",
+      "TVFS"
+    ],
+    "encoding": null
+  },
+  "root": {
+    "name": "/",
+    "type": "directory",
+    "size": null,
+    "modified_at": null,
+    "created_at": null,
+    "accessed_at": null,
+    "changed_at": null,
+    "created_by": null,
+    "group": null,
+    "uid": null,
+    "gid": null,
+    "permissions": null,
+    "mode": null,
+    "perm": null,
+    "unique_id": null,
+    "media_type": null,
+    "link_target": null
+  },
+  "summary": {
+    "entries": 1,
+    "files": 0,
+    "directories": 1,
+    "links": 0,
+    "other": 0,
+    "file_bytes": 0,
+    "oldest_modified_at": "2022-01-05T00:00:00",
+    "latest_modified_at": "2022-01-05T00:00:00"
+  },
+  "entries": [
+    {
+      "name": "pub",
+      "type": "directory",
+      "size": 4096,
+      "modified_at": "2022-01-05T00:00:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": "0",
+      "group": "0",
+      "uid": null,
+      "gid": null,
+      "permissions": "dr-xr-xr-x",
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    }
+  ]
+}

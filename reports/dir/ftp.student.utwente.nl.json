@@ -1,0 +1,83 @@
+{
+  "host": "ftp.student.utwente.nl",
+  "url": "ftp://ftp.student.utwente.nl/",
+  "port": 21,
+  "scheme": "ftp",
+  "checked_at": "2026-10-14T03:42:11.339Z",
+  "tcp_latency_ms": 291.73,
+  "started_at": "2026-10-14T03:44:05.948Z",
+  "listed_at": "2026-10-14T03:44:07.697Z",
+  "duration_ms": 1749.318,
+  "path": "/",
+  "login": "anonymous",
+  "status": "ok",
+  "error": null,
+  "listing_method": "list",
+  "timestamps_timezone": "server-local",
+  "unparsed_lines": 0,
+  "server": {
+    "welcome": "220-                Welcome to the ftp.snt.utwente.nl archive.\n220-This service is provided to you by:\n220-                                   \n220-Studenten Net Twente (SNT)    http://www.snt.utwente.nl/ \n220-the University of Twente      http://www.utwente.nl/  \n220-\n220-This system may be used 24 hours a day, 7 days a week.\n220-\n220-All transfers are logged with your hostname and email address.\n220-If you don't like this policy, disconnect now!\n220-\n220-We are available on:\n220-  http://ftp.sn",
+    "login_response": "Login successful.",
+    "system": "UNIX Type: L8",
+    "features": [
+      "EPRT",
+      "EPSV",
+      "MDTM",
+      "PASV",
+      "REST",
+      "SIZE",
+      "TVFS"
+    ],
+    "encoding": null
+  },
+  "root": {
+    "name": "/",
+    "type": "directory",
+    "size": null,
+    "modified_at": null,
+    "created_at": null,
+    "accessed_at": null,
+    "changed_at": null,
+    "created_by": null,
+    "group": null,
+    "uid": null,
+    "gid": null,
+    "permissions": null,
+    "mode": null,
+    "perm": null,
+    "unique_id": null,
+    "media_type": null,
+    "link_target": null
+  },
+  "summary": {
+    "entries": 1,
+    "files": 0,
+    "directories": 1,
+    "links": 0,
+    "other": 0,
+    "file_bytes": 0,
+    "oldest_modified_at": "2026-09-23T13:37:00",
+    "latest_modified_at": "2026-09-23T13:37:00"
+  },
+  "entries": [
+    {
+      "name": "pub",
+      "type": "directory",
+      "size": 4096,
+      "modified_at": "2026-09-23T13:37:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": "ftp",
+      "group": "ftp",
+      "uid": null,
+      "gid": null,
+      "permissions": "drwxrwxr-x",
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    }
+  ]
+}

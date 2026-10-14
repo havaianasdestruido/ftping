@@ -1,0 +1,79 @@
+{
+  "host": "ftp.cz.freebsd.org",
+  "url": "ftp://ftp.cz.freebsd.org/",
+  "port": 21,
+  "scheme": "ftp",
+  "checked_at": "2026-10-14T03:42:17.339Z",
+  "tcp_latency_ms": 745.042,
+  "started_at": "2026-10-14T03:44:08.226Z",
+  "listed_at": "2026-10-14T03:44:10.039Z",
+  "duration_ms": 1813.097,
+  "path": "/",
+  "login": "anonymous",
+  "status": "ok",
+  "error": null,
+  "listing_method": "list",
+  "timestamps_timezone": "server-local",
+  "unparsed_lines": 0,
+  "server": {
+    "welcome": "220- \n220-   XXXXXx  --------------------  xXXx  --  xXXx  xxx  ---- --- --- -- -  *\n220-   Xx                            Xx Xx    Xx     XXXx\n220-   Xx                            Xx  X   xX      Xx xX\n220-   Xx                            Xx  X   Xx      Xx  xX\n220-   Xx     X xXx    xXx     xXx   Xx Xx   xx      Xx   Xx       xXXx  XXXXX\n220-   XXXXX  XXx X  xXx xX  xXx xX  XXXXx.   xXXx   Xx   xX      Xx  X     xX\n220-   Xx     Xx  X  Xx  xX  Xx  xX  Xx  Xx      Xx  Xx   xX      Xx       xX\n22",
+    "login_response": "Guest login ok, access restrictions apply.",
+    "system": "UNIX Type: L8 Version: BSD-199506",
+    "features": [
+      "MDTM",
+      "REST",
+      "SIZE"
+    ],
+    "encoding": null
+  },
+  "root": {
+    "name": "/",
+    "type": "directory",
+    "size": null,
+    "modified_at": null,
+    "created_at": null,
+    "accessed_at": null,
+    "changed_at": null,
+    "created_by": null,
+    "group": null,
+    "uid": null,
+    "gid": null,
+    "permissions": null,
+    "mode": null,
+    "perm": null,
+    "unique_id": null,
+    "media_type": null,
+    "link_target": null
+  },
+  "summary": {
+    "entries": 1,
+    "files": 0,
+    "directories": 1,
+    "links": 0,
+    "other": 0,
+    "file_bytes": 0,
+    "oldest_modified_at": "2012-03-16T00:00:00",
+    "latest_modified_at": "2012-03-16T00:00:00"
+  },
+  "entries": [
+    {
+      "name": "pub",
+      "type": "directory",
+      "size": 6,
+      "modified_at": "2012-03-16T00:00:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": "0",
+      "group": "0",
+      "uid": null,
+      "gid": null,
+      "permissions": "drwxr-xr-x",
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    }
+  ]
+}
