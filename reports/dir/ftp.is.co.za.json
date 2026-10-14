@@ -3,11 +3,11 @@
   "url": "ftp://ftp.is.co.za/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-14T03:43:31.416Z",
-  "tcp_latency_ms": 2463.017,
-  "started_at": "2026-10-14T03:44:23.825Z",
-  "listed_at": "2026-10-14T03:44:28.374Z",
-  "duration_ms": 4548.908,
+  "checked_at": "2026-10-14T19:47:13.897Z",
+  "tcp_latency_ms": 527.145,
+  "started_at": "2026-10-14T19:48:14.099Z",
+  "listed_at": "2026-10-14T19:48:19.556Z",
+  "duration_ms": 5457.371,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -57,7 +57,7 @@
     "other": 0,
     "file_bytes": 3241,
     "oldest_modified_at": "2007-09-19T00:00:00",
-    "latest_modified_at": "2026-10-13T10:00:00"
+    "latest_modified_at": "2026-10-14T10:00:00"
   },
   "entries": [
     {
@@ -83,7 +83,7 @@
       "name": "FreeBSD",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-10-13T10:00:00",
+      "modified_at": "2026-10-14T10:00:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

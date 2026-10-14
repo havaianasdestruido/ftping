@@ -3,11 +3,11 @@
   "url": "ftp://ftp.scene.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-14T03:42:26.062Z",
-  "tcp_latency_ms": 361.685,
-  "started_at": "2026-10-14T03:44:11.437Z",
-  "listed_at": "2026-10-14T03:44:14.664Z",
-  "duration_ms": 3226.151,
+  "checked_at": "2026-10-14T19:46:08.349Z",
+  "tcp_latency_ms": 996.088,
+  "started_at": "2026-10-14T19:47:59.780Z",
+  "listed_at": "2026-10-14T19:48:02.476Z",
+  "duration_ms": 2695.695,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -65,7 +65,7 @@
     "other": 0,
     "file_bytes": 35325071,
     "oldest_modified_at": "2013-11-09T12:55:55Z",
-    "latest_modified_at": "2026-10-14T00:16:05Z"
+    "latest_modified_at": "2026-10-14T08:46:58Z"
   },
   "entries": [
     {
@@ -148,7 +148,7 @@
       "name": "incoming",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-13T06:30:13Z",
+      "modified_at": "2026-10-14T08:46:58Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
