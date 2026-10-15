@@ -3,11 +3,11 @@
   "url": "ftp://ftp.highcriteria.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-14T19:44:23.889Z",
-  "tcp_latency_ms": 679.759,
-  "started_at": "2026-10-14T19:47:32.431Z",
-  "listed_at": "2026-10-14T19:47:34.240Z",
-  "duration_ms": 1808.534,
+  "checked_at": "2026-10-15T03:21:41.097Z",
+  "tcp_latency_ms": 736.861,
+  "started_at": "2026-10-15T03:25:09.529Z",
+  "listed_at": "2026-10-15T03:25:10.657Z",
+  "duration_ms": 1127.784,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -60,7 +60,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2023-07-05T19:09:00",
-    "latest_modified_at": "2026-03-26T09:33:00"
+    "latest_modified_at": "2026-10-14T22:29:00"
   },
   "entries": [
     {
@@ -86,7 +86,7 @@
       "name": "hc",
       "type": "directory",
       "size": null,
-      "modified_at": "2023-08-08T17:55:00",
+      "modified_at": "2026-10-14T22:29:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

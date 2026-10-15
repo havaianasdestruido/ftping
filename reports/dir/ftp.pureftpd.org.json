@@ -3,11 +3,11 @@
   "url": "ftp://ftp.pureftpd.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-14T19:46:06.977Z",
-  "tcp_latency_ms": 306.185,
-  "started_at": "2026-10-14T19:47:59.641Z",
-  "listed_at": "2026-10-14T19:48:01.580Z",
-  "duration_ms": 1938.512,
+  "checked_at": "2026-10-15T03:23:53.849Z",
+  "tcp_latency_ms": 16459.115,
+  "started_at": "2026-10-15T03:25:36.769Z",
+  "listed_at": "2026-10-15T03:25:41.631Z",
+  "duration_ms": 4862.361,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -16,7 +16,7 @@
   "timestamps_timezone": "utc",
   "unparsed_lines": 0,
   "server": {
-    "welcome": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 21:48. Server port: 21.\n220-Only anonymous FTP is allowed here\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.",
+    "welcome": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 05:25. Server port: 21.\n220-Only anonymous FTP is allowed here\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.",
     "login_response": "Anonymous user logged in",
     "system": "UNIX Type: L8",
     "features": [
@@ -68,7 +68,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2006-02-01T10:19:16Z",
-    "latest_modified_at": "2026-10-13T23:30:02Z"
+    "latest_modified_at": "2026-10-14T23:30:03Z"
   },
   "entries": [
     {
@@ -759,7 +759,7 @@
       "name": "tmp",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-13T23:30:02Z",
+      "modified_at": "2026-10-14T23:30:03Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

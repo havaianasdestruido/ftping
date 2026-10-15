@@ -3,11 +3,11 @@
   "url": "ftp://ftp.dei.uc.pt/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-14T19:46:17.497Z",
-  "tcp_latency_ms": 931.371,
-  "started_at": "2026-10-14T19:48:03.878Z",
-  "listed_at": "2026-10-14T19:48:06.930Z",
-  "duration_ms": 3051.796,
+  "checked_at": "2026-10-15T03:23:56.677Z",
+  "tcp_latency_ms": 759.118,
+  "started_at": "2026-10-15T03:25:41.848Z",
+  "listed_at": "2026-10-15T03:25:44.503Z",
+  "duration_ms": 2655.453,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -61,7 +61,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2021-04-16T00:00:00",
-    "latest_modified_at": "2026-10-14T01:10:00"
+    "latest_modified_at": "2026-10-15T01:10:00"
   },
   "entries": [
     {
@@ -144,7 +144,7 @@
       "name": "hirensbootcd",
       "type": "directory",
       "size": 166,
-      "modified_at": "2026-10-14T01:10:00",
+      "modified_at": "2026-10-15T01:10:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

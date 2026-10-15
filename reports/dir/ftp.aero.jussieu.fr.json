@@ -3,11 +3,11 @@
   "url": "ftp://ftp.aero.jussieu.fr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-14T19:45:22.219Z",
-  "tcp_latency_ms": 286.559,
-  "started_at": "2026-10-14T19:47:45.822Z",
-  "listed_at": "2026-10-14T19:47:49.193Z",
-  "duration_ms": 3370.768,
+  "checked_at": "2026-10-15T03:22:38.971Z",
+  "tcp_latency_ms": 343.481,
+  "started_at": "2026-10-15T03:25:22.241Z",
+  "listed_at": "2026-10-15T03:25:24.346Z",
+  "duration_ms": 2104.063,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -17,7 +17,7 @@
   "unparsed_lines": 0,
   "server": {
     "welcome": "220 134.157.176.97 FTP server ready",
-    "login_response": "230-local time is Wed Oct 14 21:47:46 2026\n230-There are 1 connected users in your class.\n230-All transfers are logged with your host name and e-mail address\n230-to allow us to make statistics on the server use.\n230-\n230-Restricted use for latmos only and invited users  \n230---\n230-free space is 500G of 500G \n230 Anonymous login ok, restrictions apply.",
+    "login_response": "230-local time is Thu Oct 15 05:25:22 2026\n230-There are 1 connected users in your class.\n230-All transfers are logged with your host name and e-mail address\n230-to allow us to make statistics on the server use.\n230-\n230-Restricted use for latmos only and invited users  \n230---\n230-free space is 152M of - \n230 Anonymous login ok, restrictions apply.",
     "system": "UNIX Type: L8",
     "features": [
       "MDTM",
@@ -57,9 +57,9 @@
     "directories": 11,
     "links": 0,
     "other": 0,
-    "file_bytes": 164697659,
+    "file_bytes": 164697656,
     "oldest_modified_at": "2011-05-30T15:56:36Z",
-    "latest_modified_at": "2026-10-14T18:51:01Z"
+    "latest_modified_at": "2026-10-15T02:51:01Z"
   },
   "entries": [
     {
@@ -198,8 +198,8 @@
     {
       "name": "welcome.msg",
       "type": "file",
-      "size": 259,
-      "modified_at": "2026-10-14T18:51:01Z",
+      "size": 256,
+      "modified_at": "2026-10-15T02:51:01Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

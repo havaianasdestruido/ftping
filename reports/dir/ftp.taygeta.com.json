@@ -3,11 +3,11 @@
   "url": "ftp://ftp.taygeta.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-14T19:44:41.597Z",
-  "tcp_latency_ms": 95.833,
-  "started_at": "2026-10-14T19:47:36.460Z",
-  "listed_at": "2026-10-14T19:47:37.204Z",
-  "duration_ms": 744.24,
+  "checked_at": "2026-10-15T03:21:59.824Z",
+  "tcp_latency_ms": 153.571,
+  "started_at": "2026-10-15T03:25:13.639Z",
+  "listed_at": "2026-10-15T03:25:14.744Z",
+  "duration_ms": 1104.601,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -17,7 +17,7 @@
   "unparsed_lines": 0,
   "server": {
     "welcome": "220 ProFTPD 1.3.5 Server (Taygeta Anonymous FTP Service) [10.250.7.157]",
-    "login_response": "Welcome to the Taygeta Scientific Inc anonymous FTP service\n        on ftp.taygeta.com. 20.168.125.114, you are user\n        number 2 of 24 anonymous users allowed.\n     \n \t  Please send any comments, suggestions, or reports of\n \t  problems to ftpadm@taygeta.com.  Problem reports should\n \t  include the time, date and your host name and IP.\n \t  \n \n          INCOMING CONTRIBUTIONS should go to /incoming or /incoming/forth\n \n \n     This archive is now searchable from http://www.taygeta.com/misc/ftp",
+    "login_response": "Welcome to the Taygeta Scientific Inc anonymous FTP service\n        on ftp.taygeta.com. 40.124.248.248, you are user\n        number 3 of 24 anonymous users allowed.\n     \n \t  Please send any comments, suggestions, or reports of\n \t  problems to ftpadm@taygeta.com.  Problem reports should\n \t  include the time, date and your host name and IP.\n \t  \n \n          INCOMING CONTRIBUTIONS should go to /incoming or /incoming/forth\n \n \n     This archive is now searchable from http://www.taygeta.com/misc/ftp",
     "system": "UNIX Type: L8",
     "features": [
       "SITE",
@@ -62,14 +62,14 @@
     "other": 0,
     "file_bytes": 1051,
     "oldest_modified_at": "2021-07-13T20:00:59Z",
-    "latest_modified_at": "2026-10-14T19:00:01Z"
+    "latest_modified_at": "2026-10-15T03:00:01Z"
   },
   "entries": [
     {
       "name": ".welcome",
       "type": "file",
       "size": 701,
-      "modified_at": "2026-10-14T19:00:01Z",
+      "modified_at": "2026-10-15T03:00:01Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

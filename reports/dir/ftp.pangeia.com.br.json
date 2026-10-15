@@ -1,0 +1,58 @@
+{
+  "host": "ftp.pangeia.com.br",
+  "url": "ftp://ftp.pangeia.com.br/",
+  "port": 21,
+  "scheme": "ftp",
+  "checked_at": "2026-10-15T03:21:30.454Z",
+  "tcp_latency_ms": 8569.338,
+  "started_at": "2026-10-15T03:25:08.097Z",
+  "listed_at": "2026-10-15T03:25:15.016Z",
+  "duration_ms": 6919.169,
+  "path": "/",
+  "login": "anonymous",
+  "status": "error",
+  "error": {
+    "type": "error_perm",
+    "message": "530 Login incorrect."
+  },
+  "listing_method": null,
+  "timestamps_timezone": null,
+  "unparsed_lines": 0,
+  "server": {
+    "welcome": null,
+    "login_response": null,
+    "system": null,
+    "features": [],
+    "encoding": null
+  },
+  "root": {
+    "name": "/",
+    "type": "directory",
+    "size": null,
+    "modified_at": null,
+    "created_at": null,
+    "accessed_at": null,
+    "changed_at": null,
+    "created_by": null,
+    "group": null,
+    "uid": null,
+    "gid": null,
+    "permissions": null,
+    "mode": null,
+    "perm": null,
+    "unique_id": null,
+    "media_type": null,
+    "link_target": null
+  },
+  "summary": {
+    "entries": 0,
+    "files": 0,
+    "directories": 0,
+    "links": 0,
+    "other": 0,
+    "file_bytes": 0,
+    "oldest_modified_at": null,
+    "latest_modified_at": null
+  },
+  "entries": []
+}
