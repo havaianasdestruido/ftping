@@ -3,11 +3,11 @@
   "url": "ftp://ftp5.uk.freebsd.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-15T03:23:52.610Z",
-  "tcp_latency_ms": 4080.866,
-  "started_at": "2026-10-15T03:25:39.592Z",
-  "listed_at": "2026-10-15T03:25:41.791Z",
-  "duration_ms": 2199.332,
+  "checked_at": "2026-10-16T03:18:55.281Z",
+  "tcp_latency_ms": 274.539,
+  "started_at": "2026-10-16T03:20:40.193Z",
+  "listed_at": "2026-10-16T03:20:43.283Z",
+  "duration_ms": 3089.688,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -57,7 +57,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2023-08-02T00:00:00",
-    "latest_modified_at": "2026-10-07T15:36:00"
+    "latest_modified_at": "2026-10-07T15:45:00"
   },
   "entries": [
     {
@@ -83,7 +83,7 @@
       "name": "sites",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-10-07T15:36:00",
+      "modified_at": "2026-10-07T15:45:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

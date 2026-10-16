@@ -3,11 +3,11 @@
   "url": "ftp://sibstn.nioch.nsc.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-15T03:24:34.617Z",
-  "tcp_latency_ms": 387.039,
-  "started_at": "2026-10-15T03:25:48.026Z",
-  "listed_at": "2026-10-15T03:25:54.468Z",
-  "duration_ms": 6441.789,
+  "checked_at": "2026-10-16T03:19:39.150Z",
+  "tcp_latency_ms": 790.023,
+  "started_at": "2026-10-16T03:20:47.881Z",
+  "listed_at": "2026-10-16T03:20:55.229Z",
+  "duration_ms": 7347.982,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -61,14 +61,14 @@
     "other": 0,
     "file_bytes": 465,
     "oldest_modified_at": "1993-08-30T18:32:54Z",
-    "latest_modified_at": "2026-10-06T22:31:45Z"
+    "latest_modified_at": "2026-10-15T21:40:04Z"
   },
   "entries": [
     {
       "name": "incoming",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-10-06T22:31:45Z",
+      "modified_at": "2026-10-15T21:40:04Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
