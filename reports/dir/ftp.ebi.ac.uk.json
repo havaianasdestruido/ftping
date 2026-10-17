@@ -3,11 +3,11 @@
   "url": "ftp://ftp.ebi.ac.uk/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-16T03:19:51.927Z",
-  "tcp_latency_ms": 682.582,
-  "started_at": "2026-10-16T03:20:49.956Z",
-  "listed_at": "2026-10-16T03:20:52.858Z",
-  "duration_ms": 2901.966,
+  "checked_at": "2026-10-17T03:10:17.884Z",
+  "tcp_latency_ms": 262.322,
+  "started_at": "2026-10-17T03:11:15.407Z",
+  "listed_at": "2026-10-17T03:11:17.016Z",
+  "duration_ms": 1608.636,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 1242,
     "oldest_modified_at": "2023-08-31T00:00:00",
-    "latest_modified_at": "2026-10-06T21:31:00"
+    "latest_modified_at": "2026-10-07T01:00:00"
   },
   "entries": [
     {
@@ -350,7 +350,7 @@
       "name": "vol1",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-10-06T21:31:00",
+      "modified_at": "2026-10-07T01:00:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

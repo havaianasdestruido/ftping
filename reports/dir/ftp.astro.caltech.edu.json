@@ -3,11 +3,11 @@
   "url": "ftp://ftp.astro.caltech.edu/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-16T03:17:55.674Z",
-  "tcp_latency_ms": 90.88,
-  "started_at": "2026-10-16T03:20:24.195Z",
-  "listed_at": "2026-10-16T03:20:25.331Z",
-  "duration_ms": 1135.655,
+  "checked_at": "2026-10-17T03:08:27.767Z",
+  "tcp_latency_ms": 128.215,
+  "started_at": "2026-10-17T03:10:50.389Z",
+  "listed_at": "2026-10-17T03:10:51.928Z",
+  "duration_ms": 1539.075,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2024-01-19T00:00:00",
-    "latest_modified_at": "2026-10-15T02:48:00"
+    "latest_modified_at": "2026-10-17T02:51:00"
   },
   "entries": [
     {
@@ -103,7 +103,7 @@
       "name": "users",
       "type": "directory",
       "size": 0,
-      "modified_at": "2026-10-15T02:48:00",
+      "modified_at": "2026-10-17T02:51:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

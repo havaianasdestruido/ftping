@@ -3,11 +3,11 @@
   "url": "ftp://ftp.ecn.purdue.edu/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-16T03:17:58.384Z",
-  "tcp_latency_ms": 90.01,
-  "started_at": "2026-10-16T03:20:24.823Z",
-  "listed_at": "2026-10-16T03:20:25.248Z",
-  "duration_ms": 425.089,
+  "checked_at": "2026-10-17T03:08:30.835Z",
+  "tcp_latency_ms": 86.67,
+  "started_at": "2026-10-17T03:10:50.974Z",
+  "listed_at": "2026-10-17T03:10:51.280Z",
+  "duration_ms": 306.447,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -59,7 +59,7 @@
     "other": 0,
     "file_bytes": 24,
     "oldest_modified_at": "2000-05-17T18:57:02Z",
-    "latest_modified_at": "2025-12-05T23:37:20Z"
+    "latest_modified_at": "2026-10-16T14:59:26Z"
   },
   "entries": [
     {
@@ -883,7 +883,7 @@
       "name": "jshan",
       "type": "directory",
       "size": null,
-      "modified_at": "2023-08-15T17:42:46Z",
+      "modified_at": "2026-10-16T14:59:26Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

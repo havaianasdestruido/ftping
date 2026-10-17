@@ -3,11 +3,11 @@
   "url": "ftp://ftp.carnet.hr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-16T03:18:13.106Z",
-  "tcp_latency_ms": 645.06,
-  "started_at": "2026-10-16T03:20:28.349Z",
-  "listed_at": "2026-10-16T03:20:31.261Z",
-  "duration_ms": 2911.461,
+  "checked_at": "2026-10-17T03:08:44.905Z",
+  "tcp_latency_ms": 449.021,
+  "started_at": "2026-10-17T03:10:54.182Z",
+  "listed_at": "2026-10-17T03:10:56.610Z",
+  "duration_ms": 2427.895,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 883,
     "oldest_modified_at": "2004-10-06T00:00:00",
-    "latest_modified_at": "2026-10-16T00:22:00"
+    "latest_modified_at": "2026-10-17T00:21:00"
   },
   "entries": [
     {
@@ -331,7 +331,7 @@
       "name": "ls-lR",
       "type": "file",
       "size": 0,
-      "modified_at": "2026-10-16T00:22:00",
+      "modified_at": "2026-10-17T00:21:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
