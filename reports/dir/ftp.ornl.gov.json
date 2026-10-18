@@ -3,11 +3,11 @@
   "url": "ftp://ftp.ornl.gov/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-17T03:08:44.155Z",
-  "tcp_latency_ms": 81.795,
-  "started_at": "2026-10-17T03:10:53.830Z",
-  "listed_at": "2026-10-17T03:10:54.581Z",
-  "duration_ms": 750.986,
+  "checked_at": "2026-10-18T03:11:56.616Z",
+  "tcp_latency_ms": 131.518,
+  "started_at": "2026-10-18T03:14:15.874Z",
+  "listed_at": "2026-10-18T03:14:17.526Z",
+  "duration_ms": 1651.826,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2013-08-23T00:00:00",
-    "latest_modified_at": "2026-10-07T22:01:00"
+    "latest_modified_at": "2026-10-17T22:01:00"
   },
   "entries": [
     {
@@ -84,7 +84,7 @@
       "name": "incoming",
       "type": "directory",
       "size": 8192,
-      "modified_at": "2026-10-07T22:01:00",
+      "modified_at": "2026-10-17T22:01:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
