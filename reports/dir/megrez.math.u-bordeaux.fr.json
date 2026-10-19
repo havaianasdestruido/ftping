@@ -3,31 +3,26 @@
   "url": "ftp://megrez.math.u-bordeaux.fr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-18T03:11:58.731Z",
-  "tcp_latency_ms": 2733.121,
-  "started_at": "2026-10-18T03:14:15.263Z",
-  "listed_at": "2026-10-18T03:14:17.763Z",
-  "duration_ms": 2499.979,
+  "checked_at": "2026-10-19T03:25:29.167Z",
+  "tcp_latency_ms": 10284.593,
+  "started_at": "2026-10-19T03:27:38.034Z",
+  "listed_at": "2026-10-19T03:27:54.784Z",
+  "duration_ms": 16749.955,
   "path": "/",
   "login": "anonymous",
-  "status": "ok",
-  "error": null,
-  "listing_method": "list",
-  "timestamps_timezone": "server-local",
+  "status": "error",
+  "error": {
+    "type": "ConnectionResetError",
+    "message": "[Errno 104] Connection reset by peer"
+  },
+  "listing_method": null,
+  "timestamps_timezone": null,
   "unparsed_lines": 0,
   "server": {
-    "welcome": "220 Welcome to PARI/GP FTP service.",
-    "login_response": "Login successful.",
-    "system": "UNIX Type: L8",
-    "features": [
-      "EPRT",
-      "EPSV",
-      "MDTM",
-      "PASV",
-      "REST",
-      "SIZE",
-      "TVFS"
-    ],
+    "welcome": null,
+    "login_response": null,
+    "system": null,
+    "features": [],
     "encoding": null
   },
   "root": {
@@ -50,34 +45,14 @@
     "link_target": null
   },
   "summary": {
-    "entries": 1,
+    "entries": 0,
     "files": 0,
-    "directories": 1,
+    "directories": 0,
     "links": 0,
     "other": 0,
     "file_bytes": 0,
-    "oldest_modified_at": "2025-03-21T00:00:00",
-    "latest_modified_at": "2025-03-21T00:00:00"
+    "oldest_modified_at": null,
+    "latest_modified_at": null
   },
-  "entries": [
-    {
-      "name": "pub",
-      "type": "directory",
-      "size": 4096,
-      "modified_at": "2025-03-21T00:00:00",
-      "created_at": null,
-      "accessed_at": null,
-      "changed_at": null,
-      "created_by": "1000",
-      "group": "2000",
-      "uid": null,
-      "gid": null,
-      "permissions": "drwxrwsr-x",
-      "mode": null,
-      "perm": null,
-      "unique_id": null,
-      "media_type": null,
-      "link_target": null
-    }
-  ]
+  "entries": []
 }

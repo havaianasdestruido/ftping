@@ -3,11 +3,11 @@
   "url": "ftp://ftp.uni-freiburg.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-18T03:11:34.449Z",
-  "tcp_latency_ms": 426.343,
-  "started_at": "2026-10-18T03:14:10.591Z",
-  "listed_at": "2026-10-18T03:14:13.689Z",
-  "duration_ms": 3097.706,
+  "checked_at": "2026-10-19T03:24:57.640Z",
+  "tcp_latency_ms": 700.689,
+  "started_at": "2026-10-19T03:27:33.522Z",
+  "listed_at": "2026-10-19T03:27:36.390Z",
+  "duration_ms": 2868.339,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 49,
     "oldest_modified_at": "2003-07-10T00:00:00",
-    "latest_modified_at": "2026-10-16T16:55:00"
+    "latest_modified_at": "2026-10-18T11:36:00"
   },
   "entries": [
     {
@@ -121,8 +121,8 @@
     {
       "name": "incoming",
       "type": "directory",
-      "size": 98,
-      "modified_at": "2026-10-16T16:55:00",
+      "size": 118,
+      "modified_at": "2026-10-18T11:36:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

@@ -3,11 +3,11 @@
   "url": "ftp://ftp.astro.wisc.edu/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-18T03:11:39.689Z",
-  "tcp_latency_ms": 234.342,
-  "started_at": "2026-10-18T03:14:11.839Z",
-  "listed_at": "2026-10-18T03:14:12.269Z",
-  "duration_ms": 429.918,
+  "checked_at": "2026-10-19T03:25:02.397Z",
+  "tcp_latency_ms": 179.016,
+  "started_at": "2026-10-19T03:27:34.756Z",
+  "listed_at": "2026-10-19T03:27:35.520Z",
+  "duration_ms": 763.77,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -16,7 +16,7 @@
   "timestamps_timezone": "utc",
   "unparsed_lines": 0,
   "server": {
-    "welcome": "220-Welcome to Pure-FTPd.\n220-You are user number 1 of 10 allowed.\n220-Local time is now 21:14. Server port: 21.\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 60 minutes of inactivity.",
+    "welcome": "220-Welcome to Pure-FTPd.\n220-You are user number 1 of 10 allowed.\n220-Local time is now 21:27. Server port: 21.\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 60 minutes of inactivity.",
     "login_response": "Anonymous user logged in",
     "system": "UNIX Type: L8",
     "features": [
@@ -65,7 +65,7 @@
     "other": 0,
     "file_bytes": 36,
     "oldest_modified_at": "2005-02-02T19:20:37Z",
-    "latest_modified_at": "2026-09-29T11:20:01Z"
+    "latest_modified_at": "2026-10-18T07:55:59Z"
   },
   "entries": [
     {
@@ -205,7 +205,7 @@
       "name": "incoming",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-09-29T11:20:01Z",
+      "modified_at": "2026-10-18T07:55:59Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

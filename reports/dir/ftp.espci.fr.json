@@ -3,11 +3,11 @@
   "url": "ftp://ftp.espci.fr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-18T03:11:53.099Z",
-  "tcp_latency_ms": 376.585,
-  "started_at": "2026-10-18T03:14:14.014Z",
-  "listed_at": "2026-10-18T03:14:16.108Z",
-  "duration_ms": 2093.918,
+  "checked_at": "2026-10-19T03:25:16.032Z",
+  "tcp_latency_ms": 312.179,
+  "started_at": "2026-10-19T03:27:37.085Z",
+  "listed_at": "2026-10-19T03:27:39.449Z",
+  "duration_ms": 2363.781,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -53,9 +53,9 @@
     "directories": 9,
     "links": 0,
     "other": 0,
-    "file_bytes": 39667823888,
+    "file_bytes": 39667823890,
     "oldest_modified_at": "2012-06-21T14:52:03Z",
-    "latest_modified_at": "2026-10-17T08:41:31Z"
+    "latest_modified_at": "2026-10-18T08:41:26Z"
   },
   "entries": [
     {
@@ -251,8 +251,8 @@
     {
       "name": "pub.tgz",
       "type": "file",
-      "size": 39656350922,
-      "modified_at": "2026-10-17T08:41:31Z",
+      "size": 39656350924,
+      "modified_at": "2026-10-18T08:41:26Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
