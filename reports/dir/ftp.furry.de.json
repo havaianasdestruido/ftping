@@ -3,11 +3,11 @@
   "url": "ftp://ftp.furry.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-19T03:24:52.081Z",
-  "tcp_latency_ms": 408.736,
-  "started_at": "2026-10-19T03:27:30.741Z",
-  "listed_at": "2026-10-19T03:27:33.783Z",
-  "duration_ms": 3042.057,
+  "checked_at": "2026-10-20T03:34:07.816Z",
+  "tcp_latency_ms": 369.736,
+  "started_at": "2026-10-20T03:36:40.394Z",
+  "listed_at": "2026-10-20T03:36:43.981Z",
+  "duration_ms": 3586.976,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -60,14 +60,14 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2003-11-10T00:00:00",
-    "latest_modified_at": "2026-10-15T14:47:00"
+    "latest_modified_at": "2026-10-19T08:57:00"
   },
   "entries": [
     {
       "name": "incoming",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-10-15T14:47:00",
+      "modified_at": "2026-10-19T08:57:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

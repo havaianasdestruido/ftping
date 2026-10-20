@@ -3,27 +3,33 @@
   "url": "ftp://ftp.mplayerhq.hu/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-19T03:25:22.374Z",
-  "tcp_latency_ms": 1841.238,
-  "started_at": "2026-10-19T03:27:39.760Z",
-  "listed_at": "2026-10-19T03:28:28.374Z",
-  "duration_ms": 48614.017,
+  "checked_at": "2026-10-20T03:34:37.448Z",
+  "tcp_latency_ms": 1853.865,
+  "started_at": "2026-10-20T03:36:50.060Z",
+  "listed_at": "2026-10-20T03:36:55.207Z",
+  "duration_ms": 5147.313,
   "path": "/",
   "login": "anonymous",
-  "status": "error",
-  "error": {
-    "type": "TimeoutError",
-    "message": "timed out"
-  },
-  "listing_method": null,
-  "timestamps_timezone": null,
+  "status": "ok",
+  "error": null,
+  "listing_method": "list",
+  "timestamps_timezone": "server-local",
   "unparsed_lines": 0,
   "server": {
-    "welcome": null,
-    "login_response": null,
-    "system": null,
-    "features": [],
-    "encoding": null
+    "welcome": "220 (vsFTPd 3.0.5)",
+    "login_response": "Login successful.",
+    "system": "UNIX Type: L8",
+    "features": [
+      "EPRT",
+      "EPSV",
+      "MDTM",
+      "PASV",
+      "REST",
+      "SIZE",
+      "TVFS",
+      "UTF8"
+    ],
+    "encoding": "utf-8"
   },
   "root": {
     "name": "/",
@@ -45,14 +51,53 @@
     "link_target": null
   },
   "summary": {
-    "entries": 0,
+    "entries": 2,
     "files": 0,
-    "directories": 0,
+    "directories": 2,
     "links": 0,
     "other": 0,
     "file_bytes": 0,
-    "oldest_modified_at": null,
-    "latest_modified_at": null
+    "oldest_modified_at": "2021-03-21T00:00:00",
+    "latest_modified_at": "2026-08-15T18:52:00"
   },
-  "entries": []
+  "entries": [
+    {
+      "name": "MPlayer",
+      "type": "directory",
+      "size": 88,
+      "modified_at": "2021-03-21T00:00:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": "1024",
+      "group": "0",
+      "uid": null,
+      "gid": null,
+      "permissions": "drwxrwxr-x",
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    },
+    {
+      "name": "pub",
+      "type": "directory",
+      "size": 6,
+      "modified_at": "2026-08-15T18:52:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": "0",
+      "group": "0",
+      "uid": null,
+      "gid": null,
+      "permissions": "drwxr-xr-x",
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    }
+  ]
 }

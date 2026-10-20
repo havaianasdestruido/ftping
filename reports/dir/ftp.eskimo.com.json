@@ -3,11 +3,11 @@
   "url": "ftp://ftp.eskimo.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-19T03:24:13.961Z",
-  "tcp_latency_ms": 127.147,
-  "started_at": "2026-10-19T03:27:22.906Z",
-  "listed_at": "2026-10-19T03:27:23.380Z",
-  "duration_ms": 474.274,
+  "checked_at": "2026-10-20T03:33:30.431Z",
+  "tcp_latency_ms": 59.322,
+  "started_at": "2026-10-20T03:36:32.749Z",
+  "listed_at": "2026-10-20T03:36:33.024Z",
+  "duration_ms": 275.047,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -66,14 +66,14 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2025-04-16T02:08:31Z",
-    "latest_modified_at": "2026-09-06T08:02:33Z"
+    "latest_modified_at": "2026-10-19T07:36:46Z"
   },
   "entries": [
     {
       "name": "kernel",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-09-06T08:02:33Z",
+      "modified_at": "2026-10-19T07:36:46Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
