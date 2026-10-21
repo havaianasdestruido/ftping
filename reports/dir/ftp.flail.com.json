@@ -3,11 +3,11 @@
   "url": "ftp://ftp.flail.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-20T03:33:31.449Z",
-  "tcp_latency_ms": 462.568,
-  "started_at": "2026-10-20T03:36:32.985Z",
-  "listed_at": "2026-10-20T03:36:34.039Z",
-  "duration_ms": 1053.167,
+  "checked_at": "2026-10-21T03:27:07.682Z",
+  "tcp_latency_ms": 291.404,
+  "started_at": "2026-10-21T03:30:15.777Z",
+  "listed_at": "2026-10-21T03:30:16.858Z",
+  "duration_ms": 1080.142,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -70,14 +70,14 @@
     "other": 0,
     "file_bytes": 20,
     "oldest_modified_at": "2000-05-08T15:19:14Z",
-    "latest_modified_at": "2025-12-05T21:04:19Z"
+    "latest_modified_at": "2026-10-20T03:38:18Z"
   },
   "entries": [
     {
       "name": "incoming",
       "type": "directory",
       "size": null,
-      "modified_at": "2025-12-05T21:04:19Z",
+      "modified_at": "2026-10-20T03:38:18Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

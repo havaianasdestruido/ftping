@@ -3,11 +3,11 @@
   "url": "ftp://ftp.dataio.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-20T03:33:29.235Z",
-  "tcp_latency_ms": 102.546,
-  "started_at": "2026-10-20T03:36:32.447Z",
-  "listed_at": "2026-10-20T03:36:32.985Z",
-  "duration_ms": 538.604,
+  "checked_at": "2026-10-21T03:27:05.687Z",
+  "tcp_latency_ms": 45.339,
+  "started_at": "2026-10-21T03:30:15.316Z",
+  "listed_at": "2026-10-21T03:30:15.549Z",
+  "duration_ms": 233.434,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -52,7 +52,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2008-07-23T16:17:00",
-    "latest_modified_at": "2026-10-19T19:25:00"
+    "latest_modified_at": "2026-10-20T07:50:00"
   },
   "entries": [
     {
@@ -135,7 +135,7 @@
       "name": "current",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-19T07:50:00",
+      "modified_at": "2026-10-20T07:50:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

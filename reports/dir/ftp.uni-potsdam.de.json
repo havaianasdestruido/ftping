@@ -3,11 +3,11 @@
   "url": "ftp://ftp.uni-potsdam.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-20T03:34:13.579Z",
-  "tcp_latency_ms": 605.736,
-  "started_at": "2026-10-20T03:36:43.981Z",
-  "listed_at": "2026-10-20T03:36:47.230Z",
-  "duration_ms": 3249.323,
+  "checked_at": "2026-10-21T03:27:50.724Z",
+  "tcp_latency_ms": 685.848,
+  "started_at": "2026-10-21T03:30:26.925Z",
+  "listed_at": "2026-10-21T03:30:30.133Z",
+  "duration_ms": 3208.197,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,9 +58,9 @@
     "directories": 3,
     "links": 0,
     "other": 0,
-    "file_bytes": 1454962,
+    "file_bytes": 1455661,
     "oldest_modified_at": "2026-01-28T00:00:00",
-    "latest_modified_at": "2026-10-20T03:00:00"
+    "latest_modified_at": "2026-10-21T03:00:00"
   },
   "entries": [
     {
@@ -85,8 +85,8 @@
     {
       "name": "ls-lR.gz",
       "type": "file",
-      "size": 1454962,
-      "modified_at": "2026-10-20T03:00:00",
+      "size": 1455661,
+      "modified_at": "2026-10-21T03:00:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

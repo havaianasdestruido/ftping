@@ -3,17 +3,17 @@
   "url": "ftp://ftp.cm.nu/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-20T03:35:01.101Z",
-  "tcp_latency_ms": 563.798,
-  "started_at": "2026-10-20T03:36:55.996Z",
-  "listed_at": "2026-10-20T03:37:01.782Z",
-  "duration_ms": 5786.501,
+  "checked_at": "2026-10-21T03:28:40.638Z",
+  "tcp_latency_ms": 942.829,
+  "started_at": "2026-10-21T03:30:39.423Z",
+  "listed_at": "2026-10-21T03:30:40.265Z",
+  "duration_ms": 842.34,
   "path": "/",
   "login": "anonymous",
   "status": "error",
   "error": {
     "type": "error_perm",
-    "message": "530 Login authentication failed"
+    "message": "530 Login incorrect."
   },
   "listing_method": null,
   "timestamps_timezone": null,

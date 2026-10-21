@@ -3,11 +3,11 @@
   "url": "ftp://ftp.amigascne.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-20T03:35:02.116Z",
-  "tcp_latency_ms": 355.993,
-  "started_at": "2026-10-20T03:36:57.194Z",
-  "listed_at": "2026-10-20T03:36:58.833Z",
-  "duration_ms": 1639.716,
+  "checked_at": "2026-10-21T03:28:41.265Z",
+  "tcp_latency_ms": 212.848,
+  "started_at": "2026-10-21T03:30:40.367Z",
+  "listed_at": "2026-10-21T03:30:44.214Z",
+  "duration_ms": 3847.358,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -56,9 +56,9 @@
     "directories": 4,
     "links": 0,
     "other": 0,
-    "file_bytes": 72963,
+    "file_bytes": 72657,
     "oldest_modified_at": "2004-11-05T00:00:00",
-    "latest_modified_at": "2026-10-19T04:01:00"
+    "latest_modified_at": "2026-10-20T03:58:00"
   },
   "entries": [
     {
@@ -197,8 +197,8 @@
     {
       "name": "top_ten.txt",
       "type": "file",
-      "size": 579,
-      "modified_at": "2026-10-19T04:01:00",
+      "size": 273,
+      "modified_at": "2026-10-20T03:58:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

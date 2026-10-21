@@ -3,11 +3,11 @@
   "url": "ftp://ftp.cubic.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-20T03:35:04.161Z",
-  "tcp_latency_ms": 550.793,
-  "started_at": "2026-10-20T03:36:57.972Z",
-  "listed_at": "2026-10-20T03:37:00.198Z",
-  "duration_ms": 2225.973,
+  "checked_at": "2026-10-21T03:28:43.313Z",
+  "tcp_latency_ms": 326.557,
+  "started_at": "2026-10-21T03:30:41.225Z",
+  "listed_at": "2026-10-21T03:30:43.412Z",
+  "duration_ms": 2186.54,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -42,7 +42,7 @@
     "name": "/",
     "type": "directory",
     "size": null,
-    "modified_at": "2026-10-20T03:09:06Z",
+    "modified_at": "2026-10-21T03:08:07Z",
     "created_at": null,
     "accessed_at": null,
     "changed_at": null,
@@ -63,9 +63,9 @@
     "directories": 1,
     "links": 0,
     "other": 0,
-    "file_bytes": 58794,
+    "file_bytes": 58795,
     "oldest_modified_at": "2015-12-25T21:13:27Z",
-    "latest_modified_at": "2026-10-20T03:09:06Z"
+    "latest_modified_at": "2026-10-21T03:08:07Z"
   },
   "entries": [
     {
@@ -90,8 +90,8 @@
     {
       "name": "ls-lR",
       "type": "file",
-      "size": 58438,
-      "modified_at": "2026-10-20T03:09:06Z",
+      "size": 58439,
+      "modified_at": "2026-10-21T03:08:07Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -102,7 +102,7 @@
       "permissions": "-rw-r--r--",
       "mode": "0644",
       "perm": "adfrw",
-      "unique_id": "FE03U281079",
+      "unique_id": "FE03U281067",
       "media_type": null,
       "link_target": null
     },

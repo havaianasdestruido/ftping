@@ -3,11 +3,11 @@
   "url": "ftp://ftp.lebedev.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-20T03:35:40.966Z",
-  "tcp_latency_ms": 774.492,
-  "started_at": "2026-10-20T03:37:08.261Z",
-  "listed_at": "2026-10-20T03:37:12.702Z",
-  "duration_ms": 4440.819,
+  "checked_at": "2026-10-21T03:29:22.398Z",
+  "tcp_latency_ms": 1620.376,
+  "started_at": "2026-10-21T03:30:51.934Z",
+  "listed_at": "2026-10-21T03:30:55.922Z",
+  "duration_ms": 3988.452,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -60,7 +60,7 @@
     "other": 0,
     "file_bytes": 18,
     "oldest_modified_at": "2022-09-28T00:00:00",
-    "latest_modified_at": "2026-10-07T13:24:00"
+    "latest_modified_at": "2026-10-20T12:33:00"
   },
   "entries": [
     {
@@ -86,7 +86,7 @@
       "name": "v",
       "type": "directory",
       "size": 122,
-      "modified_at": "2026-10-07T13:24:00",
+      "modified_at": "2026-10-20T12:33:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
