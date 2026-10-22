@@ -3,11 +3,11 @@
   "url": "ftp://ftp.astro.umd.edu/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-21T03:27:55.295Z",
-  "tcp_latency_ms": 418.179,
-  "started_at": "2026-10-21T03:30:27.968Z",
-  "listed_at": "2026-10-21T03:30:29.421Z",
-  "duration_ms": 1452.799,
+  "checked_at": "2026-10-22T03:27:09.137Z",
+  "tcp_latency_ms": 506.843,
+  "started_at": "2026-10-22T03:29:38.560Z",
+  "listed_at": "2026-10-22T03:29:39.201Z",
+  "duration_ms": 640.914,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -61,7 +61,7 @@
     "other": 0,
     "file_bytes": 415,
     "oldest_modified_at": "2020-04-23T00:00:00",
-    "latest_modified_at": "2026-10-12T14:54:00"
+    "latest_modified_at": "2026-10-21T16:45:00"
   },
   "entries": [
     {
@@ -86,8 +86,8 @@
     {
       "name": "incoming",
       "type": "directory",
-      "size": 56,
-      "modified_at": "2026-10-12T14:54:00",
+      "size": 73,
+      "modified_at": "2026-10-21T16:45:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

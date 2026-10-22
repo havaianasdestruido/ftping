@@ -3,11 +3,11 @@
   "url": "ftp://ftp.ripe.net/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-21T03:28:30.995Z",
-  "tcp_latency_ms": 200.559,
-  "started_at": "2026-10-21T03:30:36.949Z",
-  "listed_at": "2026-10-21T03:30:39.310Z",
-  "duration_ms": 2360.796,
+  "checked_at": "2026-10-22T03:27:44.247Z",
+  "tcp_latency_ms": 137.041,
+  "started_at": "2026-10-22T03:29:46.918Z",
+  "listed_at": "2026-10-22T03:29:48.672Z",
+  "duration_ms": 1753.829,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -40,7 +40,7 @@
     "name": "/",
     "type": "directory",
     "size": null,
-    "modified_at": "2026-10-21T02:07:17Z",
+    "modified_at": "2026-10-22T02:07:10Z",
     "created_at": null,
     "accessed_at": null,
     "changed_at": null,
@@ -61,9 +61,9 @@
     "directories": 6,
     "links": 9,
     "other": 0,
-    "file_bytes": 3776415,
+    "file_bytes": 3777237,
     "oldest_modified_at": "2005-02-17T14:22:00Z",
-    "latest_modified_at": "2026-10-21T02:07:17Z"
+    "latest_modified_at": "2026-10-22T02:07:10Z"
   },
   "entries": [
     {
@@ -430,8 +430,8 @@
     {
       "name": "ls-lR.gz",
       "type": "file",
-      "size": 3765681,
-      "modified_at": "2026-10-21T02:07:17Z",
+      "size": 3766503,
+      "modified_at": "2026-10-22T02:07:10Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -442,7 +442,7 @@
       "permissions": "-rw-r--r--",
       "mode": "0644",
       "perm": "adfr",
-      "unique_id": "35U100D08",
+      "unique_id": "35U100EE5",
       "media_type": null,
       "link_target": null
     }

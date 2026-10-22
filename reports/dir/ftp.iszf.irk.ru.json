@@ -3,11 +3,11 @@
   "url": "ftp://ftp.iszf.irk.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-21T03:29:18.151Z",
-  "tcp_latency_ms": 995.601,
-  "started_at": "2026-10-21T03:30:51.363Z",
-  "listed_at": "2026-10-21T03:30:57.203Z",
-  "duration_ms": 5840.824,
+  "checked_at": "2026-10-22T03:28:31.133Z",
+  "tcp_latency_ms": 1481.015,
+  "started_at": "2026-10-22T03:30:00.010Z",
+  "listed_at": "2026-10-22T03:30:05.310Z",
+  "duration_ms": 5300.285,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -51,14 +51,14 @@
     "link_target": null
   },
   "summary": {
-    "entries": 13,
+    "entries": 12,
     "files": 0,
     "directories": 11,
-    "links": 2,
+    "links": 1,
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2008-02-18T00:00:00",
-    "latest_modified_at": "2025-10-06T00:00:00"
+    "latest_modified_at": "2026-10-22T00:53:00"
   },
   "entries": [
     {
@@ -141,7 +141,7 @@
       "name": "ks",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2022-03-05T00:00:00",
+      "modified_at": "2026-10-22T00:53:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -155,25 +155,6 @@
       "unique_id": null,
       "media_type": null,
       "link_target": null
-    },
-    {
-      "name": "leon",
-      "type": "link",
-      "size": 11,
-      "modified_at": "2022-01-26T00:00:00",
-      "created_at": null,
-      "accessed_at": null,
-      "changed_at": null,
-      "created_by": "0",
-      "group": "0",
-      "uid": null,
-      "gid": null,
-      "permissions": "lrwxrwxrwx",
-      "mode": null,
-      "perm": null,
-      "unique_id": null,
-      "media_type": null,
-      "link_target": "/home/leon/"
     },
     {
       "name": "magnit",

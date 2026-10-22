@@ -3,17 +3,17 @@
   "url": "ftp://ftp.lim.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-21T03:29:22.103Z",
-  "tcp_latency_ms": 840.164,
-  "started_at": "2026-10-21T03:30:51.988Z",
-  "listed_at": "2026-10-21T03:30:53.013Z",
-  "duration_ms": 1024.277,
+  "checked_at": "2026-10-22T03:28:34.739Z",
+  "tcp_latency_ms": 845.042,
+  "started_at": "2026-10-22T03:30:00.917Z",
+  "listed_at": "2026-10-22T03:30:01.950Z",
+  "duration_ms": 1033.206,
   "path": "/",
   "login": "anonymous",
   "status": "error",
   "error": {
     "type": "UnicodeDecodeError",
-    "message": "'utf-8' codec can't decode byte 0xe5 in position 119: invalid continuation byte"
+    "message": "'utf-8' codec can't decode byte 0xe5 in position 44: invalid continuation byte"
   },
   "listing_method": null,
   "timestamps_timezone": null,

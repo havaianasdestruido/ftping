@@ -3,11 +3,11 @@
   "url": "ftp://ftp.dataio.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-21T03:27:05.687Z",
-  "tcp_latency_ms": 45.339,
-  "started_at": "2026-10-21T03:30:15.316Z",
-  "listed_at": "2026-10-21T03:30:15.549Z",
-  "duration_ms": 233.434,
+  "checked_at": "2026-10-22T03:26:19.365Z",
+  "tcp_latency_ms": 86.15,
+  "started_at": "2026-10-22T03:29:27.451Z",
+  "listed_at": "2026-10-22T03:29:28.399Z",
+  "duration_ms": 947.456,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -52,7 +52,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2008-07-23T16:17:00",
-    "latest_modified_at": "2026-10-20T07:50:00"
+    "latest_modified_at": "2026-10-21T06:02:00"
   },
   "entries": [
     {
@@ -173,7 +173,7 @@
       "name": "device_lists",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-14T06:05:00",
+      "modified_at": "2026-10-21T06:02:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
