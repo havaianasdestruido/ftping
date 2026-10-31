@@ -3,11 +3,11 @@
   "url": "ftp://ftp.3gpp.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:27:53.530Z",
-  "tcp_latency_ms": 148.0,
-  "started_at": "2026-10-22T03:29:49.358Z",
-  "listed_at": "2026-10-22T03:29:51.492Z",
-  "duration_ms": 2133.98,
+  "checked_at": "2026-10-31T22:03:24.686Z",
+  "tcp_latency_ms": 157.609,
+  "started_at": "2026-10-31T22:05:20.631Z",
+  "listed_at": "2026-10-31T22:05:22.963Z",
+  "duration_ms": 2332.168,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -53,14 +53,14 @@
     "link_target": null
   },
   "summary": {
-    "entries": 20,
+    "entries": 21,
     "files": 0,
-    "directories": 20,
+    "directories": 21,
     "links": 0,
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2008-11-04T18:53:00",
-    "latest_modified_at": "2026-10-19T10:48:00"
+    "latest_modified_at": "2026-10-29T14:48:00"
   },
   "entries": [
     {
@@ -178,6 +178,25 @@
       "link_target": null
     },
     {
+      "name": "LS_Files",
+      "type": "directory",
+      "size": null,
+      "modified_at": "2026-10-29T14:48:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": null,
+      "group": null,
+      "uid": null,
+      "gid": null,
+      "permissions": null,
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    },
+    {
       "name": "Meetings_3GPP_SYNC",
       "type": "directory",
       "size": null,
@@ -276,7 +295,7 @@
       "name": "TdocListDefault",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-19T10:48:00",
+      "modified_at": "2026-10-23T15:40:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -352,7 +371,7 @@
       "name": "tsg_ran",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-09-23T08:36:00",
+      "modified_at": "2026-10-29T12:22:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

@@ -3,11 +3,11 @@
   "url": "ftp://ftp.nioch.nsc.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:28:40.092Z",
-  "tcp_latency_ms": 2156.747,
-  "started_at": "2026-10-22T03:30:01.230Z",
-  "listed_at": "2026-10-22T03:30:08.289Z",
-  "duration_ms": 7059.344,
+  "checked_at": "2026-10-31T22:04:09.858Z",
+  "tcp_latency_ms": 980.48,
+  "started_at": "2026-10-31T22:05:32.255Z",
+  "listed_at": "2026-10-31T22:05:38.815Z",
+  "duration_ms": 6559.595,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -61,14 +61,14 @@
     "other": 0,
     "file_bytes": 465,
     "oldest_modified_at": "1993-08-30T18:32:54Z",
-    "latest_modified_at": "2026-10-16T06:51:52Z"
+    "latest_modified_at": "2026-10-24T21:40:04Z"
   },
   "entries": [
     {
       "name": "incoming",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-10-16T06:51:52Z",
+      "modified_at": "2026-10-24T21:40:04Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

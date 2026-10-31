@@ -3,11 +3,11 @@
   "url": "ftp://ftp.zcu.cz/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:26:53.569Z",
-  "tcp_latency_ms": 323.475,
-  "started_at": "2026-10-22T03:29:33.683Z",
-  "listed_at": "2026-10-22T03:29:36.156Z",
-  "duration_ms": 2472.989,
+  "checked_at": "2026-10-31T22:02:25.298Z",
+  "tcp_latency_ms": 404.521,
+  "started_at": "2026-10-31T22:05:04.680Z",
+  "listed_at": "2026-10-31T22:05:07.034Z",
+  "duration_ms": 2353.754,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -57,7 +57,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2022-06-30T00:00:00",
-    "latest_modified_at": "2026-08-19T17:14:00"
+    "latest_modified_at": "2026-08-19T16:14:00"
   },
   "entries": [
     {
@@ -102,7 +102,7 @@
       "name": "pub",
       "type": "directory",
       "size": 43,
-      "modified_at": "2026-08-19T17:14:00",
+      "modified_at": "2026-08-19T16:14:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

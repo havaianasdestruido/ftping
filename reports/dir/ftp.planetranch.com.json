@@ -3,17 +3,17 @@
   "url": "ftp://ftp.planetranch.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:26:35.976Z",
-  "tcp_latency_ms": 497.33,
-  "started_at": "2026-10-22T03:29:30.191Z",
-  "listed_at": "2026-10-22T03:29:30.521Z",
-  "duration_ms": 329.612,
+  "checked_at": "2026-10-31T22:02:08.001Z",
+  "tcp_latency_ms": 360.543,
+  "started_at": "2026-10-31T22:05:01.184Z",
+  "listed_at": "2026-10-31T22:05:02.523Z",
+  "duration_ms": 1338.713,
   "path": "/",
   "login": "anonymous",
   "status": "error",
   "error": {
     "type": "error_perm",
-    "message": "530 Login failed: please verify the username and password supplied, and that FTP locking is either disabled or permitted for your current IP address."
+    "message": "530 Login failed: please verify the username and password supplied, and that FTP locking is either disabled or permitted for your current IP address"
   },
   "listing_method": null,
   "timestamps_timezone": null,

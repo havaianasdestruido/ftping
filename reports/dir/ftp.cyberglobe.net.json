@@ -3,17 +3,17 @@
   "url": "ftp://ftp.cyberglobe.net/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:27:38.187Z",
-  "tcp_latency_ms": 472.313,
-  "started_at": "2026-10-22T03:29:45.770Z",
-  "listed_at": "2026-10-22T03:29:46.293Z",
-  "duration_ms": 522.907,
+  "checked_at": "2026-10-31T22:03:08.738Z",
+  "tcp_latency_ms": 292.535,
+  "started_at": "2026-10-31T22:05:16.628Z",
+  "listed_at": "2026-10-31T22:05:18.836Z",
+  "duration_ms": 2207.981,
   "path": "/",
   "login": "anonymous",
   "status": "error",
   "error": {
     "type": "error_perm",
-    "message": "530 Login failed: please verify the username and password supplied, and that FTP locking is either disabled or permitted for your current IP address."
+    "message": "530 Login failed: please verify the username and password supplied, and that FTP locking is either disabled or permitted for your current IP address"
   },
   "listing_method": null,
   "timestamps_timezone": null,

@@ -3,11 +3,11 @@
   "url": "ftp://ftp.aero.jussieu.fr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:27:22.287Z",
-  "tcp_latency_ms": 794.607,
-  "started_at": "2026-10-22T03:29:40.595Z",
-  "listed_at": "2026-10-22T03:29:42.437Z",
-  "duration_ms": 1841.926,
+  "checked_at": "2026-10-31T22:02:53.172Z",
+  "tcp_latency_ms": 365.978,
+  "started_at": "2026-10-31T22:05:11.518Z",
+  "listed_at": "2026-10-31T22:05:13.717Z",
+  "duration_ms": 2199.288,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -17,7 +17,7 @@
   "unparsed_lines": 0,
   "server": {
     "welcome": "220 134.157.176.97 FTP server ready",
-    "login_response": "230-local time is Thu Oct 22 05:29:41 2026\n230-There are 1 connected users in your class.\n230-All transfers are logged with your host name and e-mail address\n230-to allow us to make statistics on the server use.\n230-\n230-Restricted use for latmos only and invited users  \n230---\n230-free space is 500G of 500G \n230 Anonymous login ok, restrictions apply.",
+    "login_response": "230-local time is Sat Oct 31 23:05:12 2026\n230-There are 1 connected users in your class.\n230-All transfers are logged with your host name and e-mail address\n230-to allow us to make statistics on the server use.\n230-\n230-Restricted use for latmos only and invited users  \n230---\n230-free space is 500G of 500G \n230 Anonymous login ok, restrictions apply.",
     "system": "UNIX Type: L8",
     "features": [
       "MDTM",
@@ -59,7 +59,7 @@
     "other": 0,
     "file_bytes": 164697659,
     "oldest_modified_at": "2011-05-30T15:56:36Z",
-    "latest_modified_at": "2026-10-22T02:51:01Z"
+    "latest_modified_at": "2026-10-31T21:51:02Z"
   },
   "entries": [
     {
@@ -153,7 +153,7 @@
       "permissions": "drwxrwxr-x",
       "mode": "0775",
       "perm": "flcdmpe",
-      "unique_id": "34U103",
+      "unique_id": "33U103",
       "media_type": null,
       "link_target": null
     },
@@ -172,7 +172,7 @@
       "permissions": "drwxrwxr-x",
       "mode": "0775",
       "perm": "flcdmpe",
-      "unique_id": "34U103",
+      "unique_id": "33U103",
       "media_type": null,
       "link_target": null
     },
@@ -199,7 +199,7 @@
       "name": "welcome.msg",
       "type": "file",
       "size": 259,
-      "modified_at": "2026-10-22T02:51:01Z",
+      "modified_at": "2026-10-31T21:51:02Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -248,7 +248,7 @@
       "permissions": null,
       "mode": null,
       "perm": "fle",
-      "unique_id": "35U401C2206",
+      "unique_id": "34U401C2206",
       "media_type": null,
       "link_target": null
     },
@@ -343,7 +343,7 @@
       "permissions": "drwxrwxr-x",
       "mode": "0775",
       "perm": "flcdmpe",
-      "unique_id": "34U103",
+      "unique_id": "33U103",
       "media_type": null,
       "link_target": null
     }

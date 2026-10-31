@@ -3,11 +3,11 @@
   "url": "ftp://ftp.sunet.se/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:28:57.603Z",
-  "tcp_latency_ms": 543.363,
-  "started_at": "2026-10-22T03:30:03.375Z",
-  "listed_at": "2026-10-22T03:30:06.087Z",
-  "duration_ms": 2712.67,
+  "checked_at": "2026-10-31T22:04:28.311Z",
+  "tcp_latency_ms": 593.703,
+  "started_at": "2026-10-31T22:05:34.662Z",
+  "listed_at": "2026-10-31T22:05:37.354Z",
+  "duration_ms": 2691.611,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -57,7 +57,7 @@
     "other": 0,
     "file_bytes": 22921,
     "oldest_modified_at": "2006-06-14T00:00:00",
-    "latest_modified_at": "2026-07-29T13:40:00"
+    "latest_modified_at": "2026-07-29T12:40:00"
   },
   "entries": [
     {
@@ -121,7 +121,7 @@
       "name": "cdimage",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-05-16T21:47:00",
+      "modified_at": "2026-05-16T20:47:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -292,7 +292,7 @@
       "name": "robots.txt",
       "type": "file",
       "size": 6238,
-      "modified_at": "2026-07-29T13:40:00",
+      "modified_at": "2026-07-29T12:40:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

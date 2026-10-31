@@ -3,11 +3,11 @@
   "url": "ftp://ftp.eq.uc.pt/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:28:14.814Z",
-  "tcp_latency_ms": 354.186,
-  "started_at": "2026-10-22T03:29:57.240Z",
-  "listed_at": "2026-10-22T03:30:00.068Z",
-  "duration_ms": 2827.41,
+  "checked_at": "2026-10-31T22:03:45.706Z",
+  "tcp_latency_ms": 349.305,
+  "started_at": "2026-10-31T22:05:28.850Z",
+  "listed_at": "2026-10-31T22:05:31.244Z",
+  "duration_ms": 2394.189,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 343,
     "oldest_modified_at": "2025-08-26T00:00:00",
-    "latest_modified_at": "2026-09-11T10:21:00"
+    "latest_modified_at": "2026-09-11T09:21:00"
   },
   "entries": [
     {
@@ -103,7 +103,7 @@
       "name": "pub",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-09-11T10:21:00",
+      "modified_at": "2026-09-11T09:21:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

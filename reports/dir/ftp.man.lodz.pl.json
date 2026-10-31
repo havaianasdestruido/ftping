@@ -3,11 +3,11 @@
   "url": "ftp://ftp.man.lodz.pl/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:28:13.097Z",
-  "tcp_latency_ms": 1027.163,
-  "started_at": "2026-10-22T03:29:56.266Z",
-  "listed_at": "2026-10-22T03:29:58.887Z",
-  "duration_ms": 2620.783,
+  "checked_at": "2026-10-31T22:03:44.347Z",
+  "tcp_latency_ms": 1317.662,
+  "started_at": "2026-10-31T22:05:27.649Z",
+  "listed_at": "2026-10-31T22:05:31.521Z",
+  "duration_ms": 3872.007,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -57,7 +57,7 @@
     "other": 0,
     "file_bytes": 992,
     "oldest_modified_at": "2013-05-20T00:00:00",
-    "latest_modified_at": "2026-07-02T19:38:00"
+    "latest_modified_at": "2026-07-02T18:38:00"
   },
   "entries": [
     {
@@ -83,7 +83,7 @@
       "name": "mirror",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-07-02T19:38:00",
+      "modified_at": "2026-07-02T18:38:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

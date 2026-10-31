@@ -3,11 +3,11 @@
   "url": "ftp://ftp.up.pt/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:28:15.546Z",
-  "tcp_latency_ms": 680.739,
-  "started_at": "2026-10-22T03:29:57.254Z",
-  "listed_at": "2026-10-22T03:29:59.555Z",
-  "duration_ms": 2301.788,
+  "checked_at": "2026-10-31T22:03:46.373Z",
+  "tcp_latency_ms": 648.875,
+  "started_at": "2026-10-31T22:05:28.897Z",
+  "listed_at": "2026-10-31T22:05:31.110Z",
+  "duration_ms": 2213.381,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -57,7 +57,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2016-11-10T00:00:00",
-    "latest_modified_at": "2026-10-12T15:23:00"
+    "latest_modified_at": "2026-10-12T14:23:00"
   },
   "entries": [
     {
@@ -159,7 +159,7 @@
       "name": "pub",
       "type": "directory",
       "size": 8192,
-      "modified_at": "2026-10-12T15:23:00",
+      "modified_at": "2026-10-12T14:23:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

@@ -3,17 +3,17 @@
   "url": "ftp://ftp.hs.uni-hamburg.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:26:59.678Z",
-  "tcp_latency_ms": 1100.074,
-  "started_at": "2026-10-22T03:29:35.717Z",
-  "listed_at": "2026-10-22T03:29:36.077Z",
-  "duration_ms": 360.748,
+  "checked_at": "2026-10-31T22:02:30.759Z",
+  "tcp_latency_ms": 531.898,
+  "started_at": "2026-10-31T22:05:06.470Z",
+  "listed_at": "2026-10-31T22:05:06.960Z",
+  "duration_ms": 489.871,
   "path": "/",
   "login": "anonymous",
   "status": "error",
   "error": {
     "type": "UnicodeDecodeError",
-    "message": "'utf-8' codec can't decode byte 0xe4 in position 15: invalid continuation byte"
+    "message": "'utf-8' codec can't decode byte 0xe4 in position 159: invalid continuation byte"
   },
   "listing_method": null,
   "timestamps_timezone": null,
