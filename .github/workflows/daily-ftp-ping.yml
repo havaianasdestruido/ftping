@@ -1,4 +1,4 @@
-name: Daily FTP reachability
+name: Daily FTP reachability report
 
 on:
   schedule:
