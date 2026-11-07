@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: daily-ftp-ping-${{ github.ref }}
+  group: daily-ftp-ping
   cancel-in-progress: false
 
 jobs:
@@ -19,8 +19,6 @@ jobs:
     steps:
       - name: Check out the workflow branch
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
