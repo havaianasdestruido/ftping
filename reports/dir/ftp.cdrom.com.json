@@ -3,11 +3,11 @@
   "url": "ftp://ftp.cdrom.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:01:48.053Z",
-  "tcp_latency_ms": 243.6,
-  "started_at": "2026-10-31T22:04:57.979Z",
-  "listed_at": "2026-10-31T22:05:00.275Z",
-  "duration_ms": 2295.785,
+  "checked_at": "2026-11-08T04:30:30.355Z",
+  "tcp_latency_ms": 422.999,
+  "started_at": "2026-11-08T04:33:39.540Z",
+  "listed_at": "2026-11-08T04:33:42.253Z",
+  "duration_ms": 2712.867,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -17,7 +17,7 @@
   "unparsed_lines": 0,
   "server": {
     "welcome": "220 FTP Server ready.",
-    "login_response": "*** Welcome to the ftp.cdrom.com server! ***\n \n     You are user 1 out of a maximum of 10 authorized anonymous logins.\n     The current time here is Sat Oct 31 17:04:58 2026.\n     If you experience any problems here, contact : Your.a.idoit.moran@localhost\n \n \n230 Anonymous login ok, restrictions apply.",
+    "login_response": "*** Welcome to the ftp.cdrom.com server! ***\n \n     You are user 1 out of a maximum of 10 authorized anonymous logins.\n     The current time here is Sat Nov 07 22:33:40 2026.\n     If you experience any problems here, contact : Your.a.idoit.moran@localhost\n \n \n230 Anonymous login ok, restrictions apply.",
     "system": "UNIX Type: L8",
     "features": [
       "CLNT",
@@ -65,7 +65,7 @@
     "other": 0,
     "file_bytes": 268,
     "oldest_modified_at": "2025-08-21T19:30:43Z",
-    "latest_modified_at": "2026-10-30T03:14:15Z"
+    "latest_modified_at": "2026-11-03T00:50:49Z"
   },
   "entries": [
     {
@@ -129,7 +129,7 @@
       "name": "uploads",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-30T03:14:15Z",
+      "modified_at": "2026-11-03T00:50:49Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

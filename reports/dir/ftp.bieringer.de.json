@@ -3,11 +3,11 @@
   "url": "ftp://ftp.bieringer.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:02:27.323Z",
-  "tcp_latency_ms": 589.229,
-  "started_at": "2026-10-31T22:05:04.943Z",
-  "listed_at": "2026-10-31T22:05:06.839Z",
-  "duration_ms": 1896.152,
+  "checked_at": "2026-11-08T04:31:09.453Z",
+  "tcp_latency_ms": 435.355,
+  "started_at": "2026-11-08T04:33:46.634Z",
+  "listed_at": "2026-11-08T04:33:48.948Z",
+  "duration_ms": 2313.51,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -53,7 +53,7 @@
     "permissions": "drw-r--r--",
     "mode": "0644",
     "perm": "fle",
-    "unique_id": "33UAA2328A1D68F136D",
+    "unique_id": "30UAA2328A1D68F136D",
     "media_type": null,
     "link_target": null
   },
@@ -83,7 +83,7 @@
       "permissions": "drw-r--r--",
       "mode": "0644",
       "perm": "fle",
-      "unique_id": "33U8FFD568A9258535F",
+      "unique_id": "30U8FFD568A9258535F",
       "media_type": null,
       "link_target": null
     },
@@ -102,7 +102,7 @@
       "permissions": "-rw-r--r--",
       "mode": "0644",
       "perm": "adfr",
-      "unique_id": "33UBD9A4576468CA865",
+      "unique_id": "30UBD9A4576468CA865",
       "media_type": null,
       "link_target": null
     },
@@ -121,7 +121,7 @@
       "permissions": "-rw-r--r--",
       "mode": "0644",
       "perm": "adfr",
-      "unique_id": "33U88D1F744BB2A92C4",
+      "unique_id": "30U88D1F744BB2A92C4",
       "media_type": null,
       "link_target": null
     },
@@ -140,7 +140,7 @@
       "permissions": "drw-r--r--",
       "mode": "0644",
       "perm": "fle",
-      "unique_id": "33UA7A18B3687DD22D9",
+      "unique_id": "30UA7A18B3687DD22D9",
       "media_type": null,
       "link_target": null
     }

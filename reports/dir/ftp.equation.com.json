@@ -3,11 +3,11 @@
   "url": "ftp://ftp.equation.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:01:52.250Z",
-  "tcp_latency_ms": 129.251,
-  "started_at": "2026-10-31T22:04:58.659Z",
-  "listed_at": "2026-10-31T22:04:59.355Z",
-  "duration_ms": 696.633,
+  "checked_at": "2026-11-08T04:30:34.543Z",
+  "tcp_latency_ms": 176.081,
+  "started_at": "2026-11-08T04:33:40.126Z",
+  "listed_at": "2026-11-08T04:33:41.184Z",
+  "duration_ms": 1058.098,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -17,21 +17,21 @@
   "unparsed_lines": 0,
   "server": {
     "welcome": "220 ProFTPD 1.3.5b Server (Equation Solution FTP Server) [108.36.217.27]",
-    "login_response": "Welcome, archive user anonymous@40.74.210.227 !\n \n The local time is: Sat Oct 31 17:04:58 2026\n \n This is an experimental FTP server.  If have any unusual problems,\n please report them via e-mail to <root@NS1.equation.com>.\n \n If you do have problems, please try using a dash (-) as the first\n character of your password -- this will turn off the continuation\n messages that may be confusing your FTP client.\n230 Anonymous access granted, restrictions apply",
+    "login_response": "Welcome, archive user anonymous@104.40.47.146 !\n \n The local time is: Sat Nov 07 23:33:40 2026\n \n This is an experimental FTP server.  If have any unusual problems,\n please report them via e-mail to <root@NS1.equation.com>.\n \n If you do have problems, please try using a dash (-) as the first\n character of your password -- this will turn off the continuation\n messages that may be confusing your FTP client.\n230 Anonymous access granted, restrictions apply",
     "system": "UNIX Type: L8",
     "features": [
-      "SITE",
-      "MDTM",
-      "TVFS",
-      "MFMT",
       "LANG",
       "SIZE",
+      "SITE",
       "MFF",
       "REST",
       "MLST",
       "UTF8",
       "EPRT",
-      "EPSV"
+      "EPSV",
+      "MDTM",
+      "TVFS",
+      "MFMT"
     ],
     "encoding": "utf-8"
   },
@@ -62,7 +62,7 @@
     "other": 0,
     "file_bytes": 346,
     "oldest_modified_at": "2004-12-29T02:24:27Z",
-    "latest_modified_at": "2026-10-26T17:35:46Z"
+    "latest_modified_at": "2026-11-02T15:53:00Z"
   },
   "entries": [
     {
@@ -126,7 +126,7 @@
       "name": "gcc",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-26T17:35:46Z",
+      "modified_at": "2026-11-02T15:53:00Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

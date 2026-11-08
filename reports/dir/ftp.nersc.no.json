@@ -3,11 +3,11 @@
   "url": "ftp://ftp.nersc.no/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:03:22.895Z",
-  "tcp_latency_ms": 301.468,
-  "started_at": "2026-10-31T22:05:19.833Z",
-  "listed_at": "2026-10-31T22:05:22.854Z",
-  "duration_ms": 3021.217,
+  "checked_at": "2026-11-08T04:32:05.881Z",
+  "tcp_latency_ms": 318.847,
+  "started_at": "2026-11-08T04:34:02.300Z",
+  "listed_at": "2026-11-08T04:34:05.712Z",
+  "duration_ms": 3412.83,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -61,7 +61,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2020-01-20T00:00:00",
-    "latest_modified_at": "2026-07-31T11:39:00"
+    "latest_modified_at": "2026-11-04T19:00:00"
   },
   "entries": [
     {
@@ -144,7 +144,7 @@
       "name": "cruise",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2025-06-19T00:00:00",
+      "modified_at": "2026-11-04T19:00:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

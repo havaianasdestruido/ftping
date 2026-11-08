@@ -3,11 +3,11 @@
   "url": "ftp://ftp.infin.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:04:00.242Z",
-  "tcp_latency_ms": 613.616,
-  "started_at": "2026-10-31T22:05:30.890Z",
-  "listed_at": "2026-10-31T22:05:32.981Z",
-  "duration_ms": 2090.583,
+  "checked_at": "2026-11-08T04:32:41.357Z",
+  "tcp_latency_ms": 700.487,
+  "started_at": "2026-11-08T04:34:14.068Z",
+  "listed_at": "2026-11-08T04:34:16.737Z",
+  "duration_ms": 2669.03,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -16,7 +16,7 @@
   "timestamps_timezone": "utc",
   "unparsed_lines": 0,
   "server": {
-    "welcome": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 25 allowed.\n220-Local time is now 01:05. Server port: 21.\n220 You will be disconnected after 5 minutes of inactivity.",
+    "welcome": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 25 allowed.\n220-Local time is now 07:34. Server port: 21.\n220 You will be disconnected after 5 minutes of inactivity.",
     "login_response": "Your bandwidth usage is restricted\n230 Anonymous user logged in",
     "system": "UNIX Type: L8",
     "features": [
@@ -44,7 +44,7 @@
     "name": "/",
     "type": "directory",
     "size": null,
-    "modified_at": "2026-10-13T11:34:08Z",
+    "modified_at": "2026-11-06T09:47:20Z",
     "created_at": null,
     "accessed_at": null,
     "changed_at": null,
@@ -60,14 +60,14 @@
     "link_target": null
   },
   "summary": {
-    "entries": 12,
-    "files": 7,
+    "entries": 13,
+    "files": 8,
     "directories": 5,
     "links": 0,
     "other": 0,
-    "file_bytes": 29618792,
+    "file_bytes": 30107129,
     "oldest_modified_at": "2021-05-02T17:00:06Z",
-    "latest_modified_at": "2026-10-30T06:57:48Z"
+    "latest_modified_at": "2026-11-06T09:44:24Z"
   },
   "entries": [
     {
@@ -109,6 +109,25 @@
       "link_target": null
     },
     {
+      "name": "Price_01_11_2026.pdf",
+      "type": "file",
+      "size": 488337,
+      "modified_at": "2026-11-06T09:44:24Z",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": null,
+      "group": null,
+      "uid": null,
+      "gid": null,
+      "permissions": "-rw-r--r--",
+      "mode": "0644",
+      "perm": null,
+      "unique_id": "ca11g3c47a7",
+      "media_type": null,
+      "link_target": null
+    },
+    {
       "name": "Price_01_11_2025.pdf",
       "type": "file",
       "size": 2244316,
@@ -131,7 +150,7 @@
       "name": "distrib",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-30T06:57:48Z",
+      "modified_at": "2026-11-06T06:54:56Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

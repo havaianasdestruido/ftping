@@ -3,11 +3,11 @@
   "url": "ftp://ftp.3gpp.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:03:24.686Z",
-  "tcp_latency_ms": 157.609,
-  "started_at": "2026-10-31T22:05:20.631Z",
-  "listed_at": "2026-10-31T22:05:22.963Z",
-  "duration_ms": 2332.168,
+  "checked_at": "2026-11-08T04:32:07.301Z",
+  "tcp_latency_ms": 163.284,
+  "started_at": "2026-11-08T04:34:02.941Z",
+  "listed_at": "2026-11-08T04:34:05.756Z",
+  "duration_ms": 2815.301,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -60,7 +60,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2008-11-04T18:53:00",
-    "latest_modified_at": "2026-10-29T14:48:00"
+    "latest_modified_at": "2026-11-05T11:00:00"
   },
   "entries": [
     {
@@ -181,7 +181,7 @@
       "name": "LS_Files",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-29T14:48:00",
+      "modified_at": "2026-11-05T11:00:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -371,7 +371,7 @@
       "name": "tsg_ran",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-29T12:22:00",
+      "modified_at": "2026-11-02T14:01:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

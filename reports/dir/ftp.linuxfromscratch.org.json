@@ -3,11 +3,11 @@
   "url": "ftp://ftp.linuxfromscratch.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:04:01.497Z",
-  "tcp_latency_ms": 30172.437,
-  "started_at": "2026-10-31T22:05:24.059Z",
-  "listed_at": "2026-10-31T22:07:10.553Z",
-  "duration_ms": 106494.373,
+  "checked_at": "2026-11-08T04:32:34.218Z",
+  "tcp_latency_ms": 20250.679,
+  "started_at": "2026-11-08T04:34:06.288Z",
+  "listed_at": "2026-11-08T04:34:21.701Z",
+  "duration_ms": 15412.834,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 1030,
     "oldest_modified_at": "2015-06-15T00:00:00",
-    "latest_modified_at": "2026-10-13T23:37:00"
+    "latest_modified_at": "2026-11-02T23:20:00"
   },
   "entries": [
     {
@@ -141,7 +141,7 @@
       "name": "pub",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-10-09T23:37:00",
+      "modified_at": "2026-11-02T23:20:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

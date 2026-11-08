@@ -3,11 +3,11 @@
   "url": "ftp://ftp.uni-hannover.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:02:34.790Z",
-  "tcp_latency_ms": 245.941,
-  "started_at": "2026-10-31T22:05:08.686Z",
-  "listed_at": "2026-10-31T22:05:11.249Z",
-  "duration_ms": 2563.229,
+  "checked_at": "2026-11-08T04:31:17.109Z",
+  "tcp_latency_ms": 145.95,
+  "started_at": "2026-11-08T04:33:50.720Z",
+  "listed_at": "2026-11-08T04:33:54.227Z",
+  "duration_ms": 3507.018,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -54,14 +54,14 @@
     "link_target": null
   },
   "summary": {
-    "entries": 30,
+    "entries": 29,
     "files": 1,
     "directories": 1,
-    "links": 28,
+    "links": 27,
     "other": 0,
     "file_bytes": 889,
     "oldest_modified_at": "2022-02-21T00:00:00",
-    "latest_modified_at": "2026-09-02T09:12:00"
+    "latest_modified_at": "2026-11-04T06:31:00"
   },
   "entries": [
     {
@@ -369,25 +369,6 @@
       "link_target": "pub/linux/mageia"
     },
     {
-      "name": "netbsd",
-      "type": "link",
-      "size": 10,
-      "modified_at": "2022-02-21T00:00:00",
-      "created_at": null,
-      "accessed_at": null,
-      "changed_at": null,
-      "created_by": "ftp",
-      "group": "ftp",
-      "uid": null,
-      "gid": null,
-      "permissions": "lrwxrwxrwx",
-      "mode": null,
-      "perm": null,
-      "unique_id": null,
-      "media_type": null,
-      "link_target": "pub/NetBSD"
-    },
-    {
       "name": "openbsd",
       "type": "link",
       "size": 11,
@@ -428,8 +409,8 @@
     {
       "name": "pub",
       "type": "directory",
-      "size": 245,
-      "modified_at": "2026-09-02T09:12:00",
+      "size": 227,
+      "modified_at": "2026-11-04T06:31:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

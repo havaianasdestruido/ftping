@@ -3,11 +3,11 @@
   "url": "ftp://ftp.kraft-s.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:04:04.177Z",
-  "tcp_latency_ms": 917.526,
-  "started_at": "2026-10-31T22:05:31.524Z",
-  "listed_at": "2026-10-31T22:05:34.305Z",
-  "duration_ms": 2781.211,
+  "checked_at": "2026-11-08T04:32:45.459Z",
+  "tcp_latency_ms": 864.056,
+  "started_at": "2026-11-08T04:34:14.861Z",
+  "listed_at": "2026-11-08T04:34:18.299Z",
+  "duration_ms": 3438.597,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -63,14 +63,14 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2011-11-11T12:45:49Z",
-    "latest_modified_at": "2025-12-30T11:16:10Z"
+    "latest_modified_at": "2026-11-05T03:43:14Z"
   },
   "entries": [
     {
       "name": "testupload",
       "type": "directory",
       "size": null,
-      "modified_at": "2025-12-30T11:16:10Z",
+      "modified_at": "2026-11-05T03:43:14Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

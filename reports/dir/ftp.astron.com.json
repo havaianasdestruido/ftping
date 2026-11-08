@@ -3,11 +3,11 @@
   "url": "ftp://ftp.astron.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:01:46.360Z",
-  "tcp_latency_ms": 125.85,
-  "started_at": "2026-10-31T22:04:57.978Z",
-  "listed_at": "2026-10-31T22:04:58.616Z",
-  "duration_ms": 638.656,
+  "checked_at": "2026-11-08T04:30:28.603Z",
+  "tcp_latency_ms": 193.775,
+  "started_at": "2026-11-08T04:33:39.537Z",
+  "listed_at": "2026-11-08T04:33:40.443Z",
+  "duration_ms": 906.129,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -65,14 +65,14 @@
     "other": 0,
     "file_bytes": 983,
     "oldest_modified_at": "2004-08-31T22:24:11Z",
-    "latest_modified_at": "2026-10-29T02:48:55Z"
+    "latest_modified_at": "2026-11-04T00:12:58Z"
   },
   "entries": [
     {
       "name": "pri",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-29T02:48:55Z",
+      "modified_at": "2026-11-04T00:12:58Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

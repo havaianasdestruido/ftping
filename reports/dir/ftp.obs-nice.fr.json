@@ -3,11 +3,11 @@
   "url": "ftp://ftp.obs-nice.fr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:02:55.795Z",
-  "tcp_latency_ms": 374.379,
-  "started_at": "2026-10-31T22:05:12.382Z",
-  "listed_at": "2026-10-31T22:05:14.639Z",
-  "duration_ms": 2256.268,
+  "checked_at": "2026-11-08T04:31:38.154Z",
+  "tcp_latency_ms": 310.819,
+  "started_at": "2026-11-08T04:33:54.588Z",
+  "listed_at": "2026-11-08T04:33:56.997Z",
+  "duration_ms": 2409.781,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -54,7 +54,7 @@
     "permissions": "drwxr-xr-x",
     "mode": "0755",
     "perm": "fle",
-    "unique_id": "100086U2",
+    "unique_id": "1000A0U2",
     "media_type": null,
     "link_target": null
   },
@@ -84,7 +84,7 @@
       "permissions": "-rw-r--r--",
       "mode": "0644",
       "perm": "adfr",
-      "unique_id": "100086UC",
+      "unique_id": "1000A0UC",
       "media_type": null,
       "link_target": null
     },
@@ -103,7 +103,7 @@
       "permissions": "drwxr-xr-x",
       "mode": "0755",
       "perm": "fle",
-      "unique_id": "100086U840001",
+      "unique_id": "1000A0U840001",
       "media_type": null,
       "link_target": null
     },
@@ -122,7 +122,7 @@
       "permissions": "drwx------",
       "mode": "0700",
       "perm": null,
-      "unique_id": "100086UB",
+      "unique_id": "1000A0UB",
       "media_type": null,
       "link_target": null
     }

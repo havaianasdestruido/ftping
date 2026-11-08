@@ -3,11 +3,11 @@
   "url": "ftp://ftp.fr.netbsd.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:03:29.051Z",
-  "tcp_latency_ms": 424.971,
-  "started_at": "2026-10-31T22:05:22.963Z",
-  "listed_at": "2026-10-31T22:05:24.660Z",
-  "duration_ms": 1696.753,
+  "checked_at": "2026-11-08T04:32:11.665Z",
+  "tcp_latency_ms": 437.39,
+  "started_at": "2026-11-08T04:34:05.316Z",
+  "listed_at": "2026-11-08T04:34:07.578Z",
+  "duration_ms": 2262.882,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -55,7 +55,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2004-09-28T21:58:25Z",
-    "latest_modified_at": "2026-10-31T19:40:49Z"
+    "latest_modified_at": "2026-11-08T01:33:22Z"
   },
   "entries": [
     {
@@ -176,7 +176,7 @@
       "name": "tmp",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-31T19:40:49Z",
+      "modified_at": "2026-11-08T01:33:22Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

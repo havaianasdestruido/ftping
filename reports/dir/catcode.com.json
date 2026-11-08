@@ -3,11 +3,11 @@
   "url": "ftp://catcode.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:01:41.964Z",
-  "tcp_latency_ms": 128.355,
-  "started_at": "2026-10-31T22:04:57.974Z",
-  "listed_at": "2026-10-31T22:04:58.621Z",
-  "duration_ms": 647.139,
+  "checked_at": "2026-11-08T04:30:24.246Z",
+  "tcp_latency_ms": 97.593,
+  "started_at": "2026-11-08T04:33:39.531Z",
+  "listed_at": "2026-11-08T04:33:39.956Z",
+  "duration_ms": 424.819,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -16,7 +16,7 @@
   "timestamps_timezone": "utc",
   "unparsed_lines": 0,
   "server": {
-    "welcome": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 150 allowed.\n220-Local time is now 16:04. Server port: 21.\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.",
+    "welcome": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 14 of 150 allowed.\n220-Local time is now 21:33. Server port: 21.\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.",
     "login_response": "Anonymous user logged in",
     "system": "UNIX Type: L8",
     "features": [
@@ -45,7 +45,7 @@
     "name": "/",
     "type": "directory",
     "size": null,
-    "modified_at": "2026-10-01T07:41:43Z",
+    "modified_at": "2026-11-01T07:40:54Z",
     "created_at": null,
     "accessed_at": null,
     "changed_at": null,
@@ -67,15 +67,15 @@
     "links": 0,
     "other": 0,
     "file_bytes": 4,
-    "oldest_modified_at": "2026-10-01T07:41:43Z",
-    "latest_modified_at": "2026-10-01T07:41:43Z"
+    "oldest_modified_at": "2026-11-01T07:40:54Z",
+    "latest_modified_at": "2026-11-01T07:40:54Z"
   },
   "entries": [
     {
       "name": ".ftpquota",
       "type": "file",
       "size": 4,
-      "modified_at": "2026-10-01T07:41:43Z",
+      "modified_at": "2026-11-01T07:40:54Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -86,7 +86,7 @@
       "permissions": "-rw-r--r--",
       "mode": "0644",
       "perm": null,
-      "unique_id": "820g45dce0d",
+      "unique_id": "820g45c567a",
       "media_type": null,
       "link_target": null
     }

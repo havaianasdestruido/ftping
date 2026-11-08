@@ -3,11 +3,11 @@
   "url": "ftp://ftp.unitopia.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:02:35.670Z",
-  "tcp_latency_ms": 469.25,
-  "started_at": "2026-10-31T22:05:09.021Z",
-  "listed_at": "2026-10-31T22:05:10.776Z",
-  "duration_ms": 1754.915,
+  "checked_at": "2026-11-08T04:31:18.132Z",
+  "tcp_latency_ms": 580.246,
+  "started_at": "2026-11-08T04:33:51.133Z",
+  "listed_at": "2026-11-08T04:33:53.320Z",
+  "duration_ms": 2187.469,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -62,7 +62,7 @@
     "other": 0,
     "file_bytes": 1358,
     "oldest_modified_at": "2001-12-14T23:23:18Z",
-    "latest_modified_at": "2026-10-31T02:47:07Z"
+    "latest_modified_at": "2026-11-08T02:47:02Z"
   },
   "entries": [
     {
@@ -88,7 +88,7 @@
       "name": "UNItopia",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-10-31T02:47:07Z",
+      "modified_at": "2026-11-08T02:47:02Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

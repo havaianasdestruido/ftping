@@ -3,11 +3,11 @@
   "url": "ftp://ftp.eimb.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:28:25.052Z",
-  "tcp_latency_ms": 778.492,
-  "started_at": "2026-10-22T03:29:58.703Z",
-  "listed_at": "2026-10-22T03:30:01.401Z",
-  "duration_ms": 2697.912,
+  "checked_at": "2026-11-08T04:32:37.360Z",
+  "tcp_latency_ms": 709.872,
+  "started_at": "2026-11-08T04:34:12.688Z",
+  "listed_at": "2026-11-08T04:34:15.634Z",
+  "duration_ms": 2946.451,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -17,7 +17,7 @@
   "unparsed_lines": 0,
   "server": {
     "welcome": "220 ProFTPD Server (EIMB Public FTP) [85.89.102.20]",
-    "login_response": "Welcome, archive user anonymous@52.173.165.164 !\n \n The local time is: Thu Oct 22 06:29:59 2026\n \n This is an experimental FTP server.  If you have any unusual problems,\n please report them via e-mail to <root@ueimb>.\n \n230 Anonymous access granted, restrictions apply",
+    "login_response": "Welcome, archive user anonymous@104.40.47.146 !\n \n The local time is: Sun Nov 08 07:34:13 2026\n \n This is an experimental FTP server.  If you have any unusual problems,\n please report them via e-mail to <root@ueimb>.\n \n230 Anonymous access granted, restrictions apply",
     "system": "UNIX Type: L8",
     "features": [
       "AUTH",
@@ -70,7 +70,7 @@
     "other": 0,
     "file_bytes": 98429,
     "oldest_modified_at": "1990-03-02T21:00:00Z",
-    "latest_modified_at": "2026-09-24T06:58:55Z"
+    "latest_modified_at": "2026-11-05T15:03:17Z"
   },
   "entries": [
     {
@@ -210,7 +210,7 @@
       "name": "tmp",
       "type": "directory",
       "size": null,
-      "modified_at": "2024-11-13T08:17:46Z",
+      "modified_at": "2026-11-05T15:03:17Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -248,7 +248,7 @@
       "name": "engelhardt",
       "type": "directory",
       "size": null,
-      "modified_at": "2025-05-15T11:07:35Z",
+      "modified_at": "2026-10-26T08:01:08Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

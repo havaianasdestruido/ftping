@@ -3,17 +3,17 @@
   "url": "ftp://ftp.virata.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:02:16.956Z",
-  "tcp_latency_ms": 171.295,
-  "started_at": "2026-10-31T22:05:03.334Z",
-  "listed_at": "2026-10-31T22:05:03.717Z",
-  "duration_ms": 382.837,
+  "checked_at": "2026-11-08T04:30:59.217Z",
+  "tcp_latency_ms": 173.404,
+  "started_at": "2026-11-08T04:33:45.178Z",
+  "listed_at": "2026-11-08T04:33:46.045Z",
+  "duration_ms": 867.532,
   "path": "/",
   "login": "anonymous",
   "status": "error",
   "error": {
     "type": "error_perm",
-    "message": "530 Login incorrect."
+    "message": "530 User cannot log in."
   },
   "listing_method": null,
   "timestamps_timezone": null,

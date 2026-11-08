@@ -3,11 +3,11 @@
   "url": "ftp://ftp.cs.orst.edu/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:02:41.970Z",
-  "tcp_latency_ms": 554.138,
-  "started_at": "2026-10-31T22:05:09.707Z",
-  "listed_at": "2026-10-31T22:05:10.874Z",
-  "duration_ms": 1167.835,
+  "checked_at": "2026-11-08T04:31:24.404Z",
+  "tcp_latency_ms": 189.521,
+  "started_at": "2026-11-08T04:33:52.149Z",
+  "listed_at": "2026-11-08T04:33:52.958Z",
+  "duration_ms": 808.62,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -53,7 +53,7 @@
     "permissions": "drwxrwxr-x",
     "mode": "0775",
     "perm": "fle",
-    "unique_id": "2BU3C6166B",
+    "unique_id": "2CU3C6166B",
     "media_type": null,
     "link_target": null
   },
@@ -83,7 +83,7 @@
       "permissions": "dr-xrwxr-x",
       "mode": "0575",
       "perm": "fle",
-      "unique_id": "2BU140C4801",
+      "unique_id": "2CU140C4801",
       "media_type": null,
       "link_target": null
     },
@@ -102,7 +102,7 @@
       "permissions": "-rw-rw-r--",
       "mode": "0664",
       "perm": "adfr",
-      "unique_id": "2BU14EFD3DC",
+      "unique_id": "2CU14EFD3DC",
       "media_type": null,
       "link_target": null
     }

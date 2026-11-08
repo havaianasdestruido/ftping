@@ -3,11 +3,11 @@
   "url": "ftp://ftp.ntplx.net/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:03:13.844Z",
-  "tcp_latency_ms": 144.808,
-  "started_at": "2026-10-31T22:05:17.445Z",
-  "listed_at": "2026-10-31T22:05:18.299Z",
-  "duration_ms": 853.699,
+  "checked_at": "2026-11-08T04:31:56.764Z",
+  "tcp_latency_ms": 193.731,
+  "started_at": "2026-11-08T04:33:59.915Z",
+  "listed_at": "2026-11-08T04:34:01.037Z",
+  "duration_ms": 1121.859,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -71,7 +71,7 @@
     "other": 0,
     "file_bytes": 197660,
     "oldest_modified_at": "1995-04-09T05:23:43Z",
-    "latest_modified_at": "2026-10-16T06:26:59Z"
+    "latest_modified_at": "2026-11-07T21:14:08Z"
   },
   "entries": [
     {
@@ -97,7 +97,7 @@
       "name": "test",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-03T02:46:44Z",
+      "modified_at": "2026-11-07T21:14:08Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -249,7 +249,7 @@
       "name": "dropbox",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-16T06:26:59Z",
+      "modified_at": "2026-11-06T02:04:31Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
