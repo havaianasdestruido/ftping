@@ -3,27 +3,32 @@
   "url": "ftp://ftp.ct0.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-31T22:01:51.821Z",
-  "tcp_latency_ms": 930.548,
-  "started_at": "2026-10-31T22:04:58.270Z",
-  "listed_at": "2026-10-31T22:05:29.359Z",
-  "duration_ms": 31089.293,
+  "checked_at": "2026-11-09T04:42:55.009Z",
+  "tcp_latency_ms": 872.181,
+  "started_at": "2026-11-09T04:46:03.718Z",
+  "listed_at": "2026-11-09T04:46:05.505Z",
+  "duration_ms": 1787.582,
   "path": "/",
   "login": "anonymous",
-  "status": "error",
-  "error": {
-    "type": "TimeoutError",
-    "message": "timed out"
-  },
-  "listing_method": null,
-  "timestamps_timezone": null,
+  "status": "ok",
+  "error": null,
+  "listing_method": "list",
+  "timestamps_timezone": "server-local",
   "unparsed_lines": 0,
   "server": {
-    "welcome": null,
-    "login_response": null,
-    "system": null,
-    "features": [],
-    "encoding": null
+    "welcome": "220 Welcome to ftp.ct0.com.",
+    "login_response": "Login successful.",
+    "system": "UNIX Type: L8",
+    "features": [
+      "EPSV",
+      "MDTM",
+      "PASV",
+      "REST",
+      "SIZE",
+      "TVFS",
+      "UTF8"
+    ],
+    "encoding": "utf-8"
   },
   "root": {
     "name": "/",
@@ -45,14 +50,72 @@
     "link_target": null
   },
   "summary": {
-    "entries": 0,
+    "entries": 3,
     "files": 0,
-    "directories": 0,
+    "directories": 3,
     "links": 0,
     "other": 0,
     "file_bytes": 0,
-    "oldest_modified_at": null,
-    "latest_modified_at": null
+    "oldest_modified_at": "2024-09-19T00:00:00",
+    "latest_modified_at": "2026-11-05T14:06:00"
   },
-  "entries": []
+  "entries": [
+    {
+      "name": "incoming",
+      "type": "directory",
+      "size": 4096,
+      "modified_at": "2026-11-05T14:06:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": "0",
+      "group": "100",
+      "uid": null,
+      "gid": null,
+      "permissions": "drwxrwx-wx",
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    },
+    {
+      "name": "outgoing",
+      "type": "directory",
+      "size": 4096,
+      "modified_at": "2026-05-26T15:58:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": "0",
+      "group": "0",
+      "uid": null,
+      "gid": null,
+      "permissions": "drwx-wx-wx",
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    },
+    {
+      "name": "pub",
+      "type": "directory",
+      "size": 4096,
+      "modified_at": "2024-09-19T00:00:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": "0",
+      "group": "50",
+      "uid": null,
+      "gid": null,
+      "permissions": "drwxr-xr-x",
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    }
+  ]
 }

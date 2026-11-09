@@ -3,11 +3,11 @@
   "url": "ftp://ftp.mplayerhq.hu/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-08T04:31:41.947Z",
-  "tcp_latency_ms": 1491.997,
-  "started_at": "2026-11-08T04:33:56.821Z",
-  "listed_at": "2026-11-08T04:34:00.682Z",
-  "duration_ms": 3861.079,
+  "checked_at": "2026-11-09T04:44:03.550Z",
+  "tcp_latency_ms": 1507.968,
+  "started_at": "2026-11-09T04:46:20.894Z",
+  "listed_at": "2026-11-09T04:46:25.114Z",
+  "duration_ms": 4220.237,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2006-03-08T00:00:00",
-    "latest_modified_at": "2026-11-08T04:23:00"
+    "latest_modified_at": "2026-11-09T04:38:00"
   },
   "entries": [
     {
@@ -198,7 +198,7 @@
       "name": "tmp",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-11-08T04:23:00",
+      "modified_at": "2026-11-09T04:38:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
