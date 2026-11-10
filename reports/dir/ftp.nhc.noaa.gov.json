@@ -3,11 +3,11 @@
   "url": "ftp://ftp.nhc.noaa.gov/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-09T04:44:01.145Z",
-  "tcp_latency_ms": 214.581,
-  "started_at": "2026-11-09T04:46:19.766Z",
-  "listed_at": "2026-11-09T04:46:21.024Z",
-  "duration_ms": 1258.002,
+  "checked_at": "2026-11-10T05:59:21.547Z",
+  "tcp_latency_ms": 305.233,
+  "started_at": "2026-11-10T06:01:40.077Z",
+  "listed_at": "2026-11-10T06:01:41.093Z",
+  "duration_ms": 1015.928,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -63,14 +63,14 @@
     "other": 0,
     "file_bytes": 668,
     "oldest_modified_at": "2024-03-27T00:18:53Z",
-    "latest_modified_at": "2026-11-06T14:21:26Z"
+    "latest_modified_at": "2026-11-09T07:31:05Z"
   },
   "entries": [
     {
       "name": "atcf",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-06T14:21:26Z",
+      "modified_at": "2026-11-09T07:31:05Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

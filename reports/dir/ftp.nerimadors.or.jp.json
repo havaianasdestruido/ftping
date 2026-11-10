@@ -3,17 +3,17 @@
   "url": "ftp://ftp.nerimadors.or.jp/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-10-22T03:27:32.912Z",
-  "tcp_latency_ms": 312.636,
-  "started_at": "2026-10-22T03:29:44.151Z",
-  "listed_at": "2026-10-22T03:29:44.907Z",
-  "duration_ms": 755.401,
+  "checked_at": "2026-11-10T05:59:29.270Z",
+  "tcp_latency_ms": 387.274,
+  "started_at": "2026-11-10T06:01:41.758Z",
+  "listed_at": "2026-11-10T06:01:42.478Z",
+  "duration_ms": 719.897,
   "path": "/",
   "login": "anonymous",
   "status": "error",
   "error": {
     "type": "error_perm",
-    "message": "530 User anonymous unknown."
+    "message": "530 Login incorrect."
   },
   "listing_method": null,
   "timestamps_timezone": null,
