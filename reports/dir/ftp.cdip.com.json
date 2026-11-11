@@ -3,11 +3,11 @@
   "url": "ftp://ftp.cdip.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-10T05:58:10.992Z",
-  "tcp_latency_ms": 703.458,
-  "started_at": "2026-11-10T06:01:23.998Z",
-  "listed_at": "2026-11-10T06:01:26.282Z",
-  "duration_ms": 2284.212,
+  "checked_at": "2026-11-11T04:45:52.389Z",
+  "tcp_latency_ms": 417.892,
+  "started_at": "2026-11-11T04:49:00.095Z",
+  "listed_at": "2026-11-11T04:49:02.114Z",
+  "duration_ms": 2018.82,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -66,14 +66,14 @@
     "other": 0,
     "file_bytes": 1827,
     "oldest_modified_at": "2008-11-13T16:57:30Z",
-    "latest_modified_at": "2026-03-02T06:55:32Z"
+    "latest_modified_at": "2026-11-10T13:51:35Z"
   },
   "entries": [
     {
       "name": "pub",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-03-02T06:55:32Z",
+      "modified_at": "2026-11-10T13:51:35Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

@@ -3,11 +3,11 @@
   "url": "ftp://ftp.dbit.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-10T05:58:16.164Z",
-  "tcp_latency_ms": 2248.469,
-  "started_at": "2026-11-10T06:01:24.443Z",
-  "listed_at": "2026-11-10T06:01:25.178Z",
-  "duration_ms": 735.497,
+  "checked_at": "2026-11-11T04:45:55.458Z",
+  "tcp_latency_ms": 47.472,
+  "started_at": "2026-11-11T04:49:00.498Z",
+  "listed_at": "2026-11-11T04:49:00.548Z",
+  "duration_ms": 50.536,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -57,14 +57,14 @@
     "other": 0,
     "file_bytes": 215,
     "oldest_modified_at": "2002-08-14T15:07:19Z",
-    "latest_modified_at": "2026-09-17T05:22:57Z"
+    "latest_modified_at": "2026-11-11T03:10:43Z"
   },
   "entries": [
     {
       "name": "incoming",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-09-17T05:22:57Z",
+      "modified_at": "2026-11-11T03:10:43Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

@@ -3,11 +3,11 @@
   "url": "ftp://ftp.saix.net/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-10T05:59:40.513Z",
-  "tcp_latency_ms": 301.918,
-  "started_at": "2026-11-10T06:01:44.497Z",
-  "listed_at": "2026-11-10T06:01:49.164Z",
-  "duration_ms": 4666.683,
+  "checked_at": "2026-11-11T04:47:19.180Z",
+  "tcp_latency_ms": 237.653,
+  "started_at": "2026-11-11T04:49:18.223Z",
+  "listed_at": "2026-11-11T04:49:22.588Z",
+  "duration_ms": 4364.712,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -59,9 +59,9 @@
     "directories": 1,
     "links": 0,
     "other": 0,
-    "file_bytes": 2045924439,
+    "file_bytes": 2049588305,
     "oldest_modified_at": "2017-03-29T11:55:50Z",
-    "latest_modified_at": "2026-11-08T23:19:33Z"
+    "latest_modified_at": "2026-11-10T21:45:03Z"
   },
   "entries": [
     {
@@ -105,8 +105,8 @@
     {
       "name": "ls-lR.gz",
       "type": "file",
-      "size": 224970115,
-      "modified_at": "2026-11-08T23:19:33Z",
+      "size": 225389255,
+      "modified_at": "2026-11-10T21:45:03Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -124,8 +124,8 @@
     {
       "name": "ls-lR",
       "type": "file",
-      "size": 1820954255,
-      "modified_at": "2026-11-08T23:13:16Z",
+      "size": 1824198981,
+      "modified_at": "2026-11-10T21:38:41Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

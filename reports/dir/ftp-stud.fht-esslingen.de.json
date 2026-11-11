@@ -3,11 +3,11 @@
   "url": "ftp://ftp-stud.fht-esslingen.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-10T05:58:49.152Z",
-  "tcp_latency_ms": 698.552,
-  "started_at": "2026-11-10T06:01:31.663Z",
-  "listed_at": "2026-11-10T06:01:34.394Z",
-  "duration_ms": 2731.3,
+  "checked_at": "2026-11-11T04:46:29.452Z",
+  "tcp_latency_ms": 473.822,
+  "started_at": "2026-11-11T04:49:06.663Z",
+  "listed_at": "2026-11-11T04:49:08.956Z",
+  "duration_ms": 2292.551,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 3034,
     "oldest_modified_at": "2001-09-24T00:00:00",
-    "latest_modified_at": "2026-11-10T07:01:00"
+    "latest_modified_at": "2026-11-11T05:49:00"
   },
   "entries": [
     {
@@ -293,7 +293,7 @@
       "name": "info",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-11-10T07:01:00",
+      "modified_at": "2026-11-11T05:49:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

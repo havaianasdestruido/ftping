@@ -3,11 +3,11 @@
   "url": "ftp://ftp.aero.jussieu.fr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-10T05:59:17.082Z",
-  "tcp_latency_ms": 314.564,
-  "started_at": "2026-11-10T06:01:38.547Z",
-  "listed_at": "2026-11-10T06:01:40.746Z",
-  "duration_ms": 2199.693,
+  "checked_at": "2026-11-11T04:46:57.370Z",
+  "tcp_latency_ms": 1061.044,
+  "started_at": "2026-11-11T04:49:12.598Z",
+  "listed_at": "2026-11-11T04:49:14.274Z",
+  "duration_ms": 1676.123,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -17,7 +17,7 @@
   "unparsed_lines": 0,
   "server": {
     "welcome": "220 134.157.176.97 FTP server ready",
-    "login_response": "230-local time is Tue Nov 10 07:01:39 2026\n230-There are 1 connected users in your class.\n230-All transfers are logged with your host name and e-mail address\n230-to allow us to make statistics on the server use.\n230-\n230-Restricted use for latmos only and invited users  \n230---\n230-free space is 500G of 500G \n230 Anonymous login ok, restrictions apply.",
+    "login_response": "230-local time is Wed Nov 11 05:49:13 2026\n230-There are 1 connected users in your class.\n230-All transfers are logged with your host name and e-mail address\n230-to allow us to make statistics on the server use.\n230-\n230-Restricted use for latmos only and invited users  \n230---\n230-free space is 500G of 500G \n230 Anonymous login ok, restrictions apply.",
     "system": "UNIX Type: L8",
     "features": [
       "MDTM",
@@ -59,7 +59,7 @@
     "other": 0,
     "file_bytes": 164697659,
     "oldest_modified_at": "2011-05-30T15:56:36Z",
-    "latest_modified_at": "2026-11-10T05:51:01Z"
+    "latest_modified_at": "2026-11-11T03:51:01Z"
   },
   "entries": [
     {
@@ -199,7 +199,7 @@
       "name": "welcome.msg",
       "type": "file",
       "size": 259,
-      "modified_at": "2026-11-10T05:51:01Z",
+      "modified_at": "2026-11-11T03:51:01Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

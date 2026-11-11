@@ -3,11 +3,11 @@
   "url": "ftp://ftp.colesoft.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-10T05:58:12.077Z",
-  "tcp_latency_ms": 254.186,
-  "started_at": "2026-11-10T06:01:24.139Z",
-  "listed_at": "2026-11-10T06:01:25.070Z",
-  "duration_ms": 931.855,
+  "checked_at": "2026-11-11T04:45:52.678Z",
+  "tcp_latency_ms": 109.338,
+  "started_at": "2026-11-11T04:49:00.219Z",
+  "listed_at": "2026-11-11T04:49:00.540Z",
+  "duration_ms": 320.922,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -71,7 +71,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2024-07-14T06:25:01Z",
-    "latest_modified_at": "2026-11-09T22:49:29Z"
+    "latest_modified_at": "2026-11-11T04:04:51Z"
   },
   "entries": [
     {
@@ -116,7 +116,7 @@
       "name": "package",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-09T22:49:29Z",
+      "modified_at": "2026-11-11T04:04:51Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

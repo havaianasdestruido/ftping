@@ -3,11 +3,11 @@
   "url": "ftp://ftp.rz.uni-frankfurt.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-10T05:58:57.043Z",
-  "tcp_latency_ms": 691.084,
-  "started_at": "2026-11-10T06:01:34.774Z",
-  "listed_at": "2026-11-10T06:01:37.114Z",
-  "duration_ms": 2340.829,
+  "checked_at": "2026-11-11T04:46:37.198Z",
+  "tcp_latency_ms": 645.658,
+  "started_at": "2026-11-11T04:49:10.075Z",
+  "listed_at": "2026-11-11T04:49:12.217Z",
+  "duration_ms": 2142.073,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -65,7 +65,7 @@
     "other": 0,
     "file_bytes": 43791,
     "oldest_modified_at": "2017-09-27T12:45:11Z",
-    "latest_modified_at": "2026-11-10T03:09:15Z"
+    "latest_modified_at": "2026-11-11T03:09:16Z"
   },
   "entries": [
     {
@@ -205,7 +205,7 @@
       "name": ".esmtp_queue",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-10T03:09:15Z",
+      "modified_at": "2026-11-11T03:09:16Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

@@ -3,11 +3,11 @@
   "url": "ftp://ftp.sjtu.edu.cn/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-10T05:58:06.521Z",
-  "tcp_latency_ms": 2151.912,
-  "started_at": "2026-11-10T06:01:23.989Z",
-  "listed_at": "2026-11-10T06:01:32.152Z",
-  "duration_ms": 8162.657,
+  "checked_at": "2026-11-11T04:45:48.300Z",
+  "tcp_latency_ms": 2095.414,
+  "started_at": "2026-11-11T04:49:00.087Z",
+  "listed_at": "2026-11-11T04:49:08.585Z",
+  "duration_ms": 8498.388,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -61,7 +61,7 @@
     "other": 0,
     "file_bytes": 5378,
     "oldest_modified_at": "2005-11-18T00:00:00",
-    "latest_modified_at": "2026-05-13T01:57:00"
+    "latest_modified_at": "2026-05-13T00:00:00"
   },
   "entries": [
     {
@@ -467,7 +467,7 @@
       "name": "pub",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-05-13T01:57:00",
+      "modified_at": "2026-05-13T00:00:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

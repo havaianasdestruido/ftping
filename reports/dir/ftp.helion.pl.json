@@ -3,11 +3,11 @@
   "url": "ftp://ftp.helion.pl/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-10T06:00:07.301Z",
-  "tcp_latency_ms": 252.876,
-  "started_at": "2026-11-10T06:01:53.758Z",
-  "listed_at": "2026-11-10T06:01:56.180Z",
-  "duration_ms": 2421.948,
+  "checked_at": "2026-11-11T04:47:45.360Z",
+  "tcp_latency_ms": 139.572,
+  "started_at": "2026-11-11T04:49:26.812Z",
+  "listed_at": "2026-11-11T04:49:28.646Z",
+  "duration_ms": 1834.276,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -70,7 +70,7 @@
     "other": 0,
     "file_bytes": 133,
     "oldest_modified_at": "2004-06-22T08:12:42Z",
-    "latest_modified_at": "2026-11-10T05:46:22Z"
+    "latest_modified_at": "2026-11-11T04:35:42Z"
   },
   "entries": [
     {
@@ -134,7 +134,7 @@
       "name": "online",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-10T05:46:22Z",
+      "modified_at": "2026-11-11T04:35:42Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -172,7 +172,7 @@
       "name": "przyklady",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-04T10:38:20Z",
+      "modified_at": "2026-11-10T10:08:23Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

@@ -3,11 +3,11 @@
   "url": "ftp://ftp.club.cc.cmu.edu/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-10T05:59:09.206Z",
-  "tcp_latency_ms": 4754.919,
-  "started_at": "2026-11-10T06:01:36.519Z",
-  "listed_at": "2026-11-10T06:01:38.012Z",
-  "duration_ms": 1492.616,
+  "checked_at": "2026-11-11T04:46:44.616Z",
+  "tcp_latency_ms": 183.57,
+  "started_at": "2026-11-11T04:49:11.249Z",
+  "listed_at": "2026-11-11T04:49:11.697Z",
+  "duration_ms": 448.443,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 5481,
     "oldest_modified_at": "2008-05-23T00:00:00",
-    "latest_modified_at": "2026-11-10T05:15:00"
+    "latest_modified_at": "2026-11-10T23:21:00"
   },
   "entries": [
     {
@@ -274,7 +274,7 @@
       "name": "scene.org",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-11-10T05:15:00",
+      "modified_at": "2026-11-10T23:15:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -293,7 +293,7 @@
       "name": "ubuntu",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-11-10T04:27:00",
+      "modified_at": "2026-11-10T23:21:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
