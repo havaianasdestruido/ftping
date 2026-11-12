@@ -3,11 +3,11 @@
   "url": "ftp://ftp.lip6.fr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-11T04:46:58.801Z",
-  "tcp_latency_ms": 346.303,
-  "started_at": "2026-11-11T04:49:12.997Z",
-  "listed_at": "2026-11-11T04:49:14.715Z",
-  "duration_ms": 1717.479,
+  "checked_at": "2026-11-12T05:48:57.198Z",
+  "tcp_latency_ms": 297.757,
+  "started_at": "2026-11-12T05:51:29.730Z",
+  "listed_at": "2026-11-12T05:51:32.114Z",
+  "duration_ms": 2384.541,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -16,8 +16,8 @@
   "timestamps_timezone": "utc",
   "unparsed_lines": 0,
   "server": {
-    "welcome": "220-\n    \n    \tCe service est assure par le Laboratoire LIP6 et la\n    Direction des Systemes d'Information (DSI) de Sorbonne Universite\n    \n    \tQuestions/renseignements sur ce serveur : ftpmaint@lip6.fr. \n    \n    \tL'heure locale est Wed Nov 11 05:49:13 2026.\n    \tTous les transferts sont enregistres pour permettre l'exploitation\n    statistique de l'utilisation du serveur.\n    \n    ----------\n    \tThis service is provided by the ``Laboratoire LIP6'' (LIP6) and the\n    ``Direction des Systeme",
-    "login_response": "Vous etes dans la classe guest, \n    \tVous venez de 172.183.91.6, \n    \tIl y a actuellement 3 autres connexions dans votre classe. \n    \n    ----------\n    \tYour class is guest, \n    \tYou come from 172.183.91.6, \n    \tThere are currently 3 other connections in your class. \n    \n230 Guest login ok, access restrictions apply.",
+    "welcome": "220-\n    \n    \tCe service est assure par le Laboratoire LIP6 et la\n    Direction des Systemes d'Information (DSI) de Sorbonne Universite\n    \n    \tQuestions/renseignements sur ce serveur : ftpmaint@lip6.fr. \n    \n    \tL'heure locale est Thu Nov 12 06:51:29 2026.\n    \tTous les transferts sont enregistres pour permettre l'exploitation\n    statistique de l'utilisation du serveur.\n    \n    ----------\n    \tThis service is provided by the ``Laboratoire LIP6'' (LIP6) and the\n    ``Direction des Systeme",
+    "login_response": "Vous etes dans la classe guest, \n    \tVous venez de 4.155.111.100, \n    \tIl y a actuellement 3 autres connexions dans votre classe. \n    \n    ----------\n    \tYour class is guest, \n    \tYou come from 4.155.111.100, \n    \tThere are currently 3 other connections in your class. \n    \n230 Guest login ok, access restrictions apply.",
     "system": "UNIX Type: L8 Version: NetBSD-ftpd 20230930",
     "features": [
       "MDTM",
@@ -32,7 +32,7 @@
     "name": "/",
     "type": "directory",
     "size": null,
-    "modified_at": "2026-11-10T09:22:07Z",
+    "modified_at": "2026-11-11T09:21:06Z",
     "created_at": null,
     "accessed_at": null,
     "changed_at": null,
@@ -53,9 +53,9 @@
     "directories": 5,
     "links": 0,
     "other": 0,
-    "file_bytes": 165414480,
+    "file_bytes": 165542905,
     "oldest_modified_at": "2008-11-30T13:52:05Z",
-    "latest_modified_at": "2026-11-10T09:21:35Z"
+    "latest_modified_at": "2026-11-11T09:20:34Z"
   },
   "entries": [
     {
@@ -156,8 +156,8 @@
     {
       "name": "ls-lR.gz",
       "type": "file",
-      "size": 165414480,
-      "modified_at": "2026-11-10T09:21:35Z",
+      "size": 165542905,
+      "modified_at": "2026-11-11T09:20:34Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

@@ -3,11 +3,11 @@
   "url": "ftp://ftp.deepspace6.net/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-11T04:47:13.336Z",
-  "tcp_latency_ms": 266.301,
-  "started_at": "2026-11-11T04:49:17.012Z",
-  "listed_at": "2026-11-11T04:49:18.878Z",
-  "duration_ms": 1865.229,
+  "checked_at": "2026-11-12T05:49:12.712Z",
+  "tcp_latency_ms": 390.828,
+  "started_at": "2026-11-12T05:51:34.368Z",
+  "listed_at": "2026-11-12T05:51:37.334Z",
+  "duration_ms": 2966.003,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -53,7 +53,7 @@
     "permissions": "drw-r--r--",
     "mode": "0644",
     "perm": "fle",
-    "unique_id": "30UAA2328A1D68F136D",
+    "unique_id": "2BUAA2328A1D68F136D",
     "media_type": null,
     "link_target": null
   },
@@ -83,7 +83,7 @@
       "permissions": "drw-r--r--",
       "mode": "0644",
       "perm": "fle",
-      "unique_id": "30U8FFD568A9258535F",
+      "unique_id": "2BU8FFD568A9258535F",
       "media_type": null,
       "link_target": null
     },
@@ -102,7 +102,7 @@
       "permissions": "-rw-r--r--",
       "mode": "0644",
       "perm": "adfr",
-      "unique_id": "30UBD9A4576468CA865",
+      "unique_id": "2BUBD9A4576468CA865",
       "media_type": null,
       "link_target": null
     },
@@ -121,7 +121,7 @@
       "permissions": "-rw-r--r--",
       "mode": "0644",
       "perm": "adfr",
-      "unique_id": "30U88D1F744BB2A92C4",
+      "unique_id": "2BU88D1F744BB2A92C4",
       "media_type": null,
       "link_target": null
     },
@@ -140,7 +140,7 @@
       "permissions": "drw-r--r--",
       "mode": "0644",
       "perm": "fle",
-      "unique_id": "30UA7A18B3687DD22D9",
+      "unique_id": "2BUA7A18B3687DD22D9",
       "media_type": null,
       "link_target": null
     }

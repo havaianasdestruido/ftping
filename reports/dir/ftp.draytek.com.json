@@ -3,11 +3,11 @@
   "url": "ftp://ftp.draytek.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-11T04:45:56.212Z",
-  "tcp_latency_ms": 162.073,
-  "started_at": "2026-11-11T04:49:00.597Z",
-  "listed_at": "2026-11-11T04:49:02.563Z",
-  "duration_ms": 1965.828,
+  "checked_at": "2026-11-12T05:47:49.560Z",
+  "tcp_latency_ms": 216.628,
+  "started_at": "2026-11-12T05:51:14.816Z",
+  "listed_at": "2026-11-12T05:51:17.404Z",
+  "duration_ms": 2587.207,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -47,7 +47,7 @@
     "name": "/",
     "type": "directory",
     "size": null,
-    "modified_at": "2026-11-10T05:38:19Z",
+    "modified_at": "2026-11-11T05:14:11Z",
     "created_at": null,
     "accessed_at": null,
     "changed_at": null,
@@ -70,7 +70,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2008-08-24T14:10:57Z",
-    "latest_modified_at": "2026-10-16T03:46:18Z"
+    "latest_modified_at": "2026-11-09T06:43:36Z"
   },
   "entries": [
     {
@@ -2927,7 +2927,7 @@
       "name": "Utility",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-15T01:59:19Z",
+      "modified_at": "2026-11-09T06:43:36Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
