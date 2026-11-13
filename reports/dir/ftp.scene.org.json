@@ -3,11 +3,11 @@
   "url": "ftp://ftp.scene.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-12T05:49:45.887Z",
-  "tcp_latency_ms": 1409.311,
-  "started_at": "2026-11-12T05:51:43.233Z",
-  "listed_at": "2026-11-12T05:51:48.323Z",
-  "duration_ms": 5089.731,
+  "checked_at": "2026-11-13T05:09:53.750Z",
+  "tcp_latency_ms": 1251.534,
+  "started_at": "2026-11-13T05:11:40.040Z",
+  "listed_at": "2026-11-13T05:11:44.187Z",
+  "duration_ms": 4147.002,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -63,9 +63,9 @@
     "directories": 5,
     "links": 0,
     "other": 0,
-    "file_bytes": 35494902,
+    "file_bytes": 35495814,
     "oldest_modified_at": "2013-11-09T12:55:55Z",
-    "latest_modified_at": "2026-11-12T01:17:10Z"
+    "latest_modified_at": "2026-11-13T01:18:14Z"
   },
   "entries": [
     {
@@ -128,8 +128,8 @@
     {
       "name": "ls-lR",
       "type": "file",
-      "size": 30154022,
-      "modified_at": "2026-11-12T01:17:07Z",
+      "size": 30154844,
+      "modified_at": "2026-11-13T01:18:11Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -204,8 +204,8 @@
     {
       "name": "ls-lR.gz",
       "type": "file",
-      "size": 5340333,
-      "modified_at": "2026-11-12T01:17:10Z",
+      "size": 5340423,
+      "modified_at": "2026-11-13T01:18:14Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

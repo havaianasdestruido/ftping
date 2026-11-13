@@ -3,11 +3,11 @@
   "url": "ftp://ftp.cea.fr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-12T05:48:55.004Z",
-  "tcp_latency_ms": 757.168,
-  "started_at": "2026-11-12T05:51:29.225Z",
-  "listed_at": "2026-11-12T05:51:32.480Z",
-  "duration_ms": 3254.808,
+  "checked_at": "2026-11-13T05:09:10.505Z",
+  "tcp_latency_ms": 548.373,
+  "started_at": "2026-11-13T05:11:27.552Z",
+  "listed_at": "2026-11-13T05:11:30.238Z",
+  "duration_ms": 2685.352,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2011-10-07T00:00:00",
-    "latest_modified_at": "2026-11-11T06:29:00"
+    "latest_modified_at": "2026-11-12T06:29:00"
   },
   "entries": [
     {
@@ -84,7 +84,7 @@
       "name": "TRUST",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-11-11T06:29:00",
+      "modified_at": "2026-11-12T06:29:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

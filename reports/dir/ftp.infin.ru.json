@@ -3,11 +3,11 @@
   "url": "ftp://ftp.infin.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-12T05:50:10.648Z",
-  "tcp_latency_ms": 712.932,
-  "started_at": "2026-11-12T05:51:49.268Z",
-  "listed_at": "2026-11-12T05:51:51.760Z",
-  "duration_ms": 2492.838,
+  "checked_at": "2026-11-13T05:10:16.176Z",
+  "tcp_latency_ms": 466.972,
+  "started_at": "2026-11-13T05:11:45.842Z",
+  "listed_at": "2026-11-13T05:11:48.068Z",
+  "duration_ms": 2225.928,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -16,7 +16,7 @@
   "timestamps_timezone": "utc",
   "unparsed_lines": 0,
   "server": {
-    "welcome": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 25 allowed.\n220-Local time is now 08:51. Server port: 21.\n220 You will be disconnected after 5 minutes of inactivity.",
+    "welcome": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 25 allowed.\n220-Local time is now 08:11. Server port: 21.\n220 You will be disconnected after 5 minutes of inactivity.",
     "login_response": "Your bandwidth usage is restricted\n230 Anonymous user logged in",
     "system": "UNIX Type: L8",
     "features": [
@@ -44,7 +44,7 @@
     "name": "/",
     "type": "directory",
     "size": null,
-    "modified_at": "2026-11-06T09:47:20Z",
+    "modified_at": "2026-11-12T08:22:28Z",
     "created_at": null,
     "accessed_at": null,
     "changed_at": null,
@@ -65,9 +65,9 @@
     "directories": 5,
     "links": 0,
     "other": 0,
-    "file_bytes": 30107129,
+    "file_bytes": 31912832,
     "oldest_modified_at": "2021-05-02T17:00:06Z",
-    "latest_modified_at": "2026-11-11T07:30:36Z"
+    "latest_modified_at": "2026-11-12T08:22:06Z"
   },
   "entries": [
     {
@@ -111,8 +111,8 @@
     {
       "name": "Price_01_11_2026.pdf",
       "type": "file",
-      "size": 488337,
-      "modified_at": "2026-11-06T09:44:24Z",
+      "size": 2294040,
+      "modified_at": "2026-11-12T08:22:06Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -123,7 +123,7 @@
       "permissions": "-rw-r--r--",
       "mode": "0644",
       "perm": null,
-      "unique_id": "ca11g3c47a7",
+      "unique_id": "ca11g3c08bb",
       "media_type": null,
       "link_target": null
     },
@@ -150,7 +150,7 @@
       "name": "distrib",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-11T07:30:36Z",
+      "modified_at": "2026-11-12T07:21:53Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

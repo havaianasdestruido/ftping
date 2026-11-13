@@ -3,11 +3,11 @@
   "url": "ftp://ftp.helion.pl/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-12T05:49:51.214Z",
-  "tcp_latency_ms": 173.882,
-  "started_at": "2026-11-12T05:51:45.238Z",
-  "listed_at": "2026-11-12T05:51:47.735Z",
-  "duration_ms": 2496.743,
+  "checked_at": "2026-11-13T05:09:59.117Z",
+  "tcp_latency_ms": 321.57,
+  "started_at": "2026-11-13T05:11:42.239Z",
+  "listed_at": "2026-11-13T05:11:44.265Z",
+  "duration_ms": 2026.881,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -70,7 +70,7 @@
     "other": 0,
     "file_bytes": 133,
     "oldest_modified_at": "2004-06-22T08:12:42Z",
-    "latest_modified_at": "2026-11-12T05:40:53Z"
+    "latest_modified_at": "2026-11-13T04:34:07Z"
   },
   "entries": [
     {
@@ -134,7 +134,7 @@
       "name": "online",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-12T05:40:53Z",
+      "modified_at": "2026-11-13T04:34:07Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
