@@ -3,11 +3,11 @@
   "url": "ftp://ftp.ifarchive.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-13T05:09:46.888Z",
-  "tcp_latency_ms": 90.409,
-  "started_at": "2026-11-13T05:11:38.722Z",
-  "listed_at": "2026-11-13T05:11:39.108Z",
-  "duration_ms": 385.764,
+  "checked_at": "2026-11-14T04:59:46.662Z",
+  "tcp_latency_ms": 29.304,
+  "started_at": "2026-11-14T05:01:35.276Z",
+  "listed_at": "2026-11-14T05:01:35.445Z",
+  "duration_ms": 168.468,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -16,7 +16,7 @@
   "timestamps_timezone": "utc",
   "unparsed_lines": 0,
   "server": {
-    "welcome": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 05:11. Server port: 21.\n220-Only anonymous FTP is allowed here\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.",
+    "welcome": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 50 allowed.\n220-Local time is now 05:01. Server port: 21.\n220-Only anonymous FTP is allowed here\n220-IPv6 connections are also welcome on this server.\n220 You will be disconnected after 15 minutes of inactivity.",
     "login_response": "Your bandwidth usage is restricted\n230 Anonymous user logged in",
     "system": "UNIX Type: L8",
     "features": [
@@ -66,9 +66,9 @@
     "directories": 26,
     "links": 4,
     "other": 0,
-    "file_bytes": 4252658,
+    "file_bytes": 4253123,
     "oldest_modified_at": "2001-08-03T06:12:02Z",
-    "latest_modified_at": "2026-11-09T19:46:49Z"
+    "latest_modified_at": "2026-11-13T22:19:19Z"
   },
   "entries": [
     {
@@ -169,8 +169,8 @@
     {
       "name": "Master-Index",
       "type": "file",
-      "size": 2258884,
-      "modified_at": "2026-11-09T19:46:49Z",
+      "size": 2259334,
+      "modified_at": "2026-11-13T22:19:19Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -246,7 +246,7 @@
       "name": "solutions",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-05T01:31:08Z",
+      "modified_at": "2026-11-13T22:18:09Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -664,7 +664,7 @@
       "name": "unprocessed",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-09T19:46:44Z",
+      "modified_at": "2026-11-13T22:15:32Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -701,8 +701,8 @@
     {
       "name": "ls-lR",
       "type": "file",
-      "size": 1954751,
-      "modified_at": "2026-11-09T19:46:48Z",
+      "size": 1954766,
+      "modified_at": "2026-11-13T22:19:18Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

@@ -3,11 +3,11 @@
   "url": "ftp://ftp.apple.asimov.net/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-13T05:09:24.214Z",
-  "tcp_latency_ms": 77.598,
-  "started_at": "2026-11-13T05:11:32.281Z",
-  "listed_at": "2026-11-13T05:11:32.652Z",
-  "duration_ms": 371.296,
+  "checked_at": "2026-11-14T04:59:23.631Z",
+  "tcp_latency_ms": 43.786,
+  "started_at": "2026-11-14T05:01:28.430Z",
+  "listed_at": "2026-11-14T05:01:28.727Z",
+  "duration_ms": 296.562,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -54,7 +54,7 @@
     "permissions": null,
     "mode": null,
     "perm": "flcdmpe",
-    "unique_id": "FC01U4C",
+    "unique_id": "FC04U4C",
     "media_type": null,
     "link_target": null
   },
@@ -84,7 +84,7 @@
       "permissions": null,
       "mode": null,
       "perm": "flcdmpe",
-      "unique_id": "FC01U40000044",
+      "unique_id": "FC04U40000044",
       "media_type": null,
       "link_target": null
     },
@@ -103,7 +103,7 @@
       "permissions": "-rw-rw-r--",
       "mode": "0664",
       "perm": "adfrw",
-      "unique_id": "FC01U8ADA7AF",
+      "unique_id": "FC04U8ADA7AF",
       "media_type": null,
       "link_target": null
     }

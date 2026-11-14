@@ -3,11 +3,11 @@
   "url": "ftp://ftp.taygeta.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-13T05:08:30.289Z",
-  "tcp_latency_ms": 131.978,
-  "started_at": "2026-11-13T05:11:19.523Z",
-  "listed_at": "2026-11-13T05:11:20.528Z",
-  "duration_ms": 1004.431,
+  "checked_at": "2026-11-14T04:58:31.080Z",
+  "tcp_latency_ms": 196.894,
+  "started_at": "2026-11-14T05:01:16.249Z",
+  "listed_at": "2026-11-14T05:01:17.885Z",
+  "duration_ms": 1635.688,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -17,21 +17,21 @@
   "unparsed_lines": 0,
   "server": {
     "welcome": "220 ProFTPD 1.3.5 Server (Taygeta Anonymous FTP Service) [10.250.7.157]",
-    "login_response": "Welcome to the Taygeta Scientific Inc anonymous FTP service\n        on ftp.taygeta.com. 20.80.79.68, you are user\n        number 1 of 24 anonymous users allowed.\n     \n \t  Please send any comments, suggestions, or reports of\n \t  problems to ftpadm@taygeta.com.  Problem reports should\n \t  include the time, date and your host name and IP.\n \t  \n \n          INCOMING CONTRIBUTIONS should go to /incoming or /incoming/forth\n \n \n     This archive is now searchable from http://www.taygeta.com/misc/ftpsea",
+    "login_response": "Welcome to the Taygeta Scientific Inc anonymous FTP service\n        on ftp.taygeta.com. 20.109.86.224, you are user\n        number 1 of 24 anonymous users allowed.\n     \n \t  Please send any comments, suggestions, or reports of\n \t  problems to ftpadm@taygeta.com.  Problem reports should\n \t  include the time, date and your host name and IP.\n \t  \n \n          INCOMING CONTRIBUTIONS should go to /incoming or /incoming/forth\n \n \n     This archive is now searchable from http://www.taygeta.com/misc/ftps",
     "system": "UNIX Type: L8",
     "features": [
-      "SIZE",
       "SITE",
+      "MDTM",
+      "TVFS",
+      "MFMT",
+      "LANG",
+      "SIZE",
       "MFF",
       "REST",
       "MLST",
       "UTF8",
       "EPRT",
-      "EPSV",
-      "MDTM",
-      "TVFS",
-      "MFMT",
-      "LANG"
+      "EPSV"
     ],
     "encoding": "utf-8"
   },
@@ -62,14 +62,14 @@
     "other": 0,
     "file_bytes": 1051,
     "oldest_modified_at": "2021-07-13T20:00:59Z",
-    "latest_modified_at": "2026-11-13T05:00:01Z"
+    "latest_modified_at": "2026-11-14T05:00:01Z"
   },
   "entries": [
     {
       "name": ".welcome",
       "type": "file",
       "size": 701,
-      "modified_at": "2026-11-13T05:00:01Z",
+      "modified_at": "2026-11-14T05:00:01Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
