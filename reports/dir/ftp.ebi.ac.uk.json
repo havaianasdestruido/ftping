@@ -3,11 +3,11 @@
   "url": "ftp://ftp.ebi.ac.uk/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-14T05:00:51.092Z",
-  "tcp_latency_ms": 364.958,
-  "started_at": "2026-11-14T05:01:46.640Z",
-  "listed_at": "2026-11-14T05:01:48.330Z",
-  "duration_ms": 1689.467,
+  "checked_at": "2026-11-15T04:54:17.445Z",
+  "tcp_latency_ms": 925.682,
+  "started_at": "2026-11-15T04:55:13.198Z",
+  "listed_at": "2026-11-15T04:55:15.036Z",
+  "duration_ms": 1838.409,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 1242,
     "oldest_modified_at": "2023-08-31T00:00:00",
-    "latest_modified_at": "2026-11-11T19:49:00"
+    "latest_modified_at": "2026-11-12T22:55:00"
   },
   "entries": [
     {
@@ -274,7 +274,7 @@
       "name": "pride-archive",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-11-11T19:49:00",
+      "modified_at": "2026-11-12T22:55:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -350,7 +350,7 @@
       "name": "vol1",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-10-30T21:22:00",
+      "modified_at": "2026-11-10T23:56:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
