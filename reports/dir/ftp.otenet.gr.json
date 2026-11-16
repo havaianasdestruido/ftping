@@ -3,11 +3,11 @@
   "url": "ftp://ftp.otenet.gr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-15T04:52:40.284Z",
-  "tcp_latency_ms": 677.416,
-  "started_at": "2026-11-15T04:54:51.491Z",
-  "listed_at": "2026-11-15T04:54:54.077Z",
-  "duration_ms": 2585.307,
+  "checked_at": "2026-11-16T04:49:06.954Z",
+  "tcp_latency_ms": 418.322,
+  "started_at": "2026-11-16T04:51:22.995Z",
+  "listed_at": "2026-11-16T04:51:26.755Z",
+  "duration_ms": 3759.539,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,14 +58,14 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2007-05-25T00:00:00",
-    "latest_modified_at": "2026-11-08T09:13:00"
+    "latest_modified_at": "2026-11-15T09:13:00"
   },
   "entries": [
     {
       "name": "FILELIST.gz",
       "type": "file",
       "size": 0,
-      "modified_at": "2026-11-08T09:13:00",
+      "modified_at": "2026-11-15T09:13:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

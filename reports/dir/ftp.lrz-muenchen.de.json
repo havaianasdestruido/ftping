@@ -3,11 +3,11 @@
   "url": "ftp://ftp.lrz-muenchen.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-15T04:52:15.171Z",
-  "tcp_latency_ms": 514.52,
-  "started_at": "2026-11-15T04:54:45.722Z",
-  "listed_at": "2026-11-15T04:54:47.518Z",
-  "duration_ms": 1796.343,
+  "checked_at": "2026-11-16T04:48:41.103Z",
+  "tcp_latency_ms": 660.152,
+  "started_at": "2026-11-16T04:51:15.671Z",
+  "listed_at": "2026-11-16T04:51:18.119Z",
+  "duration_ms": 2448.492,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "permissions": "drw-r-----",
     "mode": "0640",
     "perm": "fle",
-    "unique_id": "802UDEB39",
+    "unique_id": "812UDEB39",
     "media_type": null,
     "link_target": null
   },
@@ -88,7 +88,7 @@
       "permissions": "drw-r-----",
       "mode": "0640",
       "perm": "e",
-      "unique_id": "2FU4230040",
+      "unique_id": "32U4230040",
       "media_type": null,
       "link_target": null
     },
@@ -107,7 +107,7 @@
       "permissions": "-rw-r-----",
       "mode": "0640",
       "perm": "adfr",
-      "unique_id": "802UDEB3F",
+      "unique_id": "812UDEB3F",
       "media_type": null,
       "link_target": null
     }

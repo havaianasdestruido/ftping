@@ -3,11 +3,11 @@
   "url": "ftp://ftp.equation.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-15T04:51:36.100Z",
-  "tcp_latency_ms": 38.929,
-  "started_at": "2026-11-15T04:54:37.895Z",
-  "listed_at": "2026-11-15T04:54:38.135Z",
-  "duration_ms": 240.394,
+  "checked_at": "2026-11-16T04:48:01.137Z",
+  "tcp_latency_ms": 186.261,
+  "started_at": "2026-11-16T04:51:06.253Z",
+  "listed_at": "2026-11-16T04:51:07.368Z",
+  "duration_ms": 1114.983,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -17,7 +17,7 @@
   "unparsed_lines": 0,
   "server": {
     "welcome": "220 ProFTPD 1.3.5b Server (Equation Solution FTP Server) [108.36.217.27]",
-    "login_response": "Welcome, archive user anonymous@48.211.210.112 !\n \n The local time is: Sat Nov 14 23:54:37 2026\n \n This is an experimental FTP server.  If have any unusual problems,\n please report them via e-mail to <root@ftp.equation.com>.\n \n If you do have problems, please try using a dash (-) as the first\n character of your password -- this will turn off the continuation\n messages that may be confusing your FTP client.\n230 Anonymous access granted, restrictions apply",
+    "login_response": "Welcome, archive user anonymous@52.160.149.128 !\n \n The local time is: Sun Nov 15 23:45:15 2026\n \n This is an experimental FTP server.  If have any unusual problems,\n please report them via e-mail to <root@ftp.equation.com>.\n \n If you do have problems, please try using a dash (-) as the first\n character of your password -- this will turn off the continuation\n messages that may be confusing your FTP client.\n230 Anonymous access granted, restrictions apply",
     "system": "UNIX Type: L8",
     "features": [
       "SITE",
@@ -62,7 +62,7 @@
     "other": 0,
     "file_bytes": 346,
     "oldest_modified_at": "2004-12-29T02:24:27Z",
-    "latest_modified_at": "2026-11-09T18:21:26Z"
+    "latest_modified_at": "2026-11-15T22:36:48Z"
   },
   "entries": [
     {
@@ -126,7 +126,7 @@
       "name": "gcc",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-09T18:21:26Z",
+      "modified_at": "2026-11-15T22:36:48Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
