@@ -1,0 +1,6760 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T06:39:32.793Z",
+  "checked": 5593,
+  "up": 844,
+  "servers": [
+    {
+      "checked_at": "2026-11-17T06:36:14.314Z",
+      "url": "ftp://ftp.robelle3000.ai/",
+      "host": "ftp.robelle3000.ai",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 168.769
+    },
+    {
+      "checked_at": "2026-11-17T06:36:14.460Z",
+      "url": "ftp://ftp.iiasa.ac.at/",
+      "host": "ftp.iiasa.ac.at",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 307.399
+    },
+    {
+      "checked_at": "2026-11-17T06:36:14.720Z",
+      "url": "ftp://ftp.resi.at/",
+      "host": "ftp.resi.at",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 561.241
+    },
+    {
+      "checked_at": "2026-11-17T06:36:14.640Z",
+      "url": "ftp://ftp.risc.uni-linz.ac.at/",
+      "host": "ftp.risc.uni-linz.ac.at",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 483.274
+    },
+    {
+      "checked_at": "2026-11-17T06:36:14.363Z",
+      "url": "ftp://ftp.wu-wien.ac.at/",
+      "host": "ftp.wu-wien.ac.at",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 204.993
+    },
+    {
+      "checked_at": "2026-11-17T06:36:15.039Z",
+      "url": "ftp://ftp.atnf.csiro.au/",
+      "host": "ftp.atnf.csiro.au",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 872.086
+    },
+    {
+      "checked_at": "2026-11-17T06:36:14.595Z",
+      "url": "ftp://ftp.maestro.com.au/",
+      "host": "ftp.maestro.com.au",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 243.072
+    },
+    {
+      "checked_at": "2026-11-17T06:36:15.164Z",
+      "url": "ftp://ftp.omen.net.au/",
+      "host": "ftp.omen.net.au",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 780.34
+    },
+    {
+      "checked_at": "2026-11-17T06:36:14.823Z",
+      "url": "ftp://ftp.onthenet.com.au/",
+      "host": "ftp.onthenet.com.au",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 438.248
+    },
+    {
+      "checked_at": "2026-11-17T06:36:15.334Z",
+      "url": "ftp://ftp.swin.edu.au/",
+      "host": "ftp.swin.edu.au",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 876.096
+    },
+    {
+      "checked_at": "2026-11-17T06:36:15.551Z",
+      "url": "ftp://ftp.tip.csiro.au/",
+      "host": "ftp.tip.csiro.au",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1091.107
+    },
+    {
+      "checked_at": "2026-11-17T06:36:14.930Z",
+      "url": "ftp://munnari.oz.au/",
+      "host": "munnari.oz.au",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 334.75
+    },
+    {
+      "checked_at": "2026-11-17T06:36:14.794Z",
+      "url": "ftp://ftp.belnet.be/",
+      "host": "ftp.belnet.be",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 185.376
+    },
+    {
+      "checked_at": "2026-11-17T06:36:14.998Z",
+      "url": "ftp://ftp.dds.be/",
+      "host": "ftp.dds.be",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 364.623
+    },
+    {
+      "checked_at": "2026-11-17T06:36:15.173Z",
+      "url": "ftp://ftp.eunet.be/",
+      "host": "ftp.eunet.be",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 465.066
+    },
+    {
+      "checked_at": "2026-11-17T06:36:15.144Z",
+      "url": "ftp://ftp.heppen.be/",
+      "host": "ftp.heppen.be",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 423.983
+    },
+    {
+      "checked_at": "2026-11-17T06:36:15.911Z",
+      "url": "ftp://ftp.orgchm.bas.bg/",
+      "host": "ftp.orgchm.bas.bg",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 995.99
+    },
+    {
+      "checked_at": "2026-11-17T06:36:15.807Z",
+      "url": "ftp://ftp.cmg.com.br/",
+      "host": "ftp.cmg.com.br",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 845.459
+    },
+    {
+      "checked_at": "2026-11-17T06:36:15.309Z",
+      "url": "ftp://ftp.coe.ufrj.br/",
+      "host": "ftp.coe.ufrj.br",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 337.671
+    },
+    {
+      "checked_at": "2026-11-17T06:36:20.674Z",
+      "url": "ftp://ftp.axxent.ca/",
+      "host": "ftp.axxent.ca",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 5104.267
+    },
+    {
+      "checked_at": "2026-11-17T06:36:16.359Z",
+      "url": "ftp://ftp.cybertechs.qc.ca/",
+      "host": "ftp.cybertechs.qc.ca",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 134.533
+    },
+    {
+      "checked_at": "2026-11-17T06:36:16.663Z",
+      "url": "ftp://ftp.direct.ca/",
+      "host": "ftp.direct.ca",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 303.644
+    },
+    {
+      "checked_at": "2026-11-17T06:36:19.247Z",
+      "url": "ftp://ftp.mimic.ca/",
+      "host": "ftp.mimic.ca",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 75.082
+    },
+    {
+      "checked_at": "2026-11-17T06:36:19.472Z",
+      "url": "ftp://ftp.nk.ca/",
+      "host": "ftp.nk.ca",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 199.636
+    },
+    {
+      "checked_at": "2026-11-17T06:36:19.473Z",
+      "url": "ftp://ftp.nl2k.ab.ca/",
+      "host": "ftp.nl2k.ab.ca",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 189.277
+    },
+    {
+      "checked_at": "2026-11-17T06:36:19.400Z",
+      "url": "ftp://ftp.phys.ocean.dal.ca/",
+      "host": "ftp.phys.ocean.dal.ca",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 89.369
+    },
+    {
+      "checked_at": "2026-11-17T06:36:19.458Z",
+      "url": "ftp://ftp.ryerson.ca/",
+      "host": "ftp.ryerson.ca",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 68.357
+    },
+    {
+      "checked_at": "2026-11-17T06:36:19.842Z",
+      "url": "ftp://ftp.uniserve.ca/",
+      "host": "ftp.uniserve.ca",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 250.803
+    },
+    {
+      "checked_at": "2026-11-17T06:36:21.262Z",
+      "url": "ftp://ftp.dcc.uchile.cl/",
+      "host": "ftp.dcc.uchile.cl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 625.933
+    },
+    {
+      "checked_at": "2026-11-17T06:36:21.003Z",
+      "url": "ftp://ftp.inf.utfsm.cl/",
+      "host": "ftp.inf.utfsm.cl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 335.529
+    },
+    {
+      "checked_at": "2026-11-17T06:36:22.813Z",
+      "url": "ftp://ftp.sjtu.edu.cn/",
+      "host": "ftp.sjtu.edu.cn",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1981.554
+    },
+    {
+      "checked_at": "2026-11-17T06:36:20.998Z",
+      "url": "ftp://catcode.com/",
+      "host": "catcode.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 101.043
+    },
+    {
+      "checked_at": "2026-11-17T06:36:21.416Z",
+      "url": "ftp://ftp.2600.com/",
+      "host": "ftp.2600.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 109.305
+    },
+    {
+      "checked_at": "2026-11-17T06:36:23.229Z",
+      "url": "ftp://ftp.accesscom.com/",
+      "host": "ftp.accesscom.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 349.61
+    },
+    {
+      "checked_at": "2026-11-17T06:36:24.109Z",
+      "url": "ftp://ftp.adtran.com/",
+      "host": "ftp.adtran.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 209.583
+    },
+    {
+      "checked_at": "2026-11-17T06:36:24.491Z",
+      "url": "ftp://ftp.aeinc.com/",
+      "host": "ftp.aeinc.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 121.596
+    },
+    {
+      "checked_at": "2026-11-17T06:36:24.569Z",
+      "url": "ftp://ftp.agilent.com/",
+      "host": "ftp.agilent.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 78.283
+    },
+    {
+      "checked_at": "2026-11-17T06:36:24.720Z",
+      "url": "ftp://ftp.alap.com/",
+      "host": "ftp.alap.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 150.127
+    },
+    {
+      "checked_at": "2026-11-17T06:36:24.756Z",
+      "url": "ftp://ftp.alaska-software.com/",
+      "host": "ftp.alaska-software.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 167.028
+    },
+    {
+      "checked_at": "2026-11-17T06:36:24.886Z",
+      "url": "ftp://ftp.alstevens.com/",
+      "host": "ftp.alstevens.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 251.571
+    },
+    {
+      "checked_at": "2026-11-17T06:36:25.115Z",
+      "url": "ftp://ftp.altlinux.com/",
+      "host": "ftp.altlinux.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 447.825
+    },
+    {
+      "checked_at": "2026-11-17T06:36:24.898Z",
+      "url": "ftp://ftp.amnin.com/",
+      "host": "ftp.amnin.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 125.273
+    },
+    {
+      "checked_at": "2026-11-17T06:36:24.897Z",
+      "url": "ftp://ftp.amzi.com/",
+      "host": "ftp.amzi.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 107.007
+    },
+    {
+      "checked_at": "2026-11-17T06:36:24.977Z",
+      "url": "ftp://ftp.aonix.com/",
+      "host": "ftp.aonix.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 79.191
+    },
+    {
+      "checked_at": "2026-11-17T06:36:25.053Z",
+      "url": "ftp://ftp.appmagic.com/",
+      "host": "ftp.appmagic.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 107.171
+    },
+    {
+      "checked_at": "2026-11-17T06:36:25.031Z",
+      "url": "ftp://ftp.aquezada.com/",
+      "host": "ftp.aquezada.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 50.651
+    },
+    {
+      "checked_at": "2026-11-17T06:36:25.840Z",
+      "url": "ftp://ftp.argo-navis.com/",
+      "host": "ftp.argo-navis.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 761.763
+    },
+    {
+      "checked_at": "2026-11-17T06:36:25.207Z",
+      "url": "ftp://ftp.asante.com/",
+      "host": "ftp.asante.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 60.329
+    },
+    {
+      "checked_at": "2026-11-17T06:36:25.316Z",
+      "url": "ftp://ftp.astron.com/",
+      "host": "ftp.astron.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 56.747
+    },
+    {
+      "checked_at": "2026-11-17T06:36:25.470Z",
+      "url": "ftp://ftp.atrex2.com/",
+      "host": "ftp.atrex2.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 154.398
+    },
+    {
+      "checked_at": "2026-11-17T06:36:25.591Z",
+      "url": "ftp://ftp.automatedshops.com/",
+      "host": "ftp.automatedshops.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 212.998
+    },
+    {
+      "checked_at": "2026-11-17T06:36:25.880Z",
+      "url": "ftp://ftp.ayukov.com/",
+      "host": "ftp.ayukov.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 288.775
+    },
+    {
+      "checked_at": "2026-11-17T06:36:26.192Z",
+      "url": "ftp://ftp.blackcatsystems.com/",
+      "host": "ftp.blackcatsystems.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 278.111
+    },
+    {
+      "checked_at": "2026-11-17T06:36:26.563Z",
+      "url": "ftp://ftp.blueneptune.com/",
+      "host": "ftp.blueneptune.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 491.16
+    },
+    {
+      "checked_at": "2026-11-17T06:36:26.218Z",
+      "url": "ftp://ftp.boulder.ibm.com/",
+      "host": "ftp.boulder.ibm.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 59.268
+    },
+    {
+      "checked_at": "2026-11-17T06:36:26.484Z",
+      "url": "ftp://ftp.bunglefever.com/",
+      "host": "ftp.bunglefever.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 134.762
+    },
+    {
+      "checked_at": "2026-11-17T06:36:26.770Z",
+      "url": "ftp://ftp.byterapers.com/",
+      "host": "ftp.byterapers.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 417.14
+    },
+    {
+      "checked_at": "2026-11-17T06:36:26.414Z",
+      "url": "ftp://ftp.ca.com/",
+      "host": "ftp.ca.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 56.461
+    },
+    {
+      "checked_at": "2026-11-17T06:36:26.758Z",
+      "url": "ftp://ftp.calweb.com/",
+      "host": "ftp.calweb.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 323.647
+    },
+    {
+      "checked_at": "2026-11-17T06:36:26.829Z",
+      "url": "ftp://ftp.cam.com/",
+      "host": "ftp.cam.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 374.771
+    },
+    {
+      "checked_at": "2026-11-17T06:36:27.072Z",
+      "url": "ftp://ftp.cdip.com/",
+      "host": "ftp.cdip.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 487.762
+    },
+    {
+      "checked_at": "2026-11-17T06:36:26.707Z",
+      "url": "ftp://ftp.cdrom.com/",
+      "host": "ftp.cdrom.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 78.661
+    },
+    {
+      "checked_at": "2026-11-17T06:36:26.947Z",
+      "url": "ftp://ftp.charlespetzold.com/",
+      "host": "ftp.charlespetzold.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 125.119
+    },
+    {
+      "checked_at": "2026-11-17T06:36:27.457Z",
+      "url": "ftp://ftp.codesourcery.com/",
+      "host": "ftp.codesourcery.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 289.721
+    },
+    {
+      "checked_at": "2026-11-17T06:36:27.338Z",
+      "url": "ftp://ftp.colesoft.com/",
+      "host": "ftp.colesoft.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 96.396
+    },
+    {
+      "checked_at": "2026-11-17T06:36:28.106Z",
+      "url": "ftp://ftp.comco.com/",
+      "host": "ftp.comco.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 649.063
+    },
+    {
+      "checked_at": "2026-11-17T06:36:28.258Z",
+      "url": "ftp://ftp.comfood.com/",
+      "host": "ftp.comfood.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 675.643
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.516Z",
+      "url": "ftp://ftp.credo-dialogue.com/",
+      "host": "ftp.credo-dialogue.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 2311.774
+    },
+    {
+      "checked_at": "2026-11-17T06:36:30.535Z",
+      "url": "ftp://ftp.ct0.com/",
+      "host": "ftp.ct0.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 889.653
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.463Z",
+      "url": "ftp://ftp.cyberverse.com/",
+      "host": "ftp.cyberverse.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1588.39
+    },
+    {
+      "checked_at": "2026-11-17T06:36:30.065Z",
+      "url": "ftp://ftp.databeast.com/",
+      "host": "ftp.databeast.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 102.901
+    },
+    {
+      "checked_at": "2026-11-17T06:36:30.084Z",
+      "url": "ftp://ftp.dataio.com/",
+      "host": "ftp.dataio.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 101.659
+    },
+    {
+      "checked_at": "2026-11-17T06:36:30.235Z",
+      "url": "ftp://ftp.datasync.com/",
+      "host": "ftp.datasync.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 214.776
+    },
+    {
+      "checked_at": "2026-11-17T06:36:30.246Z",
+      "url": "ftp://ftp.dbase.com/",
+      "host": "ftp.dbase.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 178.366
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.305Z",
+      "url": "ftp://ftp.dbit.com/",
+      "host": "ftp.dbit.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1220.797
+    },
+    {
+      "checked_at": "2026-11-17T06:36:30.467Z",
+      "url": "ftp://ftp.dct.com/",
+      "host": "ftp.dct.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 236.156
+    },
+    {
+      "checked_at": "2026-11-17T06:36:33.205Z",
+      "url": "ftp://ftp.delorie.com/",
+      "host": "ftp.delorie.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 2840.172
+    },
+    {
+      "checked_at": "2026-11-17T06:36:30.893Z",
+      "url": "ftp://ftp.diegotek.com/",
+      "host": "ftp.diegotek.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 179.24
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.019Z",
+      "url": "ftp://ftp.dirtymind.com/",
+      "host": "ftp.dirtymind.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 103.118
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.361Z",
+      "url": "ftp://ftp.download-center.com/",
+      "host": "ftp.download-center.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 416.831
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.084Z",
+      "url": "ftp://ftp.draytek.com/",
+      "host": "ftp.draytek.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 131.092
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.141Z",
+      "url": "ftp://ftp.eiffel.com/",
+      "host": "ftp.eiffel.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 104.266
+    },
+    {
+      "checked_at": "2026-11-17T06:36:34.136Z",
+      "url": "ftp://ftp.ems-hitech.com/",
+      "host": "ftp.ems-hitech.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 3009.681
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.245Z",
+      "url": "ftp://ftp.equation.com/",
+      "host": "ftp.equation.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 58.249
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.336Z",
+      "url": "ftp://ftp.eskimo.com/",
+      "host": "ftp.eskimo.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 145.345
+    },
+    {
+      "checked_at": "2026-11-17T06:36:32.320Z",
+      "url": "ftp://ftp.etteam.com/",
+      "host": "ftp.etteam.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1030.668
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.477Z",
+      "url": "ftp://ftp.exactsoftware.com/",
+      "host": "ftp.exactsoftware.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 148.645
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.584Z",
+      "url": "ftp://ftp.fastgraph.com/",
+      "host": "ftp.fastgraph.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 143.241
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.838Z",
+      "url": "ftp://ftp.flail.com/",
+      "host": "ftp.flail.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 196.657
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.751Z",
+      "url": "ftp://ftp.flaminio.com/",
+      "host": "ftp.flaminio.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 88.375
+    },
+    {
+      "checked_at": "2026-11-17T06:36:32.126Z",
+      "url": "ftp://ftp.flexus.com/",
+      "host": "ftp.flexus.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 375.369
+    },
+    {
+      "checked_at": "2026-11-17T06:36:31.916Z",
+      "url": "ftp://ftp.fluidlight.com/",
+      "host": "ftp.fluidlight.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 101.667
+    },
+    {
+      "checked_at": "2026-11-17T06:36:36.000Z",
+      "url": "ftp://ftp.foxchange.com/",
+      "host": "ftp.foxchange.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 4112.996
+    },
+    {
+      "checked_at": "2026-11-17T06:36:32.040Z",
+      "url": "ftp://ftp.frii.com/",
+      "host": "ftp.frii.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 124.677
+    },
+    {
+      "checked_at": "2026-11-17T06:36:32.068Z",
+      "url": "ftp://ftp.frontiertech.com/",
+      "host": "ftp.frontiertech.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 124.952
+    },
+    {
+      "checked_at": "2026-11-17T06:36:32.346Z",
+      "url": "ftp://ftp.funcom.com/",
+      "host": "ftp.funcom.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 241.604
+    },
+    {
+      "checked_at": "2026-11-17T06:36:32.425Z",
+      "url": "ftp://ftp.gamani.com/",
+      "host": "ftp.gamani.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 182.529
+    },
+    {
+      "checked_at": "2026-11-17T06:36:32.485Z",
+      "url": "ftp://ftp.gdsoft.com/",
+      "host": "ftp.gdsoft.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 101.458
+    },
+    {
+      "checked_at": "2026-11-17T06:36:33.840Z",
+      "url": "ftp://ftp.handmadesw.com/",
+      "host": "ftp.handmadesw.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 295.08
+    },
+    {
+      "checked_at": "2026-11-17T06:36:33.922Z",
+      "url": "ftp://ftp.hands.com/",
+      "host": "ftp.hands.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 301.954
+    },
+    {
+      "checked_at": "2026-11-17T06:36:34.296Z",
+      "url": "ftp://ftp.hauppauge.com/",
+      "host": "ftp.hauppauge.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 128.17
+    },
+    {
+      "checked_at": "2026-11-17T06:36:34.861Z",
+      "url": "ftp://ftp.highcriteria.com/",
+      "host": "ftp.highcriteria.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 240.868
+    },
+    {
+      "checked_at": "2026-11-17T06:36:34.737Z",
+      "url": "ftp://ftp.hilgraeve.com/",
+      "host": "ftp.hilgraeve.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 92.582
+    },
+    {
+      "checked_at": "2026-11-17T06:36:34.823Z",
+      "url": "ftp://ftp.holistic-design.com/",
+      "host": "ftp.holistic-design.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 47.755
+    },
+    {
+      "checked_at": "2026-11-17T06:36:35.082Z",
+      "url": "ftp://ftp.hte.com/",
+      "host": "ftp.hte.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 163.392
+    },
+    {
+      "checked_at": "2026-11-17T06:36:35.205Z",
+      "url": "ftp://ftp.iacnet.com/",
+      "host": "ftp.iacnet.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 56.226
+    },
+    {
+      "checked_at": "2026-11-17T06:36:36.269Z",
+      "url": "ftp://ftp.intel.com/",
+      "host": "ftp.intel.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 335.391
+    },
+    {
+      "checked_at": "2026-11-17T06:36:36.121Z",
+      "url": "ftp://ftp.intersystems.com/",
+      "host": "ftp.intersystems.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 67.681
+    },
+    {
+      "checked_at": "2026-11-17T06:36:36.483Z",
+      "url": "ftp://ftp.isilo.com/",
+      "host": "ftp.isilo.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 38.941
+    },
+    {
+      "checked_at": "2026-11-17T06:36:37.077Z",
+      "url": "ftp://ftp.jclark.com/",
+      "host": "ftp.jclark.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 460.338
+    },
+    {
+      "checked_at": "2026-11-17T06:36:36.791Z",
+      "url": "ftp://ftp.jetaudio.com/",
+      "host": "ftp.jetaudio.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 143.432
+    },
+    {
+      "checked_at": "2026-11-17T06:36:36.871Z",
+      "url": "ftp://ftp.jpsoft.com/",
+      "host": "ftp.jpsoft.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 62.228
+    },
+    {
+      "checked_at": "2026-11-17T06:36:36.937Z",
+      "url": "ftp://ftp.jriver.com/",
+      "host": "ftp.jriver.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 95.274
+    },
+    {
+      "checked_at": "2026-11-17T06:36:37.207Z",
+      "url": "ftp://ftp.jwwalker.com/",
+      "host": "ftp.jwwalker.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 336.467
+    },
+    {
+      "checked_at": "2026-11-17T06:36:37.034Z",
+      "url": "ftp://ftp.kabsoftware.com/",
+      "host": "ftp.kabsoftware.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 110.562
+    },
+    {
+      "checked_at": "2026-11-17T06:36:37.226Z",
+      "url": "ftp://ftp.kollmorgen.com/",
+      "host": "ftp.kollmorgen.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 53.487
+    },
+    {
+      "checked_at": "2026-11-17T06:36:37.507Z",
+      "url": "ftp://ftp.lexiconn.com/",
+      "host": "ftp.lexiconn.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 62.621
+    },
+    {
+      "checked_at": "2026-11-17T06:36:37.555Z",
+      "url": "ftp://ftp.lightband.com/",
+      "host": "ftp.lightband.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 54.379
+    },
+    {
+      "checked_at": "2026-11-17T06:36:38.502Z",
+      "url": "ftp://ftp.linux-kheops.com/",
+      "host": "ftp.linux-kheops.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 947.295
+    },
+    {
+      "checked_at": "2026-11-17T06:36:37.929Z",
+      "url": "ftp://ftp.linuxrox.com/",
+      "host": "ftp.linuxrox.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 178.967
+    },
+    {
+      "checked_at": "2026-11-17T06:36:37.910Z",
+      "url": "ftp://ftp.liveonthenet.com/",
+      "host": "ftp.liveonthenet.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 97.016
+    },
+    {
+      "checked_at": "2026-11-17T06:36:38.861Z",
+      "url": "ftp://ftp.marshallsoft.com/",
+      "host": "ftp.marshallsoft.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 174.287
+    },
+    {
+      "checked_at": "2026-11-17T06:36:39.026Z",
+      "url": "ftp://ftp.mathcom.com/",
+      "host": "ftp.mathcom.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 254.833
+    },
+    {
+      "checked_at": "2026-11-17T06:36:39.628Z",
+      "url": "ftp://ftp.merl.com/",
+      "host": "ftp.merl.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 183.03
+    },
+    {
+      "checked_at": "2026-11-17T06:36:39.687Z",
+      "url": "ftp://ftp.metacard.com/",
+      "host": "ftp.metacard.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 148.355
+    },
+    {
+      "checked_at": "2026-11-17T06:36:41.131Z",
+      "url": "ftp://ftp.mireth.com/",
+      "host": "ftp.mireth.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 132.239
+    },
+    {
+      "checked_at": "2026-11-17T06:36:41.473Z",
+      "url": "ftp://ftp.monmouth.com/",
+      "host": "ftp.monmouth.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 64.413
+    },
+    {
+      "checked_at": "2026-11-17T06:36:41.699Z",
+      "url": "ftp://ftp.mpegtv.com/",
+      "host": "ftp.mpegtv.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 177.203
+    },
+    {
+      "checked_at": "2026-11-17T06:36:41.833Z",
+      "url": "ftp://ftp.mschristine.com/",
+      "host": "ftp.mschristine.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 277.06
+    },
+    {
+      "checked_at": "2026-11-17T06:36:41.907Z",
+      "url": "ftp://ftp.nasdaqtrader.com/",
+      "host": "ftp.nasdaqtrader.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 51.139
+    },
+    {
+      "checked_at": "2026-11-17T06:36:42.109Z",
+      "url": "ftp://ftp.ncftpd.com/",
+      "host": "ftp.ncftpd.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 166.853
+    },
+    {
+      "checked_at": "2026-11-17T06:36:42.002Z",
+      "url": "ftp://ftp.neb.com/",
+      "host": "ftp.neb.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 53.097
+    },
+    {
+      "checked_at": "2026-11-17T06:36:42.220Z",
+      "url": "ftp://ftp.netinst.com/",
+      "host": "ftp.netinst.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 103.317
+    },
+    {
+      "checked_at": "2026-11-17T06:36:42.403Z",
+      "url": "ftp://ftp.netouch.com/",
+      "host": "ftp.netouch.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 223.257
+    },
+    {
+      "checked_at": "2026-11-17T06:36:42.356Z",
+      "url": "ftp://ftp.netstores.com/",
+      "host": "ftp.netstores.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 96.605
+    },
+    {
+      "checked_at": "2026-11-17T06:36:42.467Z",
+      "url": "ftp://ftp.networkinstruments.com/",
+      "host": "ftp.networkinstruments.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 102.823
+    },
+    {
+      "checked_at": "2026-11-17T06:36:42.703Z",
+      "url": "ftp://ftp.ninehells.com/",
+      "host": "ftp.ninehells.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 183.401
+    },
+    {
+      "checked_at": "2026-11-17T06:36:43.274Z",
+      "url": "ftp://ftp.njcc.com/",
+      "host": "ftp.njcc.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 118.603
+    },
+    {
+      "checked_at": "2026-11-17T06:36:43.444Z",
+      "url": "ftp://ftp.nmia.com/",
+      "host": "ftp.nmia.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 170.426
+    },
+    {
+      "checked_at": "2026-11-17T06:36:43.905Z",
+      "url": "ftp://ftp.novalogic.com/",
+      "host": "ftp.novalogic.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 101.931
+    },
+    {
+      "checked_at": "2026-11-17T06:36:44.292Z",
+      "url": "ftp://ftp.novell.com/",
+      "host": "ftp.novell.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 321.214
+    },
+    {
+      "checked_at": "2026-11-17T06:36:44.122Z",
+      "url": "ftp://ftp.nwpsw.com/",
+      "host": "ftp.nwpsw.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 110.382
+    },
+    {
+      "checked_at": "2026-11-17T06:36:44.862Z",
+      "url": "ftp://ftp.orban.com/",
+      "host": "ftp.orban.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 79.39
+    },
+    {
+      "checked_at": "2026-11-17T06:36:45.400Z",
+      "url": "ftp://ftp.owt.com/",
+      "host": "ftp.owt.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 455.661
+    },
+    {
+      "checked_at": "2026-11-17T06:36:45.365Z",
+      "url": "ftp://ftp.panix.com/",
+      "host": "ftp.panix.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 157.911
+    },
+    {
+      "checked_at": "2026-11-17T06:36:50.488Z",
+      "url": "ftp://ftp.pathcom.com/",
+      "host": "ftp.pathcom.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 5087.94
+    },
+    {
+      "checked_at": "2026-11-17T06:36:46.081Z",
+      "url": "ftp://ftp.peda.com/",
+      "host": "ftp.peda.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 85.617
+    },
+    {
+      "checked_at": "2026-11-17T06:36:46.300Z",
+      "url": "ftp://ftp.perforce.com/",
+      "host": "ftp.perforce.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 100.845
+    },
+    {
+      "checked_at": "2026-11-17T06:36:49.266Z",
+      "url": "ftp://ftp.phoenixsoftware.com/",
+      "host": "ftp.phoenixsoftware.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 3014.506
+    },
+    {
+      "checked_at": "2026-11-17T06:36:46.715Z",
+      "url": "ftp://ftp.phystech.com/",
+      "host": "ftp.phystech.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 453.335
+    },
+    {
+      "checked_at": "2026-11-17T06:36:46.562Z",
+      "url": "ftp://ftp.pixelan.com/",
+      "host": "ftp.pixelan.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 230.401
+    },
+    {
+      "checked_at": "2026-11-17T06:36:46.907Z",
+      "url": "ftp://ftp.planetranch.com/",
+      "host": "ftp.planetranch.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 420.649
+    },
+    {
+      "checked_at": "2026-11-17T06:36:46.726Z",
+      "url": "ftp://ftp.planix.com/",
+      "host": "ftp.planix.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 170.836
+    },
+    {
+      "checked_at": "2026-11-17T06:36:47.046Z",
+      "url": "ftp://ftp.pointdev.com/",
+      "host": "ftp.pointdev.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 392.958
+    },
+    {
+      "checked_at": "2026-11-17T06:36:47.108Z",
+      "url": "ftp://ftp.progeny.com/",
+      "host": "ftp.progeny.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 120.742
+    },
+    {
+      "checked_at": "2026-11-17T06:36:47.336Z",
+      "url": "ftp://ftp.qosient.com/",
+      "host": "ftp.qosient.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 228.307
+    },
+    {
+      "checked_at": "2026-11-17T06:36:47.351Z",
+      "url": "ftp://ftp.quicksilver.com/",
+      "host": "ftp.quicksilver.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 118.43
+    },
+    {
+      "checked_at": "2026-11-17T06:36:47.555Z",
+      "url": "ftp://ftp.rarlab.com/",
+      "host": "ftp.rarlab.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 278.296
+    },
+    {
+      "checked_at": "2026-11-17T06:36:48.026Z",
+      "url": "ftp://ftp.ravantivirus.com/",
+      "host": "ftp.ravantivirus.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 689.913
+    },
+    {
+      "checked_at": "2026-11-17T06:36:47.583Z",
+      "url": "ftp://ftp.rawbw.com/",
+      "host": "ftp.rawbw.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 239.621
+    },
+    {
+      "checked_at": "2026-11-17T06:36:47.846Z",
+      "url": "ftp://ftp.redlinelabs.com/",
+      "host": "ftp.redlinelabs.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 352.413
+    },
+    {
+      "checked_at": "2026-11-17T06:36:48.504Z",
+      "url": "ftp://ftp.robelle.com/",
+      "host": "ftp.robelle.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 214.409
+    },
+    {
+      "checked_at": "2026-11-17T06:36:48.515Z",
+      "url": "ftp://ftp.rockliffe.com/",
+      "host": "ftp.rockliffe.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 105.302
+    },
+    {
+      "checked_at": "2026-11-17T06:36:48.680Z",
+      "url": "ftp://ftp.rsinc.com/",
+      "host": "ftp.rsinc.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 125.82
+    },
+    {
+      "checked_at": "2026-11-17T06:36:48.803Z",
+      "url": "ftp://ftp.rtr.com/",
+      "host": "ftp.rtr.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 185.912
+    },
+    {
+      "checked_at": "2026-11-17T06:36:49.035Z",
+      "url": "ftp://ftp.santronics.com/",
+      "host": "ftp.santronics.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 139.694
+    },
+    {
+      "checked_at": "2026-11-17T06:36:49.198Z",
+      "url": "ftp://ftp.sas.com/",
+      "host": "ftp.sas.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 162.791
+    },
+    {
+      "checked_at": "2026-11-17T06:36:49.342Z",
+      "url": "ftp://ftp.scandinet.com/",
+      "host": "ftp.scandinet.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 233.66
+    },
+    {
+      "checked_at": "2026-11-17T06:36:49.771Z",
+      "url": "ftp://ftp.scriptics.com/",
+      "host": "ftp.scriptics.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 306.918
+    },
+    {
+      "checked_at": "2026-11-17T06:36:49.584Z",
+      "url": "ftp://ftp.sdtcorp.com/",
+      "host": "ftp.sdtcorp.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 100.22
+    },
+    {
+      "checked_at": "2026-11-17T06:36:49.816Z",
+      "url": "ftp://ftp.seanet.com/",
+      "host": "ftp.seanet.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 232.207
+    },
+    {
+      "checked_at": "2026-11-17T06:36:50.232Z",
+      "url": "ftp://ftp.semware.com/",
+      "host": "ftp.semware.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 365.958
+    },
+    {
+      "checked_at": "2026-11-17T06:36:49.980Z",
+      "url": "ftp://ftp.shensoft.com/",
+      "host": "ftp.shensoft.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 53.2
+    },
+    {
+      "checked_at": "2026-11-17T06:36:50.478Z",
+      "url": "ftp://ftp.shuttle.com/",
+      "host": "ftp.shuttle.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 430.972
+    },
+    {
+      "checked_at": "2026-11-17T06:36:50.862Z",
+      "url": "ftp://ftp.silverrun.com/",
+      "host": "ftp.silverrun.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 553.318
+    },
+    {
+      "checked_at": "2026-11-17T06:36:50.640Z",
+      "url": "ftp://ftp.skypoint.com/",
+      "host": "ftp.skypoint.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 100.944
+    },
+    {
+      "checked_at": "2026-11-17T06:36:51.153Z",
+      "url": "ftp://ftp.snobol4.com/",
+      "host": "ftp.snobol4.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 217.342
+    },
+    {
+      "checked_at": "2026-11-17T06:36:51.074Z",
+      "url": "ftp://ftp.softbytelabs.com/",
+      "host": "ftp.softbytelabs.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 88.178
+    },
+    {
+      "checked_at": "2026-11-17T06:36:51.289Z",
+      "url": "ftp://ftp.software.ibm.com/",
+      "host": "ftp.software.ibm.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 59.833
+    },
+    {
+      "checked_at": "2026-11-17T06:36:56.485Z",
+      "url": "ftp://ftp.solitairegames.com/",
+      "host": "ftp.solitairegames.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 5154.959
+    },
+    {
+      "checked_at": "2026-11-17T06:36:51.492Z",
+      "url": "ftp://ftp.sophists.com/",
+      "host": "ftp.sophists.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 94.69
+    },
+    {
+      "checked_at": "2026-11-17T06:36:51.860Z",
+      "url": "ftp://ftp.speechpro.com/",
+      "host": "ftp.speechpro.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 386.148
+    },
+    {
+      "checked_at": "2026-11-17T06:36:51.803Z",
+      "url": "ftp://ftp.spiderwebsoftware.com/",
+      "host": "ftp.spiderwebsoftware.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 163.776
+    },
+    {
+      "checked_at": "2026-11-17T06:36:51.875Z",
+      "url": "ftp://ftp.spidweb.com/",
+      "host": "ftp.spidweb.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 183.422
+    },
+    {
+      "checked_at": "2026-11-17T06:36:51.998Z",
+      "url": "ftp://ftp.splode.com/",
+      "host": "ftp.splode.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 194.296
+    },
+    {
+      "checked_at": "2026-11-17T06:36:52.069Z",
+      "url": "ftp://ftp.stagecast.com/",
+      "host": "ftp.stagecast.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 113.9
+    },
+    {
+      "checked_at": "2026-11-17T06:36:52.123Z",
+      "url": "ftp://ftp.stclairsoft.com/",
+      "host": "ftp.stclairsoft.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 97.182
+    },
+    {
+      "checked_at": "2026-11-17T06:36:52.176Z",
+      "url": "ftp://ftp.stevenscreek.com/",
+      "host": "ftp.stevenscreek.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 123.919
+    },
+    {
+      "checked_at": "2026-11-17T06:36:52.254Z",
+      "url": "ftp://ftp.stormaster.com/",
+      "host": "ftp.stormaster.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 194.267
+    },
+    {
+      "checked_at": "2026-11-17T06:36:58.834Z",
+      "url": "ftp://ftp.sudleyplace.com/",
+      "host": "ftp.sudleyplace.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 6758.872
+    },
+    {
+      "checked_at": "2026-11-17T06:36:52.399Z",
+      "url": "ftp://ftp.suse.com/",
+      "host": "ftp.suse.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 159.79
+    },
+    {
+      "checked_at": "2026-11-17T06:36:52.434Z",
+      "url": "ftp://ftp.swcp.com/",
+      "host": "ftp.swcp.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 179.181
+    },
+    {
+      "checked_at": "2026-11-17T06:36:52.653Z",
+      "url": "ftp://ftp.taygeta.com/",
+      "host": "ftp.taygeta.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 189.439
+    },
+    {
+      "checked_at": "2026-11-17T06:36:52.674Z",
+      "url": "ftp://ftp.tdl.com/",
+      "host": "ftp.tdl.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 161.28
+    },
+    {
+      "checked_at": "2026-11-17T06:36:52.978Z",
+      "url": "ftp://ftp.thewrittenword.com/",
+      "host": "ftp.thewrittenword.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 145.807
+    },
+    {
+      "checked_at": "2026-11-17T06:36:53.058Z",
+      "url": "ftp://ftp.tibcom.com/",
+      "host": "ftp.tibcom.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 149.169
+    },
+    {
+      "checked_at": "2026-11-17T06:36:53.225Z",
+      "url": "ftp://ftp.trevorrow.com/",
+      "host": "ftp.trevorrow.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 166.863
+    },
+    {
+      "checked_at": "2026-11-17T06:36:53.244Z",
+      "url": "ftp://ftp.trifox.com/",
+      "host": "ftp.trifox.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 149.702
+    },
+    {
+      "checked_at": "2026-11-17T06:36:53.351Z",
+      "url": "ftp://ftp.troi.com/",
+      "host": "ftp.troi.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 121.2
+    },
+    {
+      "checked_at": "2026-11-17T06:36:53.531Z",
+      "url": "ftp://ftp.tsoft.com/",
+      "host": "ftp.tsoft.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 243.464
+    },
+    {
+      "checked_at": "2026-11-17T06:36:54.547Z",
+      "url": "ftp://ftp.varicad.com/",
+      "host": "ftp.varicad.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 133.771
+    },
+    {
+      "checked_at": "2026-11-17T06:36:54.567Z",
+      "url": "ftp://ftp.vaxxine.com/",
+      "host": "ftp.vaxxine.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 136.123
+    },
+    {
+      "checked_at": "2026-11-17T06:36:55.360Z",
+      "url": "ftp://ftp.vigra.com/",
+      "host": "ftp.vigra.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 245.603
+    },
+    {
+      "checked_at": "2026-11-17T06:36:55.320Z",
+      "url": "ftp://ftp.virata.com/",
+      "host": "ftp.virata.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 114.056
+    },
+    {
+      "checked_at": "2026-11-17T06:36:55.426Z",
+      "url": "ftp://ftp.voyetra.com/",
+      "host": "ftp.voyetra.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 38.933
+    },
+    {
+      "checked_at": "2026-11-17T06:36:55.601Z",
+      "url": "ftp://ftp.warped.com/",
+      "host": "ftp.warped.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 47.504
+    },
+    {
+      "checked_at": "2026-11-17T06:36:55.701Z",
+      "url": "ftp://ftp.waynekrantz.com/",
+      "host": "ftp.waynekrantz.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 106.018
+    },
+    {
+      "checked_at": "2026-11-17T06:36:55.967Z",
+      "url": "ftp://ftp.webgenie.com/",
+      "host": "ftp.webgenie.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 150.942
+    },
+    {
+      "checked_at": "2026-11-17T06:36:56.078Z",
+      "url": "ftp://ftp.webopt.com/",
+      "host": "ftp.webopt.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 177.806
+    },
+    {
+      "checked_at": "2026-11-17T06:36:56.361Z",
+      "url": "ftp://ftp.webtrek.com/",
+      "host": "ftp.webtrek.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 393.69
+    },
+    {
+      "checked_at": "2026-11-17T06:36:56.203Z",
+      "url": "ftp://ftp.weird.com/",
+      "host": "ftp.weird.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 125.343
+    },
+    {
+      "checked_at": "2026-11-17T06:36:56.622Z",
+      "url": "ftp://ftp.whocares.com/",
+      "host": "ftp.whocares.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 261.265
+    },
+    {
+      "checked_at": "2026-11-17T06:36:56.788Z",
+      "url": "ftp://ftp.whtech.com/",
+      "host": "ftp.whtech.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 331.176
+    },
+    {
+      "checked_at": "2026-11-17T06:36:56.661Z",
+      "url": "ftp://ftp.wilcopub.com/",
+      "host": "ftp.wilcopub.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 134.889
+    },
+    {
+      "checked_at": "2026-11-17T06:36:57.235Z",
+      "url": "ftp://ftp.xensei.com/",
+      "host": "ftp.xensei.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 81.829
+    },
+    {
+      "checked_at": "2026-11-17T06:36:57.425Z",
+      "url": "ftp://ftp.xmission.com/",
+      "host": "ftp.xmission.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 241.307
+    },
+    {
+      "checked_at": "2026-11-17T06:36:57.356Z",
+      "url": "ftp://ftp.xprogramming.com/",
+      "host": "ftp.xprogramming.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 172.932
+    },
+    {
+      "checked_at": "2026-11-17T06:36:57.332Z",
+      "url": "ftp://ftp.youngchang.com/",
+      "host": "ftp.youngchang.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 100.225
+    },
+    {
+      "checked_at": "2026-11-17T06:36:57.380Z",
+      "url": "ftp://ftp.yourspeed.com/",
+      "host": "ftp.yourspeed.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 145.837
+    },
+    {
+      "checked_at": "2026-11-17T06:36:57.483Z",
+      "url": "ftp://ftp.zillionsofgames.com/",
+      "host": "ftp.zillionsofgames.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 124.384
+    },
+    {
+      "checked_at": "2026-11-17T06:36:57.578Z",
+      "url": "ftp://ftp13.pair.com/",
+      "host": "ftp13.pair.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 84.092
+    },
+    {
+      "checked_at": "2026-11-17T06:36:57.546Z",
+      "url": "ftp://ftp189.pair.com/",
+      "host": "ftp189.pair.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 51.309
+    },
+    {
+      "checked_at": "2026-11-17T06:36:57.717Z",
+      "url": "ftp://ftp2.bvrp.com/",
+      "host": "ftp2.bvrp.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 193.612
+    },
+    {
+      "checked_at": "2026-11-17T06:36:57.667Z",
+      "url": "ftp://ftp2.microsys.com/",
+      "host": "ftp2.microsys.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 83.225
+    },
+    {
+      "checked_at": "2026-11-17T06:36:57.978Z",
+      "url": "ftp://ironycentral.com/",
+      "host": "ironycentral.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 153.824
+    },
+    {
+      "checked_at": "2026-11-17T06:36:58.055Z",
+      "url": "ftp://kmrconsulting.com/",
+      "host": "kmrconsulting.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 192.071
+    },
+    {
+      "checked_at": "2026-11-17T06:36:58.195Z",
+      "url": "ftp://maxlevel.com/",
+      "host": "maxlevel.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 217.035
+    },
+    {
+      "checked_at": "2026-11-17T06:36:58.175Z",
+      "url": "ftp://milum.com/",
+      "host": "milum.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 148.311
+    },
+    {
+      "checked_at": "2026-11-17T06:36:58.645Z",
+      "url": "ftp://qosient.com/",
+      "host": "qosient.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 61.461
+    },
+    {
+      "checked_at": "2026-11-17T06:37:00.681Z",
+      "url": "ftp://starre.com/",
+      "host": "starre.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 2002.664
+    },
+    {
+      "checked_at": "2026-11-17T06:36:59.001Z",
+      "url": "ftp://sustworks.com/",
+      "host": "sustworks.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 130.643
+    },
+    {
+      "checked_at": "2026-11-17T06:37:00.791Z",
+      "url": "ftp://www.emulators.com/",
+      "host": "www.emulators.com",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 243.818
+    },
+    {
+      "checked_at": "2026-11-17T06:37:02.748Z",
+      "url": "ftp://ftp.clnet.cz/",
+      "host": "ftp.clnet.cz",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 704.725
+    },
+    {
+      "checked_at": "2026-11-17T06:37:03.269Z",
+      "url": "ftp://ftp.cstug.cz/",
+      "host": "ftp.cstug.cz",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1218.702
+    },
+    {
+      "checked_at": "2026-11-17T06:37:02.938Z",
+      "url": "ftp://ftp.fsid.cvut.cz/",
+      "host": "ftp.fsid.cvut.cz",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 621.817
+    },
+    {
+      "checked_at": "2026-11-17T06:37:03.512Z",
+      "url": "ftp://ftp.mikroservis.cz/",
+      "host": "ftp.mikroservis.cz",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 577.497
+    },
+    {
+      "checked_at": "2026-11-17T06:37:03.638Z",
+      "url": "ftp://ftp.pf.jcu.cz/",
+      "host": "ftp.pf.jcu.cz",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 683.177
+    },
+    {
+      "checked_at": "2026-11-17T06:37:03.344Z",
+      "url": "ftp://ftp.pslib.cz/",
+      "host": "ftp.pslib.cz",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 366.034
+    },
+    {
+      "checked_at": "2026-11-17T06:37:03.794Z",
+      "url": "ftp://ftp.vabo.cz/",
+      "host": "ftp.vabo.cz",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 450.575
+    },
+    {
+      "checked_at": "2026-11-17T06:37:03.808Z",
+      "url": "ftp://ftp.zcu.cz/",
+      "host": "ftp.zcu.cz",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 296.234
+    },
+    {
+      "checked_at": "2026-11-17T06:37:04.611Z",
+      "url": "ftp://ftp-stud.fht-esslingen.de/",
+      "host": "ftp-stud.fht-esslingen.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 681.276
+    },
+    {
+      "checked_at": "2026-11-17T06:37:04.614Z",
+      "url": "ftp://ftp.abas.de/",
+      "host": "ftp.abas.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 583.466
+    },
+    {
+      "checked_at": "2026-11-17T06:37:05.476Z",
+      "url": "ftp://ftp.bieringer.de/",
+      "host": "ftp.bieringer.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 408.662
+    },
+    {
+      "checked_at": "2026-11-17T06:37:05.738Z",
+      "url": "ftp://ftp.bintec.de/",
+      "host": "ftp.bintec.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 525.649
+    },
+    {
+      "checked_at": "2026-11-17T06:37:05.676Z",
+      "url": "ftp://ftp.bndlg.de/",
+      "host": "ftp.bndlg.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 383.249
+    },
+    {
+      "checked_at": "2026-11-17T06:37:05.740Z",
+      "url": "ftp://ftp.boerde.de/",
+      "host": "ftp.boerde.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 274.248
+    },
+    {
+      "checked_at": "2026-11-17T06:37:05.970Z",
+      "url": "ftp://ftp.brandstetter.de/",
+      "host": "ftp.brandstetter.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 433.047
+    },
+    {
+      "checked_at": "2026-11-17T06:37:05.962Z",
+      "url": "ftp://ftp.cadsoft.de/",
+      "host": "ftp.cadsoft.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 224.133
+    },
+    {
+      "checked_at": "2026-11-17T06:37:06.481Z",
+      "url": "ftp://ftp.consoft.de/",
+      "host": "ftp.consoft.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 390.601
+    },
+    {
+      "checked_at": "2026-11-17T06:37:06.984Z",
+      "url": "ftp://ftp.degnet.de/",
+      "host": "ftp.degnet.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 316.19
+    },
+    {
+      "checked_at": "2026-11-17T06:37:07.325Z",
+      "url": "ftp://ftp.dfki.uni-kl.de/",
+      "host": "ftp.dfki.uni-kl.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 340.909
+    },
+    {
+      "checked_at": "2026-11-17T06:37:08.559Z",
+      "url": "ftp://ftp.fido.de/",
+      "host": "ftp.fido.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 417.652
+    },
+    {
+      "checked_at": "2026-11-17T06:37:08.773Z",
+      "url": "ftp://ftp.fiz-technik.de/",
+      "host": "ftp.fiz-technik.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 595.026
+    },
+    {
+      "checked_at": "2026-11-17T06:37:08.589Z",
+      "url": "ftp://ftp.furry.de/",
+      "host": "ftp.furry.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 273.384
+    },
+    {
+      "checked_at": "2026-11-17T06:37:08.610Z",
+      "url": "ftp://ftp.gaby.de/",
+      "host": "ftp.gaby.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 200.326
+    },
+    {
+      "checked_at": "2026-11-17T06:37:08.989Z",
+      "url": "ftp://ftp.gekko-software.de/",
+      "host": "ftp.gekko-software.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 466.3
+    },
+    {
+      "checked_at": "2026-11-17T06:37:09.611Z",
+      "url": "ftp://ftp.gnet.de/",
+      "host": "ftp.gnet.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1052.294
+    },
+    {
+      "checked_at": "2026-11-17T06:37:08.823Z",
+      "url": "ftp://ftp.gsn.de/",
+      "host": "ftp.gsn.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 213.045
+    },
+    {
+      "checked_at": "2026-11-17T06:37:08.960Z",
+      "url": "ftp://ftp.gsoc.dlr.de/",
+      "host": "ftp.gsoc.dlr.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 342.14
+    },
+    {
+      "checked_at": "2026-11-17T06:37:09.234Z",
+      "url": "ftp://ftp.gwdg.de/",
+      "host": "ftp.gwdg.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 600.113
+    },
+    {
+      "checked_at": "2026-11-17T06:37:09.324Z",
+      "url": "ftp://ftp.heise.de/",
+      "host": "ftp.heise.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 589.379
+    },
+    {
+      "checked_at": "2026-11-17T06:37:09.288Z",
+      "url": "ftp://ftp.hrz.uni-kassel.de/",
+      "host": "ftp.hrz.uni-kassel.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 509.642
+    },
+    {
+      "checked_at": "2026-11-17T06:37:09.192Z",
+      "url": "ftp://ftp.hs.uni-hamburg.de/",
+      "host": "ftp.hs.uni-hamburg.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 390.798
+    },
+    {
+      "checked_at": "2026-11-17T06:37:09.311Z",
+      "url": "ftp://ftp.iks-jena.de/",
+      "host": "ftp.iks-jena.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 240.772
+    },
+    {
+      "checked_at": "2026-11-17T06:37:09.855Z",
+      "url": "ftp://ftp.ims.uni-stuttgart.de/",
+      "host": "ftp.ims.uni-stuttgart.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 688.718
+    },
+    {
+      "checked_at": "2026-11-17T06:37:09.487Z",
+      "url": "ftp://ftp.in-berlin.de/",
+      "host": "ftp.in-berlin.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 294.66
+    },
+    {
+      "checked_at": "2026-11-17T06:37:10.237Z",
+      "url": "ftp://ftp.inf.fu-berlin.de/",
+      "host": "ftp.inf.fu-berlin.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 993.932
+    },
+    {
+      "checked_at": "2026-11-17T06:37:09.589Z",
+      "url": "ftp://ftp.inf.tu-dresden.de/",
+      "host": "ftp.inf.tu-dresden.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 313.029
+    },
+    {
+      "checked_at": "2026-11-17T06:37:09.914Z",
+      "url": "ftp://ftp.informatik.uni-oldenburg.de/",
+      "host": "ftp.informatik.uni-oldenburg.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 423.097
+    },
+    {
+      "checked_at": "2026-11-17T06:37:10.339Z",
+      "url": "ftp://ftp.informatik.uni-stuttgart.de/",
+      "host": "ftp.informatik.uni-stuttgart.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 757.759
+    },
+    {
+      "checked_at": "2026-11-17T06:37:10.073Z",
+      "url": "ftp://ftp.isdn4linux.de/",
+      "host": "ftp.isdn4linux.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 209.757
+    },
+    {
+      "checked_at": "2026-11-17T06:37:10.340Z",
+      "url": "ftp://ftp.ix.de/",
+      "host": "ftp.ix.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 386.967
+    },
+    {
+      "checked_at": "2026-11-17T06:37:10.592Z",
+      "url": "ftp://ftp.kodiak.de/",
+      "host": "ftp.kodiak.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 519.308
+    },
+    {
+      "checked_at": "2026-11-17T06:37:10.621Z",
+      "url": "ftp://ftp.lancom.de/",
+      "host": "ftp.lancom.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 488.269
+    },
+    {
+      "checked_at": "2026-11-17T06:37:10.706Z",
+      "url": "ftp://ftp.links2linux.de/",
+      "host": "ftp.links2linux.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 545.887
+    },
+    {
+      "checked_at": "2026-11-17T06:37:10.739Z",
+      "url": "ftp://ftp.lrz-muenchen.de/",
+      "host": "ftp.lrz-muenchen.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 509.76
+    },
+    {
+      "checked_at": "2026-11-17T06:37:11.063Z",
+      "url": "ftp://ftp.math.fu-berlin.de/",
+      "host": "ftp.math.fu-berlin.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 821.544
+    },
+    {
+      "checked_at": "2026-11-17T06:37:10.601Z",
+      "url": "ftp://ftp.math.tu-berlin.de/",
+      "host": "ftp.math.tu-berlin.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 301.845
+    },
+    {
+      "checked_at": "2026-11-17T06:37:11.023Z",
+      "url": "ftp://ftp.mathematik.uni-muenchen.de/",
+      "host": "ftp.mathematik.uni-muenchen.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 518.422
+    },
+    {
+      "checked_at": "2026-11-17T06:37:11.077Z",
+      "url": "ftp://ftp.newyorker.de/",
+      "host": "ftp.newyorker.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 261.402
+    },
+    {
+      "checked_at": "2026-11-17T06:37:11.077Z",
+      "url": "ftp://ftp.nordwerk.de/",
+      "host": "ftp.nordwerk.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 243.639
+    },
+    {
+      "checked_at": "2026-11-17T06:37:11.108Z",
+      "url": "ftp://ftp.oo-software.de/",
+      "host": "ftp.oo-software.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 204.885
+    },
+    {
+      "checked_at": "2026-11-17T06:37:11.811Z",
+      "url": "ftp://ftp.oreilly.de/",
+      "host": "ftp.oreilly.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 831.848
+    },
+    {
+      "checked_at": "2026-11-17T06:37:11.500Z",
+      "url": "ftp://ftp.prs.de/",
+      "host": "ftp.prs.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 420.215
+    },
+    {
+      "checked_at": "2026-11-17T06:37:11.649Z",
+      "url": "ftp://ftp.rrzn.uni-hannover.de/",
+      "host": "ftp.rrzn.uni-hannover.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 385.847
+    },
+    {
+      "checked_at": "2026-11-17T06:37:11.627Z",
+      "url": "ftp://ftp.rz.tu-bs.de/",
+      "host": "ftp.rz.tu-bs.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 317.228
+    },
+    {
+      "checked_at": "2026-11-17T06:37:11.864Z",
+      "url": "ftp://ftp.rz.uni-frankfurt.de/",
+      "host": "ftp.rz.uni-frankfurt.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 475.116
+    },
+    {
+      "checked_at": "2026-11-17T06:37:12.066Z",
+      "url": "ftp://ftp.rz.uni-wuerzburg.de/",
+      "host": "ftp.rz.uni-wuerzburg.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 488.009
+    },
+    {
+      "checked_at": "2026-11-17T06:37:12.139Z",
+      "url": "ftp://ftp.stw-bonn.de/",
+      "host": "ftp.stw-bonn.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 298.749
+    },
+    {
+      "checked_at": "2026-11-17T06:37:12.095Z",
+      "url": "ftp://ftp.suse.de/",
+      "host": "ftp.suse.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 237.503
+    },
+    {
+      "checked_at": "2026-11-17T06:37:12.117Z",
+      "url": "ftp://ftp.take2.de/",
+      "host": "ftp.take2.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 211.163
+    },
+    {
+      "checked_at": "2026-11-17T06:37:12.156Z",
+      "url": "ftp://ftp.telnet98.de/",
+      "host": "ftp.telnet98.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 214.635
+    },
+    {
+      "checked_at": "2026-11-17T06:37:12.341Z",
+      "url": "ftp://ftp.tic.de/",
+      "host": "ftp.tic.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 229.239
+    },
+    {
+      "checked_at": "2026-11-17T06:37:12.579Z",
+      "url": "ftp://ftp.tu-chemnitz.de/",
+      "host": "ftp.tu-chemnitz.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 304.241
+    },
+    {
+      "checked_at": "2026-11-17T06:37:12.567Z",
+      "url": "ftp://ftp.tu-ilmenau.de/",
+      "host": "ftp.tu-ilmenau.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 222.273
+    },
+    {
+      "checked_at": "2026-11-17T06:37:12.852Z",
+      "url": "ftp://ftp.uni-bayreuth.de/",
+      "host": "ftp.uni-bayreuth.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 284.554
+    },
+    {
+      "checked_at": "2026-11-17T06:37:13.216Z",
+      "url": "ftp://ftp.uni-freiburg.de/",
+      "host": "ftp.uni-freiburg.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 493.587
+    },
+    {
+      "checked_at": "2026-11-17T06:37:13.420Z",
+      "url": "ftp://ftp.uni-hannover.de/",
+      "host": "ftp.uni-hannover.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 593.605
+    },
+    {
+      "checked_at": "2026-11-17T06:37:13.272Z",
+      "url": "ftp://ftp.uni-kassel.de/",
+      "host": "ftp.uni-kassel.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 390.193
+    },
+    {
+      "checked_at": "2026-11-17T06:37:13.132Z",
+      "url": "ftp://ftp.uni-kl.de/",
+      "host": "ftp.uni-kl.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 203.623
+    },
+    {
+      "checked_at": "2026-11-17T06:37:13.248Z",
+      "url": "ftp://ftp.uni-mainz.de/",
+      "host": "ftp.uni-mainz.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 130.21
+    },
+    {
+      "checked_at": "2026-11-17T06:37:13.438Z",
+      "url": "ftp://ftp.uni-oldenburg.de/",
+      "host": "ftp.uni-oldenburg.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 305.719
+    },
+    {
+      "checked_at": "2026-11-17T06:37:13.750Z",
+      "url": "ftp://ftp.uni-potsdam.de/",
+      "host": "ftp.uni-potsdam.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 533.691
+    },
+    {
+      "checked_at": "2026-11-17T06:37:13.648Z",
+      "url": "ftp://ftp.uni-rostock.de/",
+      "host": "ftp.uni-rostock.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 407.283
+    },
+    {
+      "checked_at": "2026-11-17T06:37:14.171Z",
+      "url": "ftp://ftp.unibuch.de/",
+      "host": "ftp.unibuch.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 780.248
+    },
+    {
+      "checked_at": "2026-11-17T06:37:13.729Z",
+      "url": "ftp://ftp.unitopia.de/",
+      "host": "ftp.unitopia.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 290.898
+    },
+    {
+      "checked_at": "2026-11-17T06:37:13.886Z",
+      "url": "ftp://ftp.wbk.de/",
+      "host": "ftp.wbk.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 245.248
+    },
+    {
+      "checked_at": "2026-11-17T06:37:14.678Z",
+      "url": "ftp://vim.ftp.fu-berlin.de/",
+      "host": "vim.ftp.fu-berlin.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 391.17
+    },
+    {
+      "checked_at": "2026-11-17T06:37:14.759Z",
+      "url": "ftp://www.radtke.de/",
+      "host": "www.radtke.de",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 319.099
+    },
+    {
+      "checked_at": "2026-11-17T06:37:16.966Z",
+      "url": "ftp://ftp.sslug.dk/",
+      "host": "ftp.sslug.dk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1046.341
+    },
+    {
+      "checked_at": "2026-11-17T06:37:16.276Z",
+      "url": "ftp://aeneas.mit.edu/",
+      "host": "aeneas.mit.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 119.341
+    },
+    {
+      "checked_at": "2026-11-17T06:37:16.381Z",
+      "url": "ftp://athena-dist.mit.edu/",
+      "host": "athena-dist.mit.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 104.067
+    },
+    {
+      "checked_at": "2026-11-17T06:37:16.585Z",
+      "url": "ftp://ccrma-ftp.stanford.edu/",
+      "host": "ccrma-ftp.stanford.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 184.127
+    },
+    {
+      "checked_at": "2026-11-17T06:37:17.819Z",
+      "url": "ftp://ftp.ai.mit.edu/",
+      "host": "ftp.ai.mit.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 99.154
+    },
+    {
+      "checked_at": "2026-11-17T06:37:17.878Z",
+      "url": "ftp://ftp.astro.umd.edu/",
+      "host": "ftp.astro.umd.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 59.079
+    },
+    {
+      "checked_at": "2026-11-17T06:37:18.779Z",
+      "url": "ftp://ftp.cfar.umd.edu/",
+      "host": "ftp.cfar.umd.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 270.44
+    },
+    {
+      "checked_at": "2026-11-17T06:37:19.208Z",
+      "url": "ftp://ftp.club.cc.cmu.edu/",
+      "host": "ftp.club.cc.cmu.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 139.349
+    },
+    {
+      "checked_at": "2026-11-17T06:37:19.244Z",
+      "url": "ftp://ftp.coda.cs.cmu.edu/",
+      "host": "ftp.coda.cs.cmu.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 89.068
+    },
+    {
+      "checked_at": "2026-11-17T06:37:19.284Z",
+      "url": "ftp://ftp.columbia.edu/",
+      "host": "ftp.columbia.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 39.899
+    },
+    {
+      "checked_at": "2026-11-17T06:37:20.202Z",
+      "url": "ftp://ftp.cs.orst.edu/",
+      "host": "ftp.cs.orst.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 397.437
+    },
+    {
+      "checked_at": "2026-11-17T06:37:20.194Z",
+      "url": "ftp://ftp.cs.purdue.edu/",
+      "host": "ftp.cs.purdue.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 90.828
+    },
+    {
+      "checked_at": "2026-11-17T06:37:20.406Z",
+      "url": "ftp://ftp.cs.toronto.edu/",
+      "host": "ftp.cs.toronto.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 159.648
+    },
+    {
+      "checked_at": "2026-11-17T06:37:20.450Z",
+      "url": "ftp://ftp.cs.ucla.edu/",
+      "host": "ftp.cs.ucla.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 147.77
+    },
+    {
+      "checked_at": "2026-11-17T06:37:20.567Z",
+      "url": "ftp://ftp.cs.umd.edu/",
+      "host": "ftp.cs.umd.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 158.702
+    },
+    {
+      "checked_at": "2026-11-17T06:37:20.704Z",
+      "url": "ftp://ftp.cs.utexas.edu/",
+      "host": "ftp.cs.utexas.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 161.874
+    },
+    {
+      "checked_at": "2026-11-17T06:37:20.718Z",
+      "url": "ftp://ftp.cs.wisc.edu/",
+      "host": "ftp.cs.wisc.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 82.701
+    },
+    {
+      "checked_at": "2026-11-17T06:37:20.798Z",
+      "url": "ftp://ftp.cs.wpi.edu/",
+      "host": "ftp.cs.wpi.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 150.624
+    },
+    {
+      "checked_at": "2026-11-17T06:37:21.002Z",
+      "url": "ftp://ftp.csri.toronto.edu/",
+      "host": "ftp.csri.toronto.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 180.294
+    },
+    {
+      "checked_at": "2026-11-17T06:37:21.035Z",
+      "url": "ftp://ftp.cv.nrao.edu/",
+      "host": "ftp.cv.nrao.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 102.296
+    },
+    {
+      "checked_at": "2026-11-17T06:37:21.222Z",
+      "url": "ftp://ftp.cwru.edu/",
+      "host": "ftp.cwru.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 268.008
+    },
+    {
+      "checked_at": "2026-11-17T06:37:21.256Z",
+      "url": "ftp://ftp.ecn.purdue.edu/",
+      "host": "ftp.ecn.purdue.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 82.603
+    },
+    {
+      "checked_at": "2026-11-17T06:37:21.647Z",
+      "url": "ftp://ftp.gps.caltech.edu/",
+      "host": "ftp.gps.caltech.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 131.85
+    },
+    {
+      "checked_at": "2026-11-17T06:37:22.007Z",
+      "url": "ftp://ftp.lcs.mit.edu/",
+      "host": "ftp.lcs.mit.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 92.917
+    },
+    {
+      "checked_at": "2026-11-17T06:37:22.204Z",
+      "url": "ftp://ftp.lowell.edu/",
+      "host": "ftp.lowell.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 164.289
+    },
+    {
+      "checked_at": "2026-11-17T06:37:22.586Z",
+      "url": "ftp://ftp.math.utah.edu/",
+      "host": "ftp.math.utah.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 77.945
+    },
+    {
+      "checked_at": "2026-11-17T06:37:22.912Z",
+      "url": "ftp://ftp.net.usf.edu/",
+      "host": "ftp.net.usf.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 64.856
+    },
+    {
+      "checked_at": "2026-11-17T06:37:23.420Z",
+      "url": "ftp://ftp.nodak.edu/",
+      "host": "ftp.nodak.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 397.153
+    },
+    {
+      "checked_at": "2026-11-17T06:37:23.622Z",
+      "url": "ftp://ftp.oce.orst.edu/",
+      "host": "ftp.oce.orst.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 500.372
+    },
+    {
+      "checked_at": "2026-11-17T06:37:23.292Z",
+      "url": "ftp://ftp.oregonstate.edu/",
+      "host": "ftp.oregonstate.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 160.171
+    },
+    {
+      "checked_at": "2026-11-17T06:37:23.471Z",
+      "url": "ftp://ftp.physics.purdue.edu/",
+      "host": "ftp.physics.purdue.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 178.854
+    },
+    {
+      "checked_at": "2026-11-17T06:37:23.880Z",
+      "url": "ftp://ftp.sys.toronto.edu/",
+      "host": "ftp.sys.toronto.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 120.249
+    },
+    {
+      "checked_at": "2026-11-17T06:37:24.018Z",
+      "url": "ftp://ftp.tamu.edu/",
+      "host": "ftp.tamu.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 240.386
+    },
+    {
+      "checked_at": "2026-11-17T06:37:24.548Z",
+      "url": "ftp://ftp.umiacs.umd.edu/",
+      "host": "ftp.umiacs.umd.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 81.471
+    },
+    {
+      "checked_at": "2026-11-17T06:37:24.883Z",
+      "url": "ftp://ftp.wayne.edu/",
+      "host": "ftp.wayne.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 131.397
+    },
+    {
+      "checked_at": "2026-11-17T06:37:25.077Z",
+      "url": "ftp://ftp.white.toronto.edu/",
+      "host": "ftp.white.toronto.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 223.879
+    },
+    {
+      "checked_at": "2026-11-17T06:37:25.529Z",
+      "url": "ftp://mirror.pa.msu.edu/",
+      "host": "mirror.pa.msu.edu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 117.7
+    },
+    {
+      "checked_at": "2026-11-17T06:37:27.305Z",
+      "url": "ftp://ftp.aai.ee/",
+      "host": "ftp.aai.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 697.901
+    },
+    {
+      "checked_at": "2026-11-17T06:37:27.998Z",
+      "url": "ftp://ftp.argrov.ee/",
+      "host": "ftp.argrov.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1253.276
+    },
+    {
+      "checked_at": "2026-11-17T06:37:27.204Z",
+      "url": "ftp://ftp.aspiron.ee/",
+      "host": "ftp.aspiron.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 283.191
+    },
+    {
+      "checked_at": "2026-11-17T06:37:28.062Z",
+      "url": "ftp://ftp.autobaas.ee/",
+      "host": "ftp.autobaas.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1101.764
+    },
+    {
+      "checked_at": "2026-11-17T06:37:28.110Z",
+      "url": "ftp://ftp.esgaap.ee/",
+      "host": "ftp.esgaap.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 695.802
+    },
+    {
+      "checked_at": "2026-11-17T06:37:27.945Z",
+      "url": "ftp://ftp.eve.ee/",
+      "host": "ftp.eve.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 480.959
+    },
+    {
+      "checked_at": "2026-11-17T06:37:28.170Z",
+      "url": "ftp://ftp.feliks.ee/",
+      "host": "ftp.feliks.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 696.692
+    },
+    {
+      "checked_at": "2026-11-17T06:37:28.343Z",
+      "url": "ftp://ftp.koolibri.ee/",
+      "host": "ftp.koolibri.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 345.509
+    },
+    {
+      "checked_at": "2026-11-17T06:37:29.584Z",
+      "url": "ftp://ftp.movement.ee/",
+      "host": "ftp.movement.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1202.69
+    },
+    {
+      "checked_at": "2026-11-17T06:37:29.232Z",
+      "url": "ftp://ftp.mt.ee/",
+      "host": "ftp.mt.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 820.517
+    },
+    {
+      "checked_at": "2026-11-17T06:37:29.584Z",
+      "url": "ftp://ftp.oststeel.ee/",
+      "host": "ftp.oststeel.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1163.728
+    },
+    {
+      "checked_at": "2026-11-17T06:37:29.587Z",
+      "url": "ftp://ftp.upgrade.ee/",
+      "host": "ftp.upgrade.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 354.632
+    },
+    {
+      "checked_at": "2026-11-17T06:37:29.983Z",
+      "url": "ftp://ftp.villardi.ee/",
+      "host": "ftp.villardi.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 620.669
+    },
+    {
+      "checked_at": "2026-11-17T06:37:29.851Z",
+      "url": "ftp://matti.ee/",
+      "host": "matti.ee",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 350.957
+    },
+    {
+      "checked_at": "2026-11-17T06:37:30.795Z",
+      "url": "ftp://ftp.cesca.es/",
+      "host": "ftp.cesca.es",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1211.292
+    },
+    {
+      "checked_at": "2026-11-17T06:37:29.746Z",
+      "url": "ftp://ftp.cica.es/",
+      "host": "ftp.cica.es",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 153.231
+    },
+    {
+      "checked_at": "2026-11-17T06:37:30.094Z",
+      "url": "ftp://ftp.rediris.es/",
+      "host": "ftp.rediris.es",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 227.614
+    },
+    {
+      "checked_at": "2026-11-17T06:37:30.148Z",
+      "url": "ftp://ftp.udc.es/",
+      "host": "ftp.udc.es",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 180.031
+    },
+    {
+      "checked_at": "2026-11-17T06:37:30.280Z",
+      "url": "ftp://ftp.uvigo.es/",
+      "host": "ftp.uvigo.es",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 135.296
+    },
+    {
+      "checked_at": "2026-11-17T06:37:30.453Z",
+      "url": "ftp://ftp.funet.fi/",
+      "host": "ftp.funet.fi",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 190.268
+    },
+    {
+      "checked_at": "2026-11-17T06:37:30.833Z",
+      "url": "ftp://ftp.qnet.fi/",
+      "host": "ftp.qnet.fi",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 234.12
+    },
+    {
+      "checked_at": "2026-11-17T06:37:31.001Z",
+      "url": "ftp://nic.funet.fi/",
+      "host": "nic.funet.fi",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 217.386
+    },
+    {
+      "checked_at": "2026-11-17T06:37:31.260Z",
+      "url": "ftp://ftp.acri.fr/",
+      "host": "ftp.acri.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 300.466
+    },
+    {
+      "checked_at": "2026-11-17T06:37:31.551Z",
+      "url": "ftp://ftp.aero.jussieu.fr/",
+      "host": "ftp.aero.jussieu.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 585.153
+    },
+    {
+      "checked_at": "2026-11-17T06:37:31.759Z",
+      "url": "ftp://ftp.crihan.fr/",
+      "host": "ftp.crihan.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 432.832
+    },
+    {
+      "checked_at": "2026-11-17T06:37:31.847Z",
+      "url": "ftp://ftp.ec-lyon.fr/",
+      "host": "ftp.ec-lyon.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 468.412
+    },
+    {
+      "checked_at": "2026-11-17T06:37:32.083Z",
+      "url": "ftp://ftp.espci.fr/",
+      "host": "ftp.espci.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 513.243
+    },
+    {
+      "checked_at": "2026-11-17T06:37:32.422Z",
+      "url": "ftp://ftp.ias.fr/",
+      "host": "ftp.ias.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 668.641
+    },
+    {
+      "checked_at": "2026-11-17T06:37:32.300Z",
+      "url": "ftp://ftp.ias.u-psud.fr/",
+      "host": "ftp.ias.u-psud.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 540.973
+    },
+    {
+      "checked_at": "2026-11-17T06:37:32.527Z",
+      "url": "ftp://ftp.id-net.fr/",
+      "host": "ftp.id-net.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 679.888
+    },
+    {
+      "checked_at": "2026-11-17T06:37:32.366Z",
+      "url": "ftp://ftp.in2p3.fr/",
+      "host": "ftp.in2p3.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 362.288
+    },
+    {
+      "checked_at": "2026-11-17T06:37:33.359Z",
+      "url": "ftp://ftp.inetech.fr/",
+      "host": "ftp.inetech.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1287.188
+    },
+    {
+      "checked_at": "2026-11-17T06:37:32.523Z",
+      "url": "ftp://ftp.inrets.fr/",
+      "host": "ftp.inrets.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 262.563
+    },
+    {
+      "checked_at": "2026-11-17T06:37:32.715Z",
+      "url": "ftp://ftp.inrialpes.fr/",
+      "host": "ftp.inrialpes.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 385.763
+    },
+    {
+      "checked_at": "2026-11-17T06:37:32.953Z",
+      "url": "ftp://ftp.irisa.fr/",
+      "host": "ftp.irisa.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 443.359
+    },
+    {
+      "checked_at": "2026-11-17T06:37:32.821Z",
+      "url": "ftp://ftp.irit.fr/",
+      "host": "ftp.irit.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 297.298
+    },
+    {
+      "checked_at": "2026-11-17T06:37:32.899Z",
+      "url": "ftp://ftp.jussieu.fr/",
+      "host": "ftp.jussieu.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 355.662
+    },
+    {
+      "checked_at": "2026-11-17T06:37:33.275Z",
+      "url": "ftp://ftp.lignerouge.fr/",
+      "host": "ftp.lignerouge.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 475.638
+    },
+    {
+      "checked_at": "2026-11-17T06:37:33.078Z",
+      "url": "ftp://ftp.lip6.fr/",
+      "host": "ftp.lip6.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 259.116
+    },
+    {
+      "checked_at": "2026-11-17T06:37:33.351Z",
+      "url": "ftp://ftp.lmd.jussieu.fr/",
+      "host": "ftp.lmd.jussieu.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 451.534
+    },
+    {
+      "checked_at": "2026-11-17T06:37:33.725Z",
+      "url": "ftp://ftp.obs-azur.fr/",
+      "host": "ftp.obs-azur.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 365.797
+    },
+    {
+      "checked_at": "2026-11-17T06:37:33.672Z",
+      "url": "ftp://ftp.obs-nice.fr/",
+      "host": "ftp.obs-nice.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 275.582
+    },
+    {
+      "checked_at": "2026-11-17T06:37:33.788Z",
+      "url": "ftp://ftp.pcsoft.fr/",
+      "host": "ftp.pcsoft.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 261.628
+    },
+    {
+      "checked_at": "2026-11-17T06:37:33.810Z",
+      "url": "ftp://ftp.planetb.fr/",
+      "host": "ftp.planetb.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 263.375
+    },
+    {
+      "checked_at": "2026-11-17T06:37:34.295Z",
+      "url": "ftp://ftp.sdv.fr/",
+      "host": "ftp.sdv.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 506.811
+    },
+    {
+      "checked_at": "2026-11-17T06:37:34.268Z",
+      "url": "ftp://ftp.shom.fr/",
+      "host": "ftp.shom.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 458.464
+    },
+    {
+      "checked_at": "2026-11-17T06:37:34.792Z",
+      "url": "ftp://ftp.univ-poitiers.fr/",
+      "host": "ftp.univ-poitiers.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 377.277
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.122Z",
+      "url": "ftp://ftp.univ-tlse1.fr/",
+      "host": "ftp.univ-tlse1.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 634.45
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.343Z",
+      "url": "ftp://megrez.math.u-bordeaux.fr/",
+      "host": "megrez.math.u-bordeaux.fr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 774.302
+    },
+    {
+      "checked_at": "2026-11-17T06:37:34.828Z",
+      "url": "ftp://ftp.cdc.gov/",
+      "host": "ftp.cdc.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 29.135
+    },
+    {
+      "checked_at": "2026-11-17T06:37:34.968Z",
+      "url": "ftp://ftp.ee.lbl.gov/",
+      "host": "ftp.ee.lbl.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 146.166
+    },
+    {
+      "checked_at": "2026-11-17T06:37:34.878Z",
+      "url": "ftp://ftp.fcc.gov/",
+      "host": "ftp.fcc.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 30.57
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.120Z",
+      "url": "ftp://ftp.ncdc.noaa.gov/",
+      "host": "ftp.ncdc.noaa.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 163.483
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.167Z",
+      "url": "ftp://ftp.ngdc.noaa.gov/",
+      "host": "ftp.ngdc.noaa.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 198.668
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.167Z",
+      "url": "ftp://ftp.nhc.noaa.gov/",
+      "host": "ftp.nhc.noaa.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 190.528
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.013Z",
+      "url": "ftp://ftp.nlm.nih.gov/",
+      "host": "ftp.nlm.nih.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 29.394
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.064Z",
+      "url": "ftp://ftp.nodc.noaa.gov/",
+      "host": "ftp.nodc.noaa.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 54.564
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.072Z",
+      "url": "ftp://ftp.ornl.gov/",
+      "host": "ftp.ornl.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 58.963
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.248Z",
+      "url": "ftp://ftp.pmel.noaa.gov/",
+      "host": "ftp.pmel.noaa.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 213.947
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.263Z",
+      "url": "ftp://ftp.pnl.gov/",
+      "host": "ftp.pnl.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 226.92
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.194Z",
+      "url": "ftp://nlmpubs.nlm.nih.gov/",
+      "host": "nlmpubs.nlm.nih.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 50.045
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.360Z",
+      "url": "ftp://www-epb.lbl.gov/",
+      "host": "www-epb.lbl.gov",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 202.748
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.465Z",
+      "url": "ftp://ftp.forthnet.gr/",
+      "host": "ftp.forthnet.gr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 288.381
+    },
+    {
+      "checked_at": "2026-11-17T06:37:36.451Z",
+      "url": "ftp://ftp.hellug.gr/",
+      "host": "ftp.hellug.gr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1267.725
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.860Z",
+      "url": "ftp://ftp.internet.gr/",
+      "host": "ftp.internet.gr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 666.438
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.731Z",
+      "url": "ftp://ftp.linux.gr/",
+      "host": "ftp.linux.gr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 527.027
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.509Z",
+      "url": "ftp://ftp.otenet.gr/",
+      "host": "ftp.otenet.gr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 260.784
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.535Z",
+      "url": "ftp://ftp.carnet.hr/",
+      "host": "ftp.carnet.hr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 223.168
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.858Z",
+      "url": "ftp://ftp.linux.hr/",
+      "host": "ftp.linux.hr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 546.115
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.794Z",
+      "url": "ftp://ftp.bme.hu/",
+      "host": "ftp.bme.hu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 293.122
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.837Z",
+      "url": "ftp://ftp.externet.hu/",
+      "host": "ftp.externet.hu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 328.692
+    },
+    {
+      "checked_at": "2026-11-17T06:37:36.388Z",
+      "url": "ftp://ftp.iit.bme.hu/",
+      "host": "ftp.iit.bme.hu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 710.62
+    },
+    {
+      "checked_at": "2026-11-17T06:37:35.952Z",
+      "url": "ftp://ftp.linuxforum.hu/",
+      "host": "ftp.linuxforum.hu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 207.824
+    },
+    {
+      "checked_at": "2026-11-17T06:37:36.775Z",
+      "url": "ftp://ftp.mplayerhq.hu/",
+      "host": "ftp.mplayerhq.hu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 937.835
+    },
+    {
+      "checked_at": "2026-11-17T06:37:36.181Z",
+      "url": "ftp://ftp.osb.hu/",
+      "host": "ftp.osb.hu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 322.359
+    },
+    {
+      "checked_at": "2026-11-17T06:37:37.418Z",
+      "url": "ftp://ftp.mbl.is/",
+      "host": "ftp.mbl.is",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 288.642
+    },
+    {
+      "checked_at": "2026-11-17T06:37:37.938Z",
+      "url": "ftp://ftp.mmedia.is/",
+      "host": "ftp.mmedia.is",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 686.636
+    },
+    {
+      "checked_at": "2026-11-17T06:37:38.358Z",
+      "url": "ftp://ftp.brain.it/",
+      "host": "ftp.brain.it",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 419.686
+    },
+    {
+      "checked_at": "2026-11-17T06:37:38.863Z",
+      "url": "ftp://ftp.coritel.it/",
+      "host": "ftp.coritel.it",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 743.192
+    },
+    {
+      "checked_at": "2026-11-17T06:37:39.106Z",
+      "url": "ftp://ftp.flashnet.it/",
+      "host": "ftp.flashnet.it",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 323.701
+    },
+    {
+      "checked_at": "2026-11-17T06:37:39.982Z",
+      "url": "ftp://ftp.polito.it/",
+      "host": "ftp.polito.it",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 585.041
+    },
+    {
+      "checked_at": "2026-11-17T06:37:40.503Z",
+      "url": "ftp://ftp.rgn.it/",
+      "host": "ftp.rgn.it",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 958.774
+    },
+    {
+      "checked_at": "2026-11-17T06:37:40.007Z",
+      "url": "ftp://ftp.sad.it/",
+      "host": "ftp.sad.it",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 324.872
+    },
+    {
+      "checked_at": "2026-11-17T06:37:40.015Z",
+      "url": "ftp://ftp.unife.it/",
+      "host": "ftp.unife.it",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 217.602
+    },
+    {
+      "checked_at": "2026-11-17T06:37:40.187Z",
+      "url": "ftp://ftp.windnet.it/",
+      "host": "ftp.windnet.it",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 320.606
+    },
+    {
+      "checked_at": "2026-11-17T06:37:40.347Z",
+      "url": "ftp://ftp2.itb.it/",
+      "host": "ftp2.itb.it",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 340.403
+    },
+    {
+      "checked_at": "2026-11-17T06:37:41.103Z",
+      "url": "ftp://ftp.ai.kyutech.ac.jp/",
+      "host": "ftp.ai.kyutech.ac.jp",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 673.637
+    },
+    {
+      "checked_at": "2026-11-17T06:37:41.841Z",
+      "url": "ftp://ftp.iij.ad.jp/",
+      "host": "ftp.iij.ad.jp",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 557.814
+    },
+    {
+      "checked_at": "2026-11-17T06:37:41.702Z",
+      "url": "ftp://ftp.jepro.co.jp/",
+      "host": "ftp.jepro.co.jp",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 332.755
+    },
+    {
+      "checked_at": "2026-11-17T06:37:42.593Z",
+      "url": "ftp://ftp.math.s.chiba-u.ac.jp/",
+      "host": "ftp.math.s.chiba-u.ac.jp",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 958.553
+    },
+    {
+      "checked_at": "2026-11-17T06:37:42.187Z",
+      "url": "ftp://ftp.nic.ad.jp/",
+      "host": "ftp.nic.ad.jp",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 396.391
+    },
+    {
+      "checked_at": "2026-11-17T06:37:42.517Z",
+      "url": "ftp://ftp.north.ad.jp/",
+      "host": "ftp.north.ad.jp",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 675.978
+    },
+    {
+      "checked_at": "2026-11-17T06:37:42.678Z",
+      "url": "ftp://ftp.se.hiroshima-u.ac.jp/",
+      "host": "ftp.se.hiroshima-u.ac.jp",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 684.182
+    },
+    {
+      "checked_at": "2026-11-17T06:37:42.822Z",
+      "url": "ftp://ftp.sra.co.jp/",
+      "host": "ftp.sra.co.jp",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 757.257
+    },
+    {
+      "checked_at": "2026-11-17T06:37:42.867Z",
+      "url": "ftp://ftp.teac.co.jp/",
+      "host": "ftp.teac.co.jp",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 783.138
+    },
+    {
+      "checked_at": "2026-11-17T06:37:42.830Z",
+      "url": "ftp://ftp.tomo.gr.jp/",
+      "host": "ftp.tomo.gr.jp",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 645.835
+    },
+    {
+      "checked_at": "2026-11-17T06:37:42.520Z",
+      "url": "ftp://ftp.vacs.co.jp/",
+      "host": "ftp.vacs.co.jp",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 332.883
+    },
+    {
+      "checked_at": "2026-11-17T06:37:42.965Z",
+      "url": "ftp://sh.wide.ad.jp/",
+      "host": "sh.wide.ad.jp",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 444.554
+    },
+    {
+      "checked_at": "2026-11-17T06:37:43.559Z",
+      "url": "ftp://ftp.ipc.lt/",
+      "host": "ftp.ipc.lt",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 352.586
+    },
+    {
+      "checked_at": "2026-11-17T06:37:44.271Z",
+      "url": "ftp://ftp.lanet.lv/",
+      "host": "ftp.lanet.lv",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 712.12
+    },
+    {
+      "checked_at": "2026-11-17T06:37:44.352Z",
+      "url": "ftp://ftp.vernet.lv/",
+      "host": "ftp.vernet.lv",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 581.994
+    },
+    {
+      "checked_at": "2026-11-17T06:37:44.294Z",
+      "url": "ftp://alpha.greenie.net/",
+      "host": "alpha.greenie.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 231.962
+    },
+    {
+      "checked_at": "2026-11-17T06:37:44.274Z",
+      "url": "ftp://candc1.golden.net/",
+      "host": "candc1.golden.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 133.334
+    },
+    {
+      "checked_at": "2026-11-17T06:37:44.707Z",
+      "url": "ftp://ftp.ablecom.net/",
+      "host": "ftp.ablecom.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 407.859
+    },
+    {
+      "checked_at": "2026-11-17T06:37:44.822Z",
+      "url": "ftp://ftp.acronet.net/",
+      "host": "ftp.acronet.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 477.834
+    },
+    {
+      "checked_at": "2026-11-17T06:37:44.698Z",
+      "url": "ftp://ftp.adcis.net/",
+      "host": "ftp.adcis.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 346.006
+    },
+    {
+      "checked_at": "2026-11-17T06:37:44.794Z",
+      "url": "ftp://ftp.ao.net/",
+      "host": "ftp.ao.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 308.477
+    },
+    {
+      "checked_at": "2026-11-17T06:37:44.749Z",
+      "url": "ftp://ftp.apnic.net/",
+      "host": "ftp.apnic.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 224.844
+    },
+    {
+      "checked_at": "2026-11-17T06:37:44.605Z",
+      "url": "ftp://ftp.apple.asimov.net/",
+      "host": "ftp.apple.asimov.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 50.684
+    },
+    {
+      "checked_at": "2026-11-17T06:37:45.238Z",
+      "url": "ftp://ftp.bbbs.net/",
+      "host": "ftp.bbbs.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 413.714
+    },
+    {
+      "checked_at": "2026-11-17T06:37:45.081Z",
+      "url": "ftp://ftp.blarg.net/",
+      "host": "ftp.blarg.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 166.696
+    },
+    {
+      "checked_at": "2026-11-17T06:37:46.372Z",
+      "url": "ftp://ftp.clari.net/",
+      "host": "ftp.clari.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 151.725
+    },
+    {
+      "checked_at": "2026-11-17T06:37:46.868Z",
+      "url": "ftp://ftp.croco.net/",
+      "host": "ftp.croco.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 404.473
+    },
+    {
+      "checked_at": "2026-11-17T06:37:46.568Z",
+      "url": "ftp://ftp.croftj.net/",
+      "host": "ftp.croftj.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 51.225
+    },
+    {
+      "checked_at": "2026-11-17T06:37:47.160Z",
+      "url": "ftp://ftp.cyberglobe.net/",
+      "host": "ftp.cyberglobe.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 424.549
+    },
+    {
+      "checked_at": "2026-11-17T06:37:47.635Z",
+      "url": "ftp://ftp.dataforce.net/",
+      "host": "ftp.dataforce.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 637.103
+    },
+    {
+      "checked_at": "2026-11-17T06:37:47.579Z",
+      "url": "ftp://ftp.deepspace6.net/",
+      "host": "ftp.deepspace6.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 491.745
+    },
+    {
+      "checked_at": "2026-11-17T06:37:47.266Z",
+      "url": "ftp://ftp.distributed.net/",
+      "host": "ftp.distributed.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 106.021
+    },
+    {
+      "checked_at": "2026-11-17T06:37:47.538Z",
+      "url": "ftp://ftp.djuga.net/",
+      "host": "ftp.djuga.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 362.426
+    },
+    {
+      "checked_at": "2026-11-17T06:37:47.841Z",
+      "url": "ftp://ftp.earthnet.net/",
+      "host": "ftp.earthnet.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 261.494
+    },
+    {
+      "checked_at": "2026-11-17T06:37:47.979Z",
+      "url": "ftp://ftp.easynet.net/",
+      "host": "ftp.easynet.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 393.144
+    },
+    {
+      "checked_at": "2026-11-17T06:37:47.759Z",
+      "url": "ftp://ftp.ebtech.net/",
+      "host": "ftp.ebtech.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 144.617
+    },
+    {
+      "checked_at": "2026-11-17T06:37:49.690Z",
+      "url": "ftp://ftp.elkhart.net/",
+      "host": "ftp.elkhart.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1931.127
+    },
+    {
+      "checked_at": "2026-11-17T06:37:47.972Z",
+      "url": "ftp://ftp.eng.oar.net/",
+      "host": "ftp.eng.oar.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 130.586
+    },
+    {
+      "checked_at": "2026-11-17T06:37:48.060Z",
+      "url": "ftp://ftp.epix.net/",
+      "host": "ftp.epix.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 191.443
+    },
+    {
+      "checked_at": "2026-11-17T06:37:48.630Z",
+      "url": "ftp://ftp.got.net/",
+      "host": "ftp.got.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 123.574
+    },
+    {
+      "checked_at": "2026-11-17T06:37:49.596Z",
+      "url": "ftp://ftp.infogrames.net/",
+      "host": "ftp.infogrames.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 136.862
+    },
+    {
+      "checked_at": "2026-11-17T06:37:54.811Z",
+      "url": "ftp://ftp.inklineglobal.net/",
+      "host": "ftp.inklineglobal.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 5319.737
+    },
+    {
+      "checked_at": "2026-11-17T06:37:49.754Z",
+      "url": "ftp://ftp.internic.net/",
+      "host": "ftp.internic.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 117.861
+    },
+    {
+      "checked_at": "2026-11-17T06:37:50.305Z",
+      "url": "ftp://ftp.itl.net/",
+      "host": "ftp.itl.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 570.632
+    },
+    {
+      "checked_at": "2026-11-17T06:37:50.240Z",
+      "url": "ftp://ftp.johngaughan.net/",
+      "host": "ftp.johngaughan.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 276.421
+    },
+    {
+      "checked_at": "2026-11-17T06:37:51.224Z",
+      "url": "ftp://ftp.karoo.net/",
+      "host": "ftp.karoo.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 923.7
+    },
+    {
+      "checked_at": "2026-11-17T06:37:50.741Z",
+      "url": "ftp://ftp.keyway.net/",
+      "host": "ftp.keyway.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 338.028
+    },
+    {
+      "checked_at": "2026-11-17T06:37:51.511Z",
+      "url": "ftp://ftp.ksc.net/",
+      "host": "ftp.ksc.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1018.488
+    },
+    {
+      "checked_at": "2026-11-17T06:37:50.744Z",
+      "url": "ftp://ftp.lacnic.net/",
+      "host": "ftp.lacnic.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 241.677
+    },
+    {
+      "checked_at": "2026-11-17T06:37:51.370Z",
+      "url": "ftp://ftp.marko.net/",
+      "host": "ftp.marko.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 255.148
+    },
+    {
+      "checked_at": "2026-11-17T06:37:51.286Z",
+      "url": "ftp://ftp.meer.net/",
+      "host": "ftp.meer.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 124.774
+    },
+    {
+      "checked_at": "2026-11-17T06:37:51.684Z",
+      "url": "ftp://ftp.mirt.net/",
+      "host": "ftp.mirt.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 398.073
+    },
+    {
+      "checked_at": "2026-11-17T06:37:51.561Z",
+      "url": "ftp://ftp.netwizards.net/",
+      "host": "ftp.netwizards.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 102.971
+    },
+    {
+      "checked_at": "2026-11-17T06:37:51.799Z",
+      "url": "ftp://ftp.nordu.net/",
+      "host": "ftp.nordu.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 204.055
+    },
+    {
+      "checked_at": "2026-11-17T06:37:51.875Z",
+      "url": "ftp://ftp.ntplx.net/",
+      "host": "ftp.ntplx.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 110.379
+    },
+    {
+      "checked_at": "2026-11-17T06:37:51.928Z",
+      "url": "ftp://ftp.nyct.net/",
+      "host": "ftp.nyct.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 52.872
+    },
+    {
+      "checked_at": "2026-11-17T06:37:52.269Z",
+      "url": "ftp://ftp.onecall.net/",
+      "host": "ftp.onecall.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 179.807
+    },
+    {
+      "checked_at": "2026-11-17T06:37:52.812Z",
+      "url": "ftp://ftp.plig.net/",
+      "host": "ftp.plig.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 178.455
+    },
+    {
+      "checked_at": "2026-11-17T06:37:53.164Z",
+      "url": "ftp://ftp.pnm.net/",
+      "host": "ftp.pnm.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 517.105
+    },
+    {
+      "checked_at": "2026-11-17T06:37:53.230Z",
+      "url": "ftp://ftp.proventum.net/",
+      "host": "ftp.proventum.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 364.844
+    },
+    {
+      "checked_at": "2026-11-17T06:37:53.177Z",
+      "url": "ftp://ftp.pubnix.net/",
+      "host": "ftp.pubnix.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 280.226
+    },
+    {
+      "checked_at": "2026-11-17T06:37:53.290Z",
+      "url": "ftp://ftp.ripe.net/",
+      "host": "ftp.ripe.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 112.142
+    },
+    {
+      "checked_at": "2026-11-17T06:37:53.569Z",
+      "url": "ftp://ftp.rpmfind.net/",
+      "host": "ftp.rpmfind.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 327.302
+    },
+    {
+      "checked_at": "2026-11-17T06:37:53.497Z",
+      "url": "ftp://ftp.saix.net/",
+      "host": "ftp.saix.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 206.875
+    },
+    {
+      "checked_at": "2026-11-17T06:37:53.623Z",
+      "url": "ftp://ftp.scs-trc.net/",
+      "host": "ftp.scs-trc.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 309.547
+    },
+    {
+      "checked_at": "2026-11-17T06:37:54.024Z",
+      "url": "ftp://ftp.sj.ablecom.net/",
+      "host": "ftp.sj.ablecom.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 454.916
+    },
+    {
+      "checked_at": "2026-11-17T06:37:53.940Z",
+      "url": "ftp://ftp.skypoint.net/",
+      "host": "ftp.skypoint.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 317.328
+    },
+    {
+      "checked_at": "2026-11-17T06:37:53.860Z",
+      "url": "ftp://ftp.snowcrest.net/",
+      "host": "ftp.snowcrest.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 235.646
+    },
+    {
+      "checked_at": "2026-11-17T06:37:54.269Z",
+      "url": "ftp://ftp.sol.net/",
+      "host": "ftp.sol.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 593.112
+    },
+    {
+      "checked_at": "2026-11-17T06:37:54.036Z",
+      "url": "ftp://ftp.stben.net/",
+      "host": "ftp.stben.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 175.585
+    },
+    {
+      "checked_at": "2026-11-17T06:37:54.201Z",
+      "url": "ftp://ftp.steinberg.net/",
+      "host": "ftp.steinberg.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 261.12
+    },
+    {
+      "checked_at": "2026-11-17T06:37:54.421Z",
+      "url": "ftp://ftp.styx.cabel.net/",
+      "host": "ftp.styx.cabel.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 385.053
+    },
+    {
+      "checked_at": "2026-11-17T06:37:54.322Z",
+      "url": "ftp://ftp.surakware.net/",
+      "host": "ftp.surakware.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 193.519
+    },
+    {
+      "checked_at": "2026-11-17T06:37:54.618Z",
+      "url": "ftp://ftp.synchro.net/",
+      "host": "ftp.synchro.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 415.144
+    },
+    {
+      "checked_at": "2026-11-17T06:37:54.367Z",
+      "url": "ftp://ftp.szkola.net/",
+      "host": "ftp.szkola.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 134.593
+    },
+    {
+      "checked_at": "2026-11-17T06:37:54.579Z",
+      "url": "ftp://ftp.teol.net/",
+      "host": "ftp.teol.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 268.954
+    },
+    {
+      "checked_at": "2026-11-17T06:37:54.627Z",
+      "url": "ftp://ftp.torque.net/",
+      "host": "ftp.torque.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 159.997
+    },
+    {
+      "checked_at": "2026-11-17T06:37:54.678Z",
+      "url": "ftp://ftp.tti.net/",
+      "host": "ftp.tti.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 64.584
+    },
+    {
+      "checked_at": "2026-11-17T06:37:55.296Z",
+      "url": "ftp://ftp.welmers.net/",
+      "host": "ftp.welmers.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 295.703
+    },
+    {
+      "checked_at": "2026-11-17T06:37:55.252Z",
+      "url": "ftp://ftp.whidbey.net/",
+      "host": "ftp.whidbey.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 181.733
+    },
+    {
+      "checked_at": "2026-11-17T06:37:55.410Z",
+      "url": "ftp://ftp.win.net/",
+      "host": "ftp.win.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 158.259
+    },
+    {
+      "checked_at": "2026-11-17T06:37:55.724Z",
+      "url": "ftp://ftp.zedz.net/",
+      "host": "ftp.zedz.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 349.239
+    },
+    {
+      "checked_at": "2026-11-17T06:37:55.618Z",
+      "url": "ftp://ftp.zipcon.net/",
+      "host": "ftp.zipcon.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 207.932
+    },
+    {
+      "checked_at": "2026-11-17T06:38:05.592Z",
+      "url": "ftp://inklineglobal.net/",
+      "host": "inklineglobal.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 9711.611
+    },
+    {
+      "checked_at": "2026-11-17T06:37:56.093Z",
+      "url": "ftp://invisible-island.net/",
+      "host": "invisible-island.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 134.388
+    },
+    {
+      "checked_at": "2026-11-17T06:37:56.448Z",
+      "url": "ftp://puck.nether.net/",
+      "host": "puck.nether.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 113.388
+    },
+    {
+      "checked_at": "2026-11-17T06:37:56.652Z",
+      "url": "ftp://stunnel.mirt.net/",
+      "host": "stunnel.mirt.net",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 256.947
+    },
+    {
+      "checked_at": "2026-11-17T06:37:57.998Z",
+      "url": "ftp://ftp.cs.uu.nl/",
+      "host": "ftp.cs.uu.nl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 633.208
+    },
+    {
+      "checked_at": "2026-11-17T06:37:57.694Z",
+      "url": "ftp://ftp.draytek.nl/",
+      "host": "ftp.draytek.nl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 211.308
+    },
+    {
+      "checked_at": "2026-11-17T06:37:58.778Z",
+      "url": "ftp://ftp.graaf.nl/",
+      "host": "ftp.graaf.nl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 291.178
+    },
+    {
+      "checked_at": "2026-11-17T06:37:58.878Z",
+      "url": "ftp://ftp.hacktic.nl/",
+      "host": "ftp.hacktic.nl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 385.658
+    },
+    {
+      "checked_at": "2026-11-17T06:37:58.833Z",
+      "url": "ftp://ftp.hzeeland.nl/",
+      "host": "ftp.hzeeland.nl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 222.333
+    },
+    {
+      "checked_at": "2026-11-17T06:37:59.854Z",
+      "url": "ftp://ftp.nfra.nl/",
+      "host": "ftp.nfra.nl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 862.274
+    },
+    {
+      "checked_at": "2026-11-17T06:37:59.975Z",
+      "url": "ftp://ftp.snt.utwente.nl/",
+      "host": "ftp.snt.utwente.nl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 380.639
+    },
+    {
+      "checked_at": "2026-11-17T06:37:59.936Z",
+      "url": "ftp://ftp.student.utwente.nl/",
+      "host": "ftp.student.utwente.nl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 288.586
+    },
+    {
+      "checked_at": "2026-11-17T06:38:00.064Z",
+      "url": "ftp://ftp.vu.nl/",
+      "host": "ftp.vu.nl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 189.28
+    },
+    {
+      "checked_at": "2026-11-17T06:38:00.119Z",
+      "url": "ftp://wzv.win.tue.nl/",
+      "host": "wzv.win.tue.nl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 162.142
+    },
+    {
+      "checked_at": "2026-11-17T06:38:00.654Z",
+      "url": "ftp://ftp.inet.no/",
+      "host": "ftp.inet.no",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 290.739
+    },
+    {
+      "checked_at": "2026-11-17T06:38:01.353Z",
+      "url": "ftp://ftp.itservice.no/",
+      "host": "ftp.itservice.no",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 889.094
+    },
+    {
+      "checked_at": "2026-11-17T06:38:00.902Z",
+      "url": "ftp://ftp.nersc.no/",
+      "host": "ftp.nersc.no",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 313.495
+    },
+    {
+      "checked_at": "2026-11-17T06:38:00.911Z",
+      "url": "ftp://ftp.nr.no/",
+      "host": "ftp.nr.no",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 208.883
+    },
+    {
+      "checked_at": "2026-11-17T06:38:01.313Z",
+      "url": "ftp://ftp.ntnu.no/",
+      "host": "ftp.ntnu.no",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 535.752
+    },
+    {
+      "checked_at": "2026-11-17T06:38:01.179Z",
+      "url": "ftp://ftp.slackware.no/",
+      "host": "ftp.slackware.no",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 120.087
+    },
+    {
+      "checked_at": "2026-11-17T06:38:03.373Z",
+      "url": "ftp://ftp.cm.nu/",
+      "host": "ftp.cm.nu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 2148.456
+    },
+    {
+      "checked_at": "2026-11-17T06:38:01.716Z",
+      "url": "ftp://ftp.manet.nu/",
+      "host": "ftp.manet.nu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 408.283
+    },
+    {
+      "checked_at": "2026-11-17T06:38:01.762Z",
+      "url": "ftp://ftp.siag.nu/",
+      "host": "ftp.siag.nu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 448.541
+    },
+    {
+      "checked_at": "2026-11-17T06:38:04.234Z",
+      "url": "ftp://ftp.steffo.nu/",
+      "host": "ftp.steffo.nu",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 2899.619
+    },
+    {
+      "checked_at": "2026-11-17T06:38:01.979Z",
+      "url": "ftp://ftp.actrix.gen.nz/",
+      "host": "ftp.actrix.gen.nz",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 625.54
+    },
+    {
+      "checked_at": "2026-11-17T06:38:02.640Z",
+      "url": "ftp://www.golden.co.nz/",
+      "host": "www.golden.co.nz",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 661.263
+    },
+    {
+      "checked_at": "2026-11-17T06:38:02.505Z",
+      "url": "ftp://c64.rulez.org/",
+      "host": "c64.rulez.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 380.418
+    },
+    {
+      "checked_at": "2026-11-17T06:38:02.570Z",
+      "url": "ftp://ftp.3gpp.org/",
+      "host": "ftp.3gpp.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 109.682
+    },
+    {
+      "checked_at": "2026-11-17T06:38:03.925Z",
+      "url": "ftp://ftp.allgaeu.org/",
+      "host": "ftp.allgaeu.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1000.687
+    },
+    {
+      "checked_at": "2026-11-17T06:38:03.630Z",
+      "url": "ftp://ftp.alsa-project.org/",
+      "host": "ftp.alsa-project.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 553.796
+    },
+    {
+      "checked_at": "2026-11-17T06:38:03.180Z",
+      "url": "ftp://ftp.amigascne.org/",
+      "host": "ftp.amigascne.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 41.057
+    },
+    {
+      "checked_at": "2026-11-17T06:38:05.292Z",
+      "url": "ftp://ftp.amug.org/",
+      "host": "ftp.amug.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 2085.764
+    },
+    {
+      "checked_at": "2026-11-17T06:38:03.971Z",
+      "url": "ftp://ftp.angrenost.org/",
+      "host": "ftp.angrenost.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 713.21
+    },
+    {
+      "checked_at": "2026-11-17T06:38:04.016Z",
+      "url": "ftp://ftp.asir.org/",
+      "host": "ftp.asir.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 321.726
+    },
+    {
+      "checked_at": "2026-11-17T06:38:04.104Z",
+      "url": "ftp://ftp.at.freebsd.org/",
+      "host": "ftp.at.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 178.023
+    },
+    {
+      "checked_at": "2026-11-17T06:38:04.293Z",
+      "url": "ftp://ftp.bbpro.org/",
+      "host": "ftp.bbpro.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 236.34
+    },
+    {
+      "checked_at": "2026-11-17T06:38:04.914Z",
+      "url": "ftp://ftp.bg.freebsd.org/",
+      "host": "ftp.bg.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 679.833
+    },
+    {
+      "checked_at": "2026-11-17T06:38:04.984Z",
+      "url": "ftp://ftp.bocian.org/",
+      "host": "ftp.bocian.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 673.362
+    },
+    {
+      "checked_at": "2026-11-17T06:38:04.480Z",
+      "url": "ftp://ftp.ca.debian.org/",
+      "host": "ftp.ca.debian.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 49.184
+    },
+    {
+      "checked_at": "2026-11-17T06:38:05.502Z",
+      "url": "ftp://ftp.ch.freebsd.org/",
+      "host": "ftp.ch.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1009.31
+    },
+    {
+      "checked_at": "2026-11-17T06:38:05.339Z",
+      "url": "ftp://ftp.cubic.org/",
+      "host": "ftp.cubic.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 201.626
+    },
+    {
+      "checked_at": "2026-11-17T06:38:05.969Z",
+      "url": "ftp://ftp.cz.debian.org/",
+      "host": "ftp.cz.debian.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 729.097
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.002Z",
+      "url": "ftp://ftp.cz.freebsd.org/",
+      "host": "ftp.cz.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 739.561
+    },
+    {
+      "checked_at": "2026-11-17T06:38:05.409Z",
+      "url": "ftp://ftp.de.debian.org/",
+      "host": "ftp.de.debian.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 117.105
+    },
+    {
+      "checked_at": "2026-11-17T06:38:05.976Z",
+      "url": "ftp://ftp.de.freebsd.org/",
+      "host": "ftp.de.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 653.446
+    },
+    {
+      "checked_at": "2026-11-17T06:38:05.848Z",
+      "url": "ftp://ftp.delegate.org/",
+      "host": "ftp.delegate.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 396.124
+    },
+    {
+      "checked_at": "2026-11-17T06:38:05.791Z",
+      "url": "ftp://ftp.dhis.org/",
+      "host": "ftp.dhis.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 276.9
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.021Z",
+      "url": "ftp://ftp.dinoex.org/",
+      "host": "ftp.dinoex.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 429.054
+    },
+    {
+      "checked_at": "2026-11-17T06:38:05.964Z",
+      "url": "ftp://ftp.dk.debian.org/",
+      "host": "ftp.dk.debian.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 262.781
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.227Z",
+      "url": "ftp://ftp.dk.freebsd.org/",
+      "host": "ftp.dk.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 494.554
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.038Z",
+      "url": "ftp://ftp.dk.netbsd.org/",
+      "host": "ftp.dk.netbsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 298.523
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.096Z",
+      "url": "ftp://ftp.dreams.org/",
+      "host": "ftp.dreams.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 247.71
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.223Z",
+      "url": "ftp://ftp.dungeoncrawl.org/",
+      "host": "ftp.dungeoncrawl.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 335.363
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.038Z",
+      "url": "ftp://ftp.eggheads.org/",
+      "host": "ftp.eggheads.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 53.654
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.565Z",
+      "url": "ftp://ftp.ensembl.org/",
+      "host": "ftp.ensembl.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 551.735
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.293Z",
+      "url": "ftp://ftp.exim.org/",
+      "host": "ftp.exim.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 195.089
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.373Z",
+      "url": "ftp://ftp.exolab.org/",
+      "host": "ftp.exolab.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 247.962
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.491Z",
+      "url": "ftp://ftp.ffii.org/",
+      "host": "ftp.ffii.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 237.226
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.368Z",
+      "url": "ftp://ftp.fftw.org/",
+      "host": "ftp.fftw.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 108.42
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.510Z",
+      "url": "ftp://ftp.fi.debian.org/",
+      "host": "ftp.fi.debian.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 245.571
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.557Z",
+      "url": "ftp://ftp.fi.netbsd.org/",
+      "host": "ftp.fi.netbsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 277.953
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.758Z",
+      "url": "ftp://ftp.forth.org/",
+      "host": "ftp.forth.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 248.455
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.816Z",
+      "url": "ftp://ftp.fr.debian.org/",
+      "host": "ftp.fr.debian.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 270.595
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.894Z",
+      "url": "ftp://ftp.fr.netbsd.org/",
+      "host": "ftp.fr.netbsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 336.778
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.587Z",
+      "url": "ftp://ftp.freebsd.org/",
+      "host": "ftp.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 12.46
+    },
+    {
+      "checked_at": "2026-11-17T06:38:06.950Z",
+      "url": "ftp://ftp.freefriends.org/",
+      "host": "ftp.freefriends.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 359.992
+    },
+    {
+      "checked_at": "2026-11-17T06:38:07.059Z",
+      "url": "ftp://ftp.gamers.org/",
+      "host": "ftp.gamers.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 353.485
+    },
+    {
+      "checked_at": "2026-11-17T06:38:07.494Z",
+      "url": "ftp://ftp.gnustep.org/",
+      "host": "ftp.gnustep.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 598.092
+    },
+    {
+      "checked_at": "2026-11-17T06:38:07.308Z",
+      "url": "ftp://ftp.gordol.org/",
+      "host": "ftp.gordol.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 358.461
+    },
+    {
+      "checked_at": "2026-11-17T06:38:07.514Z",
+      "url": "ftp://ftp.groessler.org/",
+      "host": "ftp.groessler.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 455.108
+    },
+    {
+      "checked_at": "2026-11-17T06:38:07.676Z",
+      "url": "ftp://ftp.harbour-project.org/",
+      "host": "ftp.harbour-project.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 217.57
+    },
+    {
+      "checked_at": "2026-11-17T06:38:07.658Z",
+      "url": "ftp://ftp.hornet.org/",
+      "host": "ftp.hornet.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 110.583
+    },
+    {
+      "checked_at": "2026-11-17T06:38:07.884Z",
+      "url": "ftp://ftp.hylafax.org/",
+      "host": "ftp.hylafax.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 259.329
+    },
+    {
+      "checked_at": "2026-11-17T06:38:07.944Z",
+      "url": "ftp://ftp.iana.org/",
+      "host": "ftp.iana.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 291.344
+    },
+    {
+      "checked_at": "2026-11-17T06:38:07.854Z",
+      "url": "ftp://ftp.ie.freebsd.org/",
+      "host": "ftp.ie.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 178.718
+    },
+    {
+      "checked_at": "2026-11-17T06:38:07.704Z",
+      "url": "ftp://ftp.ietf.org/",
+      "host": "ftp.ietf.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 22.8
+    },
+    {
+      "checked_at": "2026-11-17T06:38:07.906Z",
+      "url": "ftp://ftp.ifarchive.org/",
+      "host": "ftp.ifarchive.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 208.574
+    },
+    {
+      "checked_at": "2026-11-17T06:38:07.778Z",
+      "url": "ftp://ftp.ihpva.org/",
+      "host": "ftp.ihpva.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 74.02
+    },
+    {
+      "checked_at": "2026-11-17T06:38:08.316Z",
+      "url": "ftp://ftp.internat.freebsd.org/",
+      "host": "ftp.internat.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 443.686
+    },
+    {
+      "checked_at": "2026-11-17T06:38:08.251Z",
+      "url": "ftp://ftp.isc.org/",
+      "host": "ftp.isc.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 77.164
+    },
+    {
+      "checked_at": "2026-11-17T06:38:08.548Z",
+      "url": "ftp://ftp.j3-fortran.org/",
+      "host": "ftp.j3-fortran.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 145.385
+    },
+    {
+      "checked_at": "2026-11-17T06:38:08.752Z",
+      "url": "ftp://ftp.jpl.org/",
+      "host": "ftp.jpl.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 44.016
+    },
+    {
+      "checked_at": "2026-11-17T06:38:09.654Z",
+      "url": "ftp://ftp.karlsruhe.org/",
+      "host": "ftp.karlsruhe.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 897.701
+    },
+    {
+      "checked_at": "2026-11-17T06:38:09.151Z",
+      "url": "ftp://ftp.keystealth.org/",
+      "host": "ftp.keystealth.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 311.775
+    },
+    {
+      "checked_at": "2026-11-17T06:38:08.980Z",
+      "url": "ftp://ftp.komkon.org/",
+      "host": "ftp.komkon.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 126.084
+    },
+    {
+      "checked_at": "2026-11-17T06:38:09.235Z",
+      "url": "ftp://ftp.kr.freebsd.org/",
+      "host": "ftp.kr.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 335.187
+    },
+    {
+      "checked_at": "2026-11-17T06:38:09.714Z",
+      "url": "ftp://ftp.kruemel.org/",
+      "host": "ftp.kruemel.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 773.806
+    },
+    {
+      "checked_at": "2026-11-17T06:38:09.164Z",
+      "url": "ftp://ftp.krunk.org/",
+      "host": "ftp.krunk.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 184.189
+    },
+    {
+      "checked_at": "2026-11-17T06:38:44.867Z",
+      "url": "ftp://ftp.linuxfromscratch.org/",
+      "host": "ftp.linuxfromscratch.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 35441.796
+    },
+    {
+      "checked_at": "2026-11-17T06:38:10.017Z",
+      "url": "ftp://ftp.lyx.org/",
+      "host": "ftp.lyx.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 345.431
+    },
+    {
+      "checked_at": "2026-11-17T06:38:09.891Z",
+      "url": "ftp://ftp.mars.org/",
+      "host": "ftp.mars.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 130.386
+    },
+    {
+      "checked_at": "2026-11-17T06:38:11.735Z",
+      "url": "ftp://ftp.mcn.org/",
+      "host": "ftp.mcn.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1961.247
+    },
+    {
+      "checked_at": "2026-11-17T06:38:10.325Z",
+      "url": "ftp://ftp.mktemp.org/",
+      "host": "ftp.mktemp.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 215.972
+    },
+    {
+      "checked_at": "2026-11-17T06:38:11.103Z",
+      "url": "ftp://ftp.musicbrainz.org/",
+      "host": "ftp.musicbrainz.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 436.542
+    },
+    {
+      "checked_at": "2026-11-17T06:38:10.858Z",
+      "url": "ftp://ftp.mutt.org/",
+      "host": "ftp.mutt.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 182.266
+    },
+    {
+      "checked_at": "2026-11-17T06:38:11.271Z",
+      "url": "ftp://ftp.netlabs.org/",
+      "host": "ftp.netlabs.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 203.992
+    },
+    {
+      "checked_at": "2026-11-17T06:38:11.484Z",
+      "url": "ftp://ftp.netsw.org/",
+      "host": "ftp.netsw.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 339.47
+    },
+    {
+      "checked_at": "2026-11-17T06:38:11.495Z",
+      "url": "ftp://ftp.nl.debian.org/",
+      "host": "ftp.nl.debian.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 128.933
+    },
+    {
+      "checked_at": "2026-11-17T06:38:11.817Z",
+      "url": "ftp://ftp.northnet.org/",
+      "host": "ftp.northnet.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 223.746
+    },
+    {
+      "checked_at": "2026-11-17T06:38:11.670Z",
+      "url": "ftp://ftp.nova.org/",
+      "host": "ftp.nova.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 32.075
+    },
+    {
+      "checked_at": "2026-11-17T06:38:12.174Z",
+      "url": "ftp://ftp.oops.org/",
+      "host": "ftp.oops.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 427.734
+    },
+    {
+      "checked_at": "2026-11-17T06:38:11.896Z",
+      "url": "ftp://ftp.openldap.org/",
+      "host": "ftp.openldap.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 56.624
+    },
+    {
+      "checked_at": "2026-11-17T06:38:12.746Z",
+      "url": "ftp://ftp.oric.org/",
+      "host": "ftp.oric.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 572.228
+    },
+    {
+      "checked_at": "2026-11-17T06:38:12.614Z",
+      "url": "ftp://ftp.padua.org/",
+      "host": "ftp.padua.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 297.811
+    },
+    {
+      "checked_at": "2026-11-17T06:38:13.075Z",
+      "url": "ftp://ftp.pld-linux.org/",
+      "host": "ftp.pld-linux.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 337.272
+    },
+    {
+      "checked_at": "2026-11-17T06:38:12.793Z",
+      "url": "ftp://ftp.porcupine.org/",
+      "host": "ftp.porcupine.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 50.742
+    },
+    {
+      "checked_at": "2026-11-17T06:38:12.839Z",
+      "url": "ftp://ftp.povray.org/",
+      "host": "ftp.povray.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 56.294
+    },
+    {
+      "checked_at": "2026-11-17T06:38:13.199Z",
+      "url": "ftp://ftp.prisonministry.org/",
+      "host": "ftp.prisonministry.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 373.412
+    },
+    {
+      "checked_at": "2026-11-17T06:38:13.322Z",
+      "url": "ftp://ftp.proftpd.org/",
+      "host": "ftp.proftpd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 483.689
+    },
+    {
+      "checked_at": "2026-11-17T06:38:13.094Z",
+      "url": "ftp://ftp.pureftpd.org/",
+      "host": "ftp.pureftpd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 189.513
+    },
+    {
+      "checked_at": "2026-11-17T06:38:13.473Z",
+      "url": "ftp://ftp.rpm.org/",
+      "host": "ftp.rpm.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 134.34
+    },
+    {
+      "checked_at": "2026-11-17T06:38:13.867Z",
+      "url": "ftp://ftp.sandpile.org/",
+      "host": "ftp.sandpile.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 277.333
+    },
+    {
+      "checked_at": "2026-11-17T06:38:15.193Z",
+      "url": "ftp://ftp.scene.org/",
+      "host": "ftp.scene.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1526.196
+    },
+    {
+      "checked_at": "2026-11-17T06:38:14.241Z",
+      "url": "ftp://ftp.shub-internet.org/",
+      "host": "ftp.shub-internet.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 239.812
+    },
+    {
+      "checked_at": "2026-11-17T06:38:14.274Z",
+      "url": "ftp://ftp.siam.org/",
+      "host": "ftp.siam.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 190.228
+    },
+    {
+      "checked_at": "2026-11-17T06:38:14.276Z",
+      "url": "ftp://ftp.sillydog.org/",
+      "host": "ftp.sillydog.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 88.699
+    },
+    {
+      "checked_at": "2026-11-17T06:38:14.688Z",
+      "url": "ftp://ftp.sk.debian.org/",
+      "host": "ftp.sk.debian.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 474.83
+    },
+    {
+      "checked_at": "2026-11-17T06:38:14.425Z",
+      "url": "ftp://ftp.snapgear.org/",
+      "host": "ftp.snapgear.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 149.051
+    },
+    {
+      "checked_at": "2026-11-17T06:38:14.932Z",
+      "url": "ftp://ftp.squid-cache.org/",
+      "host": "ftp.squid-cache.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 383.854
+    },
+    {
+      "checked_at": "2026-11-17T06:38:15.183Z",
+      "url": "ftp://ftp.t10.org/",
+      "host": "ftp.t10.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 175.897
+    },
+    {
+      "checked_at": "2026-11-17T06:38:15.216Z",
+      "url": "ftp://ftp.tapr.org/",
+      "host": "ftp.tapr.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 54.703
+    },
+    {
+      "checked_at": "2026-11-17T06:38:15.628Z",
+      "url": "ftp://ftp.texmacs.org/",
+      "host": "ftp.texmacs.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 391.86
+    },
+    {
+      "checked_at": "2026-11-17T06:38:15.332Z",
+      "url": "ftp://ftp.thom.org/",
+      "host": "ftp.thom.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 90.37
+    },
+    {
+      "checked_at": "2026-11-17T06:38:15.807Z",
+      "url": "ftp://ftp.tigr.org/",
+      "host": "ftp.tigr.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 475.423
+    },
+    {
+      "checked_at": "2026-11-17T06:38:15.973Z",
+      "url": "ftp://ftp.tin.org/",
+      "host": "ftp.tin.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 641.069
+    },
+    {
+      "checked_at": "2026-11-17T06:38:15.508Z",
+      "url": "ftp://ftp.toontown.org/",
+      "host": "ftp.toontown.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 126.194
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.169Z",
+      "url": "ftp://ftp.tuxfamily.org/",
+      "host": "ftp.tuxfamily.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 569.534
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.231Z",
+      "url": "ftp://ftp.uen.org/",
+      "host": "ftp.uen.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 494.093
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.214Z",
+      "url": "ftp://ftp.uk.debian.org/",
+      "host": "ftp.uk.debian.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 407.635
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.035Z",
+      "url": "ftp://ftp.unicode.org/",
+      "host": "ftp.unicode.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 49.985
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.230Z",
+      "url": "ftp://ftp.unicycling.org/",
+      "host": "ftp.unicycling.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 194.866
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.337Z",
+      "url": "ftp://ftp.us-census.org/",
+      "host": "ftp.us-census.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 122.878
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.252Z",
+      "url": "ftp://ftp.us.debian.org/",
+      "host": "ftp.us.debian.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 32.953
+    },
+    {
+      "checked_at": "2026-11-17T06:38:17.197Z",
+      "url": "ftp://ftp.us.scene.org/",
+      "host": "ftp.us.scene.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 930.103
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.456Z",
+      "url": "ftp://ftp.village.org/",
+      "host": "ftp.village.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 163.968
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.946Z",
+      "url": "ftp://ftp.weihenstephan.org/",
+      "host": "ftp.weihenstephan.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 608.8
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.687Z",
+      "url": "ftp://ftp.worldofspectrum.org/",
+      "host": "ftp.worldofspectrum.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 243.158
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.615Z",
+      "url": "ftp://ftp.wos.org/",
+      "host": "ftp.wos.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 158.707
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.851Z",
+      "url": "ftp://ftp.xbill.org/",
+      "host": "ftp.xbill.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 198.495
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.745Z",
+      "url": "ftp://ftp.xeper.org/",
+      "host": "ftp.xeper.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 58.083
+    },
+    {
+      "checked_at": "2026-11-17T06:38:16.942Z",
+      "url": "ftp://ftp.xfree86.org/",
+      "host": "ftp.xfree86.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 220.504
+    },
+    {
+      "checked_at": "2026-11-17T06:38:17.135Z",
+      "url": "ftp://ftp.za.freebsd.org/",
+      "host": "ftp.za.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 283.97
+    },
+    {
+      "checked_at": "2026-11-17T06:38:17.223Z",
+      "url": "ftp://ftp.zebra.org/",
+      "host": "ftp.zebra.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 369.845
+    },
+    {
+      "checked_at": "2026-11-17T06:38:17.049Z",
+      "url": "ftp://ftp.zoy.org/",
+      "host": "ftp.zoy.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 177.451
+    },
+    {
+      "checked_at": "2026-11-17T06:38:17.109Z",
+      "url": "ftp://ftp.zsh.org/",
+      "host": "ftp.zsh.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 212.834
+    },
+    {
+      "checked_at": "2026-11-17T06:38:17.244Z",
+      "url": "ftp://ftp4.freebsd.org/",
+      "host": "ftp4.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 46.905
+    },
+    {
+      "checked_at": "2026-11-17T06:38:18.463Z",
+      "url": "ftp://ftp4.jp.freebsd.org/",
+      "host": "ftp4.jp.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1259.114
+    },
+    {
+      "checked_at": "2026-11-17T06:38:17.596Z",
+      "url": "ftp://ftp5.fr.freebsd.org/",
+      "host": "ftp5.fr.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 362.063
+    },
+    {
+      "checked_at": "2026-11-17T06:38:17.557Z",
+      "url": "ftp://ftp5.uk.freebsd.org/",
+      "host": "ftp5.uk.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 199.886
+    },
+    {
+      "checked_at": "2026-11-17T06:38:17.762Z",
+      "url": "ftp://ftp6.ua.freebsd.org/",
+      "host": "ftp6.ua.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 403.298
+    },
+    {
+      "checked_at": "2026-11-17T06:38:17.645Z",
+      "url": "ftp://ftp8.fr.freebsd.org/",
+      "host": "ftp8.fr.freebsd.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 213.173
+    },
+    {
+      "checked_at": "2026-11-17T06:38:17.679Z",
+      "url": "ftp://gcc.gnu.org/",
+      "host": "gcc.gnu.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 117.882
+    },
+    {
+      "checked_at": "2026-11-17T06:38:17.644Z",
+      "url": "ftp://grand.central.org/",
+      "host": "grand.central.org",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 47.773
+    },
+    {
+      "checked_at": "2026-11-17T06:38:19.169Z",
+      "url": "ftp://ep09.kernel.pl/",
+      "host": "ep09.kernel.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 706.924
+    },
+    {
+      "checked_at": "2026-11-17T06:38:18.759Z",
+      "url": "ftp://filez.home.net.pl/",
+      "host": "filez.home.net.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 291.803
+    },
+    {
+      "checked_at": "2026-11-17T06:38:19.026Z",
+      "url": "ftp://ftp.agh.edu.pl/",
+      "host": "ftp.agh.edu.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 347.025
+    },
+    {
+      "checked_at": "2026-11-17T06:38:21.935Z",
+      "url": "ftp://ftp.control.slupsk.pl/",
+      "host": "ftp.control.slupsk.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 2765.726
+    },
+    {
+      "checked_at": "2026-11-17T06:38:19.591Z",
+      "url": "ftp://ftp.controlling.pl/",
+      "host": "ftp.controlling.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 313.165
+    },
+    {
+      "checked_at": "2026-11-17T06:38:19.624Z",
+      "url": "ftp://ftp.cs.net.pl/",
+      "host": "ftp.cs.net.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 240.434
+    },
+    {
+      "checked_at": "2026-11-17T06:38:19.843Z",
+      "url": "ftp://ftp.extis.com.pl/",
+      "host": "ftp.extis.com.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 320.92
+    },
+    {
+      "checked_at": "2026-11-17T06:38:20.053Z",
+      "url": "ftp://ftp.gust.org.pl/",
+      "host": "ftp.gust.org.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 367.582
+    },
+    {
+      "checked_at": "2026-11-17T06:38:19.827Z",
+      "url": "ftp://ftp.helion.pl/",
+      "host": "ftp.helion.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 127.0
+    },
+    {
+      "checked_at": "2026-11-17T06:38:19.869Z",
+      "url": "ftp://ftp.home.pl/",
+      "host": "ftp.home.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 145.529
+    },
+    {
+      "checked_at": "2026-11-17T06:38:20.283Z",
+      "url": "ftp://ftp.ikb.poznan.pl/",
+      "host": "ftp.ikb.poznan.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 440.118
+    },
+    {
+      "checked_at": "2026-11-17T06:38:20.226Z",
+      "url": "ftp://ftp.introl.pl/",
+      "host": "ftp.introl.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 314.952
+    },
+    {
+      "checked_at": "2026-11-17T06:38:20.853Z",
+      "url": "ftp://ftp.kernel.pl/",
+      "host": "ftp.kernel.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 726.437
+    },
+    {
+      "checked_at": "2026-11-17T06:38:20.996Z",
+      "url": "ftp://ftp.man.lodz.pl/",
+      "host": "ftp.man.lodz.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 686.163
+    },
+    {
+      "checked_at": "2026-11-17T06:38:21.754Z",
+      "url": "ftp://ftp.pld.kernel.pl/",
+      "host": "ftp.pld.kernel.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 520.137
+    },
+    {
+      "checked_at": "2026-11-17T06:38:21.540Z",
+      "url": "ftp://ftp.pld.org.pl/",
+      "host": "ftp.pld.org.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 233.96
+    },
+    {
+      "checked_at": "2026-11-17T06:38:21.555Z",
+      "url": "ftp://ftp.pomorska.net.pl/",
+      "host": "ftp.pomorska.net.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 138.447
+    },
+    {
+      "checked_at": "2026-11-17T06:38:22.396Z",
+      "url": "ftp://ftp.ps.pl/",
+      "host": "ftp.ps.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 899.234
+    },
+    {
+      "checked_at": "2026-11-17T06:38:22.031Z",
+      "url": "ftp://ftp.slackware.pl/",
+      "host": "ftp.slackware.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 331.866
+    },
+    {
+      "checked_at": "2026-11-17T06:38:22.545Z",
+      "url": "ftp://ftp.sys.net.pl/",
+      "host": "ftp.sys.net.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 810.073
+    },
+    {
+      "checked_at": "2026-11-17T06:38:22.273Z",
+      "url": "ftp://ftp.twojepc.pl/",
+      "host": "ftp.twojepc.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 448.906
+    },
+    {
+      "checked_at": "2026-11-17T06:38:22.398Z",
+      "url": "ftp://ftp.vlan.pl/",
+      "host": "ftp.vlan.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 437.231
+    },
+    {
+      "checked_at": "2026-11-17T06:38:22.411Z",
+      "url": "ftp://ftp.wsisiz.edu.pl/",
+      "host": "ftp.wsisiz.edu.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 422.354
+    },
+    {
+      "checked_at": "2026-11-17T06:38:22.572Z",
+      "url": "ftp://mask.wsisiz.edu.pl/",
+      "host": "mask.wsisiz.edu.pl",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 332.696
+    },
+    {
+      "checked_at": "2026-11-17T06:38:23.323Z",
+      "url": "ftp://ftp.dei.uc.pt/",
+      "host": "ftp.dei.uc.pt",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 641.276
+    },
+    {
+      "checked_at": "2026-11-17T06:38:23.229Z",
+      "url": "ftp://ftp.di.uminho.pt/",
+      "host": "ftp.di.uminho.pt",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 542.678
+    },
+    {
+      "checked_at": "2026-11-17T06:38:23.046Z",
+      "url": "ftp://ftp.eq.uc.pt/",
+      "host": "ftp.eq.uc.pt",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 355.285
+    },
+    {
+      "checked_at": "2026-11-17T06:38:23.636Z",
+      "url": "ftp://ftp.up.pt/",
+      "host": "ftp.up.pt",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 588.42
+    },
+    {
+      "checked_at": "2026-11-17T06:38:24.044Z",
+      "url": "ftp://ftp.rav.ro/",
+      "host": "ftp.rav.ro",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 814.797
+    },
+    {
+      "checked_at": "2026-11-17T06:38:23.647Z",
+      "url": "ftp://crydee.sai.msu.ru/",
+      "host": "crydee.sai.msu.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 342.007
+    },
+    {
+      "checked_at": "2026-11-17T06:38:24.030Z",
+      "url": "ftp://diamech.ru/",
+      "host": "diamech.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 393.301
+    },
+    {
+      "checked_at": "2026-11-17T06:38:24.500Z",
+      "url": "ftp://ftp.320-8080.ru/",
+      "host": "ftp.320-8080.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 665.624
+    },
+    {
+      "checked_at": "2026-11-17T06:38:26.752Z",
+      "url": "ftp://ftp.alesta.ru/",
+      "host": "ftp.alesta.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1494.755
+    },
+    {
+      "checked_at": "2026-11-17T06:38:26.133Z",
+      "url": "ftp://ftp.altlinux.ru/",
+      "host": "ftp.altlinux.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 543.653
+    },
+    {
+      "checked_at": "2026-11-17T06:38:26.936Z",
+      "url": "ftp://ftp.amfodent.ru/",
+      "host": "ftp.amfodent.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1314.646
+    },
+    {
+      "checked_at": "2026-11-17T06:38:27.450Z",
+      "url": "ftp://ftp.askona.ru/",
+      "host": "ftp.askona.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 529.628
+    },
+    {
+      "checked_at": "2026-11-17T06:38:28.487Z",
+      "url": "ftp://ftp.bms.ru/",
+      "host": "ftp.bms.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 534.731
+    },
+    {
+      "checked_at": "2026-11-17T06:38:29.158Z",
+      "url": "ftp://ftp.cafeparty.org.ru/",
+      "host": "ftp.cafeparty.org.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 646.471
+    },
+    {
+      "checked_at": "2026-11-17T06:38:29.880Z",
+      "url": "ftp://ftp.city.yar.ru/",
+      "host": "ftp.city.yar.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 689.666
+    },
+    {
+      "checked_at": "2026-11-17T06:38:30.140Z",
+      "url": "ftp://ftp.citycat.ru/",
+      "host": "ftp.citycat.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 912.757
+    },
+    {
+      "checked_at": "2026-11-17T06:38:29.894Z",
+      "url": "ftp://ftp.comdiv.ru/",
+      "host": "ftp.comdiv.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 511.697
+    },
+    {
+      "checked_at": "2026-11-17T06:38:30.155Z",
+      "url": "ftp://ftp.cons.ru/",
+      "host": "ftp.cons.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 485.751
+    },
+    {
+      "checked_at": "2026-11-17T06:38:30.100Z",
+      "url": "ftp://ftp.consultant.ru/",
+      "host": "ftp.consultant.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 394.658
+    },
+    {
+      "checked_at": "2026-11-17T06:38:30.539Z",
+      "url": "ftp://ftp.ctm.ru/",
+      "host": "ftp.ctm.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 460.461
+    },
+    {
+      "checked_at": "2026-11-17T06:38:30.683Z",
+      "url": "ftp://ftp.d-link.ru/",
+      "host": "ftp.d-link.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 542.732
+    },
+    {
+      "checked_at": "2026-11-17T06:38:31.428Z",
+      "url": "ftp://ftp.diplom2.ru/",
+      "host": "ftp.diplom2.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 517.126
+    },
+    {
+      "checked_at": "2026-11-17T06:38:32.551Z",
+      "url": "ftp://ftp.eimb.ru/",
+      "host": "ftp.eimb.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 743.025
+    },
+    {
+      "checked_at": "2026-11-17T06:38:32.726Z",
+      "url": "ftp://ftp.elcom.spb.ru/",
+      "host": "ftp.elcom.spb.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 907.313
+    },
+    {
+      "checked_at": "2026-11-17T06:38:32.914Z",
+      "url": "ftp://ftp.elekam.ru/",
+      "host": "ftp.elekam.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 923.503
+    },
+    {
+      "checked_at": "2026-11-17T06:38:32.554Z",
+      "url": "ftp://ftp.elin.ru/",
+      "host": "ftp.elin.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 513.726
+    },
+    {
+      "checked_at": "2026-11-17T06:38:33.398Z",
+      "url": "ftp://ftp.eniko.ru/",
+      "host": "ftp.eniko.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 987.468
+    },
+    {
+      "checked_at": "2026-11-17T06:38:32.951Z",
+      "url": "ftp://ftp.epc.ru/",
+      "host": "ftp.epc.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 475.451
+    },
+    {
+      "checked_at": "2026-11-17T06:38:33.036Z",
+      "url": "ftp://ftp.europaplus.ru/",
+      "host": "ftp.europaplus.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 392.212
+    },
+    {
+      "checked_at": "2026-11-17T06:38:33.836Z",
+      "url": "ftp://ftp.galaktika.ru/",
+      "host": "ftp.galaktika.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 468.615
+    },
+    {
+      "checked_at": "2026-11-17T06:38:34.487Z",
+      "url": "ftp://ftp.geol.msu.ru/",
+      "host": "ftp.geol.msu.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 854.66
+    },
+    {
+      "checked_at": "2026-11-17T06:38:35.012Z",
+      "url": "ftp://ftp.gnome.ru/",
+      "host": "ftp.gnome.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1092.049
+    },
+    {
+      "checked_at": "2026-11-17T06:38:36.346Z",
+      "url": "ftp://ftp.gosniias.msk.ru/",
+      "host": "ftp.gosniias.msk.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 2415.826
+    },
+    {
+      "checked_at": "2026-11-17T06:38:34.593Z",
+      "url": "ftp://ftp.gpad.ac.ru/",
+      "host": "ftp.gpad.ac.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 576.613
+    },
+    {
+      "checked_at": "2026-11-17T06:38:34.459Z",
+      "url": "ftp://ftp.gpntb.ru/",
+      "host": "ftp.gpntb.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 346.937
+    },
+    {
+      "checked_at": "2026-11-17T06:38:35.377Z",
+      "url": "ftp://ftp.ibs.ru/",
+      "host": "ftp.ibs.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 506.349
+    },
+    {
+      "checked_at": "2026-11-17T06:38:36.395Z",
+      "url": "ftp://ftp.iface.ru/",
+      "host": "ftp.iface.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1259.061
+    },
+    {
+      "checked_at": "2026-11-17T06:38:39.279Z",
+      "url": "ftp://ftp.inasan.rssi.ru/",
+      "host": "ftp.inasan.rssi.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 3378.886
+    },
+    {
+      "checked_at": "2026-11-17T06:38:36.408Z",
+      "url": "ftp://ftp.inec.ru/",
+      "host": "ftp.inec.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 374.589
+    },
+    {
+      "checked_at": "2026-11-17T06:38:36.779Z",
+      "url": "ftp://ftp.infin.ru/",
+      "host": "ftp.infin.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 507.011
+    },
+    {
+      "checked_at": "2026-11-17T06:38:36.914Z",
+      "url": "ftp://ftp.inotec.ru/",
+      "host": "ftp.inotec.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 404.512
+    },
+    {
+      "checked_at": "2026-11-17T06:38:37.511Z",
+      "url": "ftp://ftp.ipt.ru/",
+      "host": "ftp.ipt.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 637.111
+    },
+    {
+      "checked_at": "2026-11-17T06:38:38.160Z",
+      "url": "ftp://ftp.irkutskgiprodor.ru/",
+      "host": "ftp.irkutskgiprodor.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1011.572
+    },
+    {
+      "checked_at": "2026-11-17T06:38:37.630Z",
+      "url": "ftp://ftp.ist.ru/",
+      "host": "ftp.ist.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 382.701
+    },
+    {
+      "checked_at": "2026-11-17T06:38:38.295Z",
+      "url": "ftp://ftp.iszf.irk.ru/",
+      "host": "ftp.iszf.irk.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 784.456
+    },
+    {
+      "checked_at": "2026-11-17T06:38:38.377Z",
+      "url": "ftp://ftp.k-systems.ru/",
+      "host": "ftp.k-systems.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 385.23
+    },
+    {
+      "checked_at": "2026-11-17T06:38:38.650Z",
+      "url": "ftp://ftp.kaluga.ru/",
+      "host": "ftp.kaluga.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 490.168
+    },
+    {
+      "checked_at": "2026-11-17T06:38:39.313Z",
+      "url": "ftp://ftp.keldysh.ru/",
+      "host": "ftp.keldysh.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 800.648
+    },
+    {
+      "checked_at": "2026-11-17T06:38:39.227Z",
+      "url": "ftp://ftp.kentavr.com.ru/",
+      "host": "ftp.kentavr.com.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 577.209
+    },
+    {
+      "checked_at": "2026-11-17T06:38:39.143Z",
+      "url": "ftp://ftp.kiam.ru/",
+      "host": "ftp.kiam.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 390.165
+    },
+    {
+      "checked_at": "2026-11-17T06:38:39.775Z",
+      "url": "ftp://ftp.kiam1.rssi.ru/",
+      "host": "ftp.kiam1.rssi.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 999.22
+    },
+    {
+      "checked_at": "2026-11-17T06:38:39.388Z",
+      "url": "ftp://ftp.kmtn.ru/",
+      "host": "ftp.kmtn.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 406.106
+    },
+    {
+      "checked_at": "2026-11-17T06:38:39.951Z",
+      "url": "ftp://ftp.kot.spb.ru/",
+      "host": "ftp.kot.spb.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 723.509
+    },
+    {
+      "checked_at": "2026-11-17T06:38:40.213Z",
+      "url": "ftp://ftp.kraft-s.ru/",
+      "host": "ftp.kraft-s.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 934.851
+    },
+    {
+      "checked_at": "2026-11-17T06:38:40.873Z",
+      "url": "ftp://ftp.lcard.ru/",
+      "host": "ftp.lcard.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 769.309
+    },
+    {
+      "checked_at": "2026-11-17T06:38:40.851Z",
+      "url": "ftp://ftp.lebedev.ru/",
+      "host": "ftp.lebedev.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 637.64
+    },
+    {
+      "checked_at": "2026-11-17T06:38:41.376Z",
+      "url": "ftp://ftp.lim.ru/",
+      "host": "ftp.lim.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 747.832
+    },
+    {
+      "checked_at": "2026-11-17T06:38:41.358Z",
+      "url": "ftp://ftp.ltc.ru/",
+      "host": "ftp.ltc.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 398.295
+    },
+    {
+      "checked_at": "2026-11-17T06:38:43.051Z",
+      "url": "ftp://ftp.mccme.ru/",
+      "host": "ftp.mccme.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1118.361
+    },
+    {
+      "checked_at": "2026-11-17T06:38:43.280Z",
+      "url": "ftp://ftp.meteo.ru/",
+      "host": "ftp.meteo.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 395.863
+    },
+    {
+      "checked_at": "2026-11-17T06:38:43.605Z",
+      "url": "ftp://ftp.metropol.ru/",
+      "host": "ftp.metropol.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 554.265
+    },
+    {
+      "checked_at": "2026-11-17T06:38:43.925Z",
+      "url": "ftp://ftp.mlesna.ru/",
+      "host": "ftp.mlesna.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 421.746
+    },
+    {
+      "checked_at": "2026-11-17T06:38:45.236Z",
+      "url": "ftp://ftp.nedra.ru/",
+      "host": "ftp.nedra.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 651.326
+    },
+    {
+      "checked_at": "2026-11-17T06:38:45.772Z",
+      "url": "ftp://ftp.nioch.nsc.ru/",
+      "host": "ftp.nioch.nsc.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 860.677
+    },
+    {
+      "checked_at": "2026-11-17T06:38:46.238Z",
+      "url": "ftp://ftp.nsu.ru/",
+      "host": "ftp.nsu.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 729.459
+    },
+    {
+      "checked_at": "2026-11-17T06:38:46.798Z",
+      "url": "ftp://ftp.omega.ru/",
+      "host": "ftp.omega.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 831.988
+    },
+    {
+      "checked_at": "2026-11-17T06:38:47.991Z",
+      "url": "ftp://ftp.pdmi.ras.ru/",
+      "host": "ftp.pdmi.ras.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1139.224
+    },
+    {
+      "checked_at": "2026-11-17T06:38:47.694Z",
+      "url": "ftp://ftp.phyton.ru/",
+      "host": "ftp.phyton.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 395.173
+    },
+    {
+      "checked_at": "2026-11-17T06:38:48.113Z",
+      "url": "ftp://ftp.plst.ru/",
+      "host": "ftp.plst.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 524.97
+    },
+    {
+      "checked_at": "2026-11-17T06:38:48.327Z",
+      "url": "ftp://ftp.prbank.ru/",
+      "host": "ftp.prbank.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 336.159
+    },
+    {
+      "checked_at": "2026-11-17T06:38:48.561Z",
+      "url": "ftp://ftp.prosoft.ru/",
+      "host": "ftp.prosoft.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 396.841
+    },
+    {
+      "checked_at": "2026-11-17T06:38:49.095Z",
+      "url": "ftp://ftp.qt.ru/",
+      "host": "ftp.qt.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 384.602
+    },
+    {
+      "checked_at": "2026-11-17T06:38:49.162Z",
+      "url": "ftp://ftp.radio.ru/",
+      "host": "ftp.radio.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 383.826
+    },
+    {
+      "checked_at": "2026-11-17T06:38:49.923Z",
+      "url": "ftp://ftp.robertsonblums.ru/",
+      "host": "ftp.robertsonblums.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 506.224
+    },
+    {
+      "checked_at": "2026-11-17T06:38:52.291Z",
+      "url": "ftp://ftp.rubtsovsk.ru/",
+      "host": "ftp.rubtsovsk.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 2619.752
+    },
+    {
+      "checked_at": "2026-11-17T06:38:50.440Z",
+      "url": "ftp://ftp.ruslan-com.ru/",
+      "host": "ftp.ruslan-com.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 630.1
+    },
+    {
+      "checked_at": "2026-11-17T06:38:50.276Z",
+      "url": "ftp://ftp.russianet.ru/",
+      "host": "ftp.russianet.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 394.737
+    },
+    {
+      "checked_at": "2026-11-17T06:38:53.978Z",
+      "url": "ftp://ftp.science.tver.ru/",
+      "host": "ftp.science.tver.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 3653.474
+    },
+    {
+      "checked_at": "2026-11-17T06:38:52.181Z",
+      "url": "ftp://ftp.snpa.ru/",
+      "host": "ftp.snpa.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 479.658
+    },
+    {
+      "checked_at": "2026-11-17T06:38:52.650Z",
+      "url": "ftp://ftp.soft-tronik.ru/",
+      "host": "ftp.soft-tronik.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 787.68
+    },
+    {
+      "checked_at": "2026-11-17T06:38:52.664Z",
+      "url": "ftp://ftp.speechpro.ru/",
+      "host": "ftp.speechpro.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 371.237
+    },
+    {
+      "checked_at": "2026-11-17T06:38:53.013Z",
+      "url": "ftp://ftp.star.spb.ru/",
+      "host": "ftp.star.spb.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 511.866
+    },
+    {
+      "checked_at": "2026-11-17T06:38:53.000Z",
+      "url": "ftp://ftp.steepler.ru/",
+      "host": "ftp.steepler.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 434.458
+    },
+    {
+      "checked_at": "2026-11-17T06:38:53.510Z",
+      "url": "ftp://ftp.techsuz.ru/",
+      "host": "ftp.techsuz.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 378.546
+    },
+    {
+      "checked_at": "2026-11-17T06:38:55.171Z",
+      "url": "ftp://ftp.teleserv.ru/",
+      "host": "ftp.teleserv.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1927.167
+    },
+    {
+      "checked_at": "2026-11-17T06:38:54.110Z",
+      "url": "ftp://ftp.tonna.ru/",
+      "host": "ftp.tonna.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 383.509
+    },
+    {
+      "checked_at": "2026-11-17T06:38:55.374Z",
+      "url": "ftp://ftp.toz.khv.ru/",
+      "host": "ftp.toz.khv.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 1575.126
+    },
+    {
+      "checked_at": "2026-11-17T06:38:54.574Z",
+      "url": "ftp://ftp.tsk.ru/",
+      "host": "ftp.tsk.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 463.778
+    },
+    {
+      "checked_at": "2026-11-17T06:38:54.941Z",
+      "url": "ftp://ftp.tz.ru/",
+      "host": "ftp.tz.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 366.785
+    },
+    {
+      "checked_at": "2026-11-17T06:38:56.227Z",
+      "url": "ftp://ftp.vicom.ru/",
+      "host": "ftp.vicom.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 524.498
+    },
+    {
+      "checked_at": "2026-11-17T06:38:56.900Z",
+      "url": "ftp://ftp.vsu.ru/",
+      "host": "ftp.vsu.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 618.937
+    },
+    {
+      "checked_at": "2026-11-17T06:38:57.181Z",
+      "url": "ftp://ftp.vtelecom.ru/",
+      "host": "ftp.vtelecom.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 882.939
+    },
+    {
+      "checked_at": "2026-11-17T06:38:56.698Z",
+      "url": "ftp://ftp.wadim.ru/",
+      "host": "ftp.wadim.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 352.87
+    },
+    {
+      "checked_at": "2026-11-17T06:38:57.048Z",
+      "url": "ftp://ftp.wave.ru/",
+      "host": "ftp.wave.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 470.535
+    },
+    {
+      "checked_at": "2026-11-17T06:38:56.984Z",
+      "url": "ftp://ftp.webapteka.ru/",
+      "host": "ftp.webapteka.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 371.853
+    },
+    {
+      "checked_at": "2026-11-17T06:38:57.562Z",
+      "url": "ftp://ftp.yurkevich.ru/",
+      "host": "ftp.yurkevich.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 662.622
+    },
+    {
+      "checked_at": "2026-11-17T06:38:57.829Z",
+      "url": "ftp://infoteka.nsk.ru/",
+      "host": "infoteka.nsk.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 513.827
+    },
+    {
+      "checked_at": "2026-11-17T06:38:58.419Z",
+      "url": "ftp://library.tomsk.ru/",
+      "host": "library.tomsk.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 720.405
+    },
+    {
+      "checked_at": "2026-11-17T06:38:58.846Z",
+      "url": "ftp://nauka.relis.ru/",
+      "host": "nauka.relis.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 471.648
+    },
+    {
+      "checked_at": "2026-11-17T06:39:00.256Z",
+      "url": "ftp://sibstn.nioch.nsc.ru/",
+      "host": "sibstn.nioch.nsc.ru",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 895.536
+    },
+    {
+      "checked_at": "2026-11-17T06:39:00.661Z",
+      "url": "ftp://ftp.acc.umu.se/",
+      "host": "ftp.acc.umu.se",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 231.778
+    },
+    {
+      "checked_at": "2026-11-17T06:39:00.822Z",
+      "url": "ftp://ftp.allweb.se/",
+      "host": "ftp.allweb.se",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 292.904
+    },
+    {
+      "checked_at": "2026-11-17T06:39:00.934Z",
+      "url": "ftp://ftp.april.se/",
+      "host": "ftp.april.se",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 317.639
+    },
+    {
+      "checked_at": "2026-11-17T06:39:01.007Z",
+      "url": "ftp://ftp.artech.se/",
+      "host": "ftp.artech.se",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 345.766
+    },
+    {
+      "checked_at": "2026-11-17T06:39:01.346Z",
+      "url": "ftp://ftp.bahnhof.se/",
+      "host": "ftp.bahnhof.se",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 559.121
+    },
+    {
+      "checked_at": "2026-11-17T06:39:02.494Z",
+      "url": "ftp://ftp.foi.se/",
+      "host": "ftp.foi.se",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 461.471
+    },
+    {
+      "checked_at": "2026-11-17T06:39:07.533Z",
+      "url": "ftp://ftp.fragzone.se/",
+      "host": "ftp.fragzone.se",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 5488.096
+    },
+    {
+      "checked_at": "2026-11-17T06:39:03.506Z",
+      "url": "ftp://ftp.mech.kth.se/",
+      "host": "ftp.mech.kth.se",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 769.233
+    },
+    {
+      "checked_at": "2026-11-17T06:39:03.563Z",
+      "url": "ftp://ftp.sunet.se/",
+      "host": "ftp.sunet.se",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 539.892
+    },
+    {
+      "checked_at": "2026-11-17T06:39:03.659Z",
+      "url": "ftp://ftp.update.uu.se/",
+      "host": "ftp.update.uu.se",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 616.082
+    },
+    {
+      "checked_at": "2026-11-17T06:39:03.698Z",
+      "url": "ftp://ftp.arnes.si/",
+      "host": "ftp.arnes.si",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 158.927
+    },
+    {
+      "checked_at": "2026-11-17T06:39:04.234Z",
+      "url": "ftp://ftp.sac.sk/",
+      "host": "ftp.sac.sk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 536.118
+    },
+    {
+      "checked_at": "2026-11-17T06:39:05.713Z",
+      "url": "ftp://ftp.jet.msk.su/",
+      "host": "ftp.jet.msk.su",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 788.441
+    },
+    {
+      "checked_at": "2026-11-17T06:39:05.881Z",
+      "url": "ftp://ftp.sai.msu.su/",
+      "host": "ftp.sai.msu.su",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 673.972
+    },
+    {
+      "checked_at": "2026-11-17T06:39:05.898Z",
+      "url": "ftp://ftp.tubank.msk.su/",
+      "host": "ftp.tubank.msk.su",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 630.246
+    },
+    {
+      "checked_at": "2026-11-17T06:39:05.844Z",
+      "url": "ftp://ftp.bnc.co.th/",
+      "host": "ftp.bnc.co.th",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 351.156
+    },
+    {
+      "checked_at": "2026-11-17T06:39:06.534Z",
+      "url": "ftp://ftp.iac.co.th/",
+      "host": "ftp.iac.co.th",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 856.499
+    },
+    {
+      "checked_at": "2026-11-17T06:39:06.194Z",
+      "url": "ftp://ftp.ksc.co.th/",
+      "host": "ftp.ksc.co.th",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 481.144
+    },
+    {
+      "checked_at": "2026-11-17T06:39:06.376Z",
+      "url": "ftp://ftp.linux.org.tr/",
+      "host": "ftp.linux.org.tr",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 285.7
+    },
+    {
+      "checked_at": "2026-11-17T06:39:07.189Z",
+      "url": "ftp://ftp.planet.com.tw/",
+      "host": "ftp.planet.com.tw",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 609.231
+    },
+    {
+      "checked_at": "2026-11-17T06:39:07.164Z",
+      "url": "ftp://ftp.upmost.com.tw/",
+      "host": "ftp.upmost.com.tw",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 434.905
+    },
+    {
+      "checked_at": "2026-11-17T06:39:07.691Z",
+      "url": "ftp://ftp.elvisti.kiev.ua/",
+      "host": "ftp.elvisti.kiev.ua",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 329.041
+    },
+    {
+      "checked_at": "2026-11-17T06:39:07.881Z",
+      "url": "ftp://ftp.freebsd.org.ua/",
+      "host": "ftp.freebsd.org.ua",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 466.004
+    },
+    {
+      "checked_at": "2026-11-17T06:39:08.454Z",
+      "url": "ftp://ftp.mao.kiev.ua/",
+      "host": "ftp.mao.kiev.ua",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 474.165
+    },
+    {
+      "checked_at": "2026-11-17T06:39:08.612Z",
+      "url": "ftp://ftp.pmg17.vstu.vinnica.ua/",
+      "host": "ftp.pmg17.vstu.vinnica.ua",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 463.603
+    },
+    {
+      "checked_at": "2026-11-17T06:39:08.819Z",
+      "url": "ftp://ftp.stat.lviv.ua/",
+      "host": "ftp.stat.lviv.ua",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 505.535
+    },
+    {
+      "checked_at": "2026-11-17T06:39:08.918Z",
+      "url": "ftp://ftp.utel.net.ua/",
+      "host": "ftp.utel.net.ua",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 381.389
+    },
+    {
+      "checked_at": "2026-11-17T06:39:09.164Z",
+      "url": "ftp://vvv.kiev.ua/",
+      "host": "vvv.kiev.ua",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 494.695
+    },
+    {
+      "checked_at": "2026-11-17T06:39:09.059Z",
+      "url": "ftp://ftp.adrift.org.uk/",
+      "host": "ftp.adrift.org.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 163.508
+    },
+    {
+      "checked_at": "2026-11-17T06:39:09.464Z",
+      "url": "ftp://ftp.amulation.co.uk/",
+      "host": "ftp.amulation.co.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 477.395
+    },
+    {
+      "checked_at": "2026-11-17T06:39:09.669Z",
+      "url": "ftp://ftp.bbc.co.uk/",
+      "host": "ftp.bbc.co.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 393.744
+    },
+    {
+      "checked_at": "2026-11-17T06:39:10.303Z",
+      "url": "ftp://ftp.cix.co.uk/",
+      "host": "ftp.cix.co.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 225.137
+    },
+    {
+      "checked_at": "2026-11-17T06:39:12.445Z",
+      "url": "ftp://ftp.ebi.ac.uk/",
+      "host": "ftp.ebi.ac.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 348.733
+    },
+    {
+      "checked_at": "2026-11-17T06:39:12.955Z",
+      "url": "ftp://ftp.eye2eyesoft.co.uk/",
+      "host": "ftp.eye2eyesoft.co.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 648.478
+    },
+    {
+      "checked_at": "2026-11-17T06:39:12.674Z",
+      "url": "ftp://ftp.fast.net.uk/",
+      "host": "ftp.fast.net.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 341.352
+    },
+    {
+      "checked_at": "2026-11-17T06:39:12.995Z",
+      "url": "ftp://ftp.hgu.mrc.ac.uk/",
+      "host": "ftp.hgu.mrc.ac.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 542.909
+    },
+    {
+      "checked_at": "2026-11-17T06:39:15.000Z",
+      "url": "ftp://ftp.ist.co.uk/",
+      "host": "ftp.ist.co.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 2306.146
+    },
+    {
+      "checked_at": "2026-11-17T06:39:14.262Z",
+      "url": "ftp://ftp.mrc-lmb.cam.ac.uk/",
+      "host": "ftp.mrc-lmb.cam.ac.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 704.078
+    },
+    {
+      "checked_at": "2026-11-17T06:39:13.945Z",
+      "url": "ftp://ftp.mssl.ucl.ac.uk/",
+      "host": "ftp.mssl.ucl.ac.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 353.465
+    },
+    {
+      "checked_at": "2026-11-17T06:39:14.338Z",
+      "url": "ftp://ftp.pellcomp.co.uk/",
+      "host": "ftp.pellcomp.co.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 121.829
+    },
+    {
+      "checked_at": "2026-11-17T06:39:14.273Z",
+      "url": "ftp://ftp.plsys.co.uk/",
+      "host": "ftp.plsys.co.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 25.514
+    },
+    {
+      "checked_at": "2026-11-17T06:39:14.732Z",
+      "url": "ftp://ftp.robots.ox.ac.uk/",
+      "host": "ftp.robots.ox.ac.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 360.099
+    },
+    {
+      "checked_at": "2026-11-17T06:39:14.928Z",
+      "url": "ftp://ftp.sanger.ac.uk/",
+      "host": "ftp.sanger.ac.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 505.817
+    },
+    {
+      "checked_at": "2026-11-17T06:39:15.145Z",
+      "url": "ftp://ftp.shef.ac.uk/",
+      "host": "ftp.shef.ac.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 528.53
+    },
+    {
+      "checked_at": "2026-11-17T06:39:15.003Z",
+      "url": "ftp://ftp.solis.co.uk/",
+      "host": "ftp.solis.co.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 270.762
+    },
+    {
+      "checked_at": "2026-11-17T06:39:15.109Z",
+      "url": "ftp://ftp.stats.ox.ac.uk/",
+      "host": "ftp.stats.ox.ac.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 181.163
+    },
+    {
+      "checked_at": "2026-11-17T06:39:15.659Z",
+      "url": "ftp://ftp.susx.ac.uk/",
+      "host": "ftp.susx.ac.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 608.496
+    },
+    {
+      "checked_at": "2026-11-17T06:39:15.433Z",
+      "url": "ftp://ftp.tcp.co.uk/",
+      "host": "ftp.tcp.co.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 323.832
+    },
+    {
+      "checked_at": "2026-11-17T06:39:15.471Z",
+      "url": "ftp://ftp.zetnet.co.uk/",
+      "host": "ftp.zetnet.co.uk",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 158.688
+    },
+    {
+      "checked_at": "2026-11-17T06:39:15.777Z",
+      "url": "ftp://ftp.sudo.ws/",
+      "host": "ftp.sudo.ws",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 260.947
+    },
+    {
+      "checked_at": "2026-11-17T06:39:16.074Z",
+      "url": "ftp://ftp.is.co.za/",
+      "host": "ftp.is.co.za",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 452.921
+    },
+    {
+      "checked_at": "2026-11-17T06:39:16.072Z",
+      "url": "ftp://ftp.sun.ac.za/",
+      "host": "ftp.sun.ac.za",
+      "port": 21,
+      "status": "up",
+      "latency_ms": 394.667
+    }
+  ]
+}

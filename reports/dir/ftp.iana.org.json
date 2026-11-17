@@ -3,11 +3,11 @@
   "url": "ftp://ftp.iana.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-16T04:49:39.356Z",
-  "tcp_latency_ms": 128.799,
-  "started_at": "2026-11-16T04:51:32.938Z",
-  "listed_at": "2026-11-16T04:51:34.345Z",
-  "duration_ms": 1406.623,
+  "checked_at": "2026-11-17T06:38:07.944Z",
+  "tcp_latency_ms": 291.344,
+  "started_at": "2026-11-17T06:39:55.073Z",
+  "listed_at": "2026-11-17T06:39:55.799Z",
+  "duration_ms": 725.306,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,14 +58,14 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2011-10-13T00:00:00",
-    "latest_modified_at": "2026-11-11T02:44:00"
+    "latest_modified_at": "2026-11-17T00:23:00"
   },
   "entries": [
     {
       "name": "assignments",
       "type": "directory",
       "size": 36864,
-      "modified_at": "2026-11-11T02:44:00",
+      "modified_at": "2026-11-17T00:23:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

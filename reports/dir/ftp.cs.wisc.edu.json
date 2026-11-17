@@ -3,11 +3,11 @@
   "url": "ftp://ftp.cs.wisc.edu/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-16T04:48:51.466Z",
-  "tcp_latency_ms": 217.721,
-  "started_at": "2026-11-16T04:51:18.642Z",
-  "listed_at": "2026-11-16T04:51:19.962Z",
-  "duration_ms": 1320.656,
+  "checked_at": "2026-11-17T06:37:20.718Z",
+  "tcp_latency_ms": 82.701,
+  "started_at": "2026-11-17T06:39:43.675Z",
+  "listed_at": "2026-11-17T06:39:44.159Z",
+  "duration_ms": 483.567,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -57,7 +57,7 @@
     "other": 0,
     "file_bytes": 5016210,
     "oldest_modified_at": "1993-06-04T00:00:00",
-    "latest_modified_at": "2026-05-18T17:48:00"
+    "latest_modified_at": "2026-05-18T00:00:00"
   },
   "entries": [
     {
@@ -216,7 +216,7 @@
       "name": "condor",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-05-18T17:48:00",
+      "modified_at": "2026-05-18T00:00:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

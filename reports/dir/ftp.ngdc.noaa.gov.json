@@ -3,11 +3,11 @@
   "url": "ftp://ftp.ngdc.noaa.gov/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-16T04:49:06.336Z",
-  "tcp_latency_ms": 94.296,
-  "started_at": "2026-11-16T04:51:22.354Z",
-  "listed_at": "2026-11-16T04:51:22.878Z",
-  "duration_ms": 524.147,
+  "checked_at": "2026-11-17T06:37:35.167Z",
+  "tcp_latency_ms": 198.668,
+  "started_at": "2026-11-17T06:39:46.235Z",
+  "listed_at": "2026-11-17T06:39:47.175Z",
+  "duration_ms": 940.737,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -49,7 +49,7 @@
     "other": 0,
     "file_bytes": 14371,
     "oldest_modified_at": "2003-09-17T00:00:00",
-    "latest_modified_at": "2026-09-21T14:33:00"
+    "latest_modified_at": "2026-11-16T16:27:00"
   },
   "entries": [
     {
@@ -303,7 +303,7 @@
       "name": "ionosonde",
       "type": "directory",
       "size": 6,
-      "modified_at": "2026-03-26T00:00:00",
+      "modified_at": "2026-11-16T16:27:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

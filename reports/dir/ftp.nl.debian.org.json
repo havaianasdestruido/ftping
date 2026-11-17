@@ -3,11 +3,11 @@
   "url": "ftp://ftp.nl.debian.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-16T04:49:42.884Z",
-  "tcp_latency_ms": 223.249,
-  "started_at": "2026-11-16T04:51:33.856Z",
-  "listed_at": "2026-11-16T04:51:36.787Z",
-  "duration_ms": 2931.074,
+  "checked_at": "2026-11-17T06:38:11.495Z",
+  "tcp_latency_ms": 128.933,
+  "started_at": "2026-11-17T06:39:55.930Z",
+  "listed_at": "2026-11-17T06:39:57.669Z",
+  "duration_ms": 1739.113,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -57,7 +57,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2017-09-19T00:00:00",
-    "latest_modified_at": "2026-11-16T02:42:00"
+    "latest_modified_at": "2026-11-17T05:45:00"
   },
   "entries": [
     {
@@ -83,7 +83,7 @@
       "name": "debian",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-11-16T02:42:00",
+      "modified_at": "2026-11-17T02:31:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -197,7 +197,7 @@
       "name": "debian-security",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-11-15T22:19:00",
+      "modified_at": "2026-11-17T05:45:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
