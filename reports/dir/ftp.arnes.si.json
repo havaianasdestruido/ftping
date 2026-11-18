@@ -3,11 +3,11 @@
   "url": "ftp://ftp.arnes.si/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-17T06:39:03.698Z",
-  "tcp_latency_ms": 158.927,
-  "started_at": "2026-11-17T06:40:05.336Z",
-  "listed_at": "2026-11-17T06:40:07.733Z",
-  "duration_ms": 2397.538,
+  "checked_at": "2026-11-18T05:59:01.552Z",
+  "tcp_latency_ms": 245.579,
+  "started_at": "2026-11-18T06:00:07.863Z",
+  "listed_at": "2026-11-18T06:00:11.496Z",
+  "duration_ms": 3633.551,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "1996-03-01T00:00:00",
-    "latest_modified_at": "2026-05-11T00:00:00"
+    "latest_modified_at": "2026-11-17T09:20:00"
   },
   "entries": [
     {
@@ -236,7 +236,7 @@
       "name": "packages",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2025-09-25T00:00:00",
+      "modified_at": "2026-11-17T09:20:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

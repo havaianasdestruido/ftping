@@ -3,17 +3,17 @@
   "url": "ftp://ftp.inf.fu-berlin.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-17T06:37:10.237Z",
-  "tcp_latency_ms": 993.932,
-  "started_at": "2026-11-17T06:39:40.987Z",
-  "listed_at": "2026-11-17T06:39:41.616Z",
-  "duration_ms": 628.786,
+  "checked_at": "2026-11-18T05:57:15.850Z",
+  "tcp_latency_ms": 746.392,
+  "started_at": "2026-11-18T05:59:39.151Z",
+  "listed_at": "2026-11-18T05:59:39.882Z",
+  "duration_ms": 731.323,
   "path": "/",
   "login": "anonymous",
   "status": "error",
   "error": {
     "type": "UnicodeDecodeError",
-    "message": "'utf-8' codec can't decode byte 0xe4 in position 16: invalid continuation byte"
+    "message": "'utf-8' codec can't decode byte 0xe4 in position 105: invalid continuation byte"
   },
   "listing_method": null,
   "timestamps_timezone": null,

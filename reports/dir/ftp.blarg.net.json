@@ -3,11 +3,11 @@
   "url": "ftp://ftp.blarg.net/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-17T06:37:45.081Z",
-  "tcp_latency_ms": 166.696,
-  "started_at": "2026-11-17T06:39:48.895Z",
-  "listed_at": "2026-11-17T06:39:50.098Z",
-  "duration_ms": 1203.301,
+  "checked_at": "2026-11-18T05:57:49.610Z",
+  "tcp_latency_ms": 72.853,
+  "started_at": "2026-11-18T05:59:49.068Z",
+  "listed_at": "2026-11-18T05:59:49.365Z",
+  "duration_ms": 296.59,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -57,7 +57,7 @@
     "other": 0,
     "file_bytes": 188,
     "oldest_modified_at": "2017-03-21T22:50:45Z",
-    "latest_modified_at": "2026-11-17T06:01:03Z"
+    "latest_modified_at": "2026-11-18T05:01:02Z"
   },
   "entries": [
     {
@@ -83,7 +83,7 @@
       "name": "users",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-17T06:01:03Z",
+      "modified_at": "2026-11-18T05:01:02Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
