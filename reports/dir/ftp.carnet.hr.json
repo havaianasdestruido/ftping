@@ -3,11 +3,11 @@
   "url": "ftp://ftp.carnet.hr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-18T05:57:40.722Z",
-  "tcp_latency_ms": 523.15,
-  "started_at": "2026-11-18T05:59:46.710Z",
-  "listed_at": "2026-11-18T05:59:50.760Z",
-  "duration_ms": 4049.759,
+  "checked_at": "2026-11-19T05:58:12.306Z",
+  "tcp_latency_ms": 524.041,
+  "started_at": "2026-11-19T06:00:17.929Z",
+  "listed_at": "2026-11-19T06:00:22.025Z",
+  "duration_ms": 4095.502,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -56,9 +56,9 @@
     "directories": 11,
     "links": 8,
     "other": 0,
-    "file_bytes": 310563733,
+    "file_bytes": 310243513,
     "oldest_modified_at": "2004-10-06T00:00:00",
-    "latest_modified_at": "2026-11-18T00:14:00"
+    "latest_modified_at": "2026-11-19T00:16:00"
   },
   "entries": [
     {
@@ -330,8 +330,8 @@
     {
       "name": "ls-lR",
       "type": "file",
-      "size": 278829920,
-      "modified_at": "2026-11-18T00:14:00",
+      "size": 278542514,
+      "modified_at": "2026-11-19T00:16:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -349,8 +349,8 @@
     {
       "name": "ls-lR.gz",
       "type": "file",
-      "size": 31732930,
-      "modified_at": "2026-11-18T00:14:00",
+      "size": 31700116,
+      "modified_at": "2026-11-19T00:16:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

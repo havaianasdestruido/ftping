@@ -3,11 +3,11 @@
   "url": "ftp://ftp.hylafax.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-18T05:58:11.242Z",
-  "tcp_latency_ms": 206.406,
-  "started_at": "2026-11-18T05:59:55.844Z",
-  "listed_at": "2026-11-18T05:59:57.303Z",
-  "duration_ms": 1458.596,
+  "checked_at": "2026-11-19T05:58:42.510Z",
+  "tcp_latency_ms": 187.087,
+  "started_at": "2026-11-19T06:00:26.985Z",
+  "listed_at": "2026-11-19T06:00:28.335Z",
+  "duration_ms": 1349.992,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -57,7 +57,7 @@
     "other": 0,
     "file_bytes": 2259,
     "oldest_modified_at": "1998-10-09T00:00:00",
-    "latest_modified_at": "2026-11-17T09:15:00"
+    "latest_modified_at": "2026-11-18T09:15:00"
   },
   "entries": [
     {
@@ -254,7 +254,7 @@
       "name": "source",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-11-17T09:15:00",
+      "modified_at": "2026-11-18T09:15:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

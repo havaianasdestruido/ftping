@@ -3,11 +3,11 @@
   "url": "ftp://ftp.crihan.fr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-18T05:57:36.585Z",
-  "tcp_latency_ms": 585.518,
-  "started_at": "2026-11-18T05:59:44.146Z",
-  "listed_at": "2026-11-18T05:59:47.669Z",
-  "duration_ms": 3522.832,
+  "checked_at": "2026-11-19T05:58:07.868Z",
+  "tcp_latency_ms": 384.811,
+  "started_at": "2026-11-19T06:00:15.528Z",
+  "listed_at": "2026-11-19T06:00:19.056Z",
+  "duration_ms": 3528.531,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -61,7 +61,7 @@
     "other": 0,
     "file_bytes": 653,
     "oldest_modified_at": "2018-06-26T00:00:00",
-    "latest_modified_at": "2026-11-07T14:22:00"
+    "latest_modified_at": "2026-11-18T11:20:00"
   },
   "entries": [
     {
@@ -86,8 +86,8 @@
     {
       "name": "crihan",
       "type": "directory",
-      "size": 4096,
-      "modified_at": "2026-11-07T14:22:00",
+      "size": 322,
+      "modified_at": "2026-11-18T11:20:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

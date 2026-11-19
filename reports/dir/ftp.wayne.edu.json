@@ -3,11 +3,11 @@
   "url": "ftp://ftp.wayne.edu/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-18T05:57:30.075Z",
-  "tcp_latency_ms": 164.477,
-  "started_at": "2026-11-18T05:59:43.108Z",
-  "listed_at": "2026-11-18T05:59:44.477Z",
-  "duration_ms": 1368.968,
+  "checked_at": "2026-11-19T05:58:01.410Z",
+  "tcp_latency_ms": 162.261,
+  "started_at": "2026-11-19T06:00:14.728Z",
+  "listed_at": "2026-11-19T06:00:16.109Z",
+  "duration_ms": 1380.659,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,14 +58,14 @@
     "other": 0,
     "file_bytes": 17994,
     "oldest_modified_at": "2013-08-22T00:00:00",
-    "latest_modified_at": "2026-11-17T12:50:00"
+    "latest_modified_at": "2026-11-18T12:50:00"
   },
   "entries": [
     {
       "name": "CPAN",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-11-17T12:50:00",
+      "modified_at": "2026-11-18T12:50:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

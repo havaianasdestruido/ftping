@@ -3,26 +3,31 @@
   "url": "ftp://megrez.math.u-bordeaux.fr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-18T05:57:40.106Z",
-  "tcp_latency_ms": 773.661,
-  "started_at": "2026-11-18T05:59:44.688Z",
-  "listed_at": "2026-11-18T05:59:47.281Z",
-  "duration_ms": 2592.268,
+  "checked_at": "2026-11-19T05:58:12.045Z",
+  "tcp_latency_ms": 1182.555,
+  "started_at": "2026-11-19T06:00:16.161Z",
+  "listed_at": "2026-11-19T06:00:20.069Z",
+  "duration_ms": 3907.275,
   "path": "/",
   "login": "anonymous",
-  "status": "error",
-  "error": {
-    "type": "ConnectionResetError",
-    "message": "[Errno 104] Connection reset by peer"
-  },
-  "listing_method": null,
-  "timestamps_timezone": null,
+  "status": "ok",
+  "error": null,
+  "listing_method": "list",
+  "timestamps_timezone": "server-local",
   "unparsed_lines": 0,
   "server": {
-    "welcome": null,
-    "login_response": null,
-    "system": null,
-    "features": [],
+    "welcome": "220 Welcome to PARI/GP FTP service.",
+    "login_response": "Login successful.",
+    "system": "UNIX Type: L8",
+    "features": [
+      "EPRT",
+      "EPSV",
+      "MDTM",
+      "PASV",
+      "REST",
+      "SIZE",
+      "TVFS"
+    ],
     "encoding": null
   },
   "root": {
@@ -45,14 +50,34 @@
     "link_target": null
   },
   "summary": {
-    "entries": 0,
+    "entries": 1,
     "files": 0,
-    "directories": 0,
+    "directories": 1,
     "links": 0,
     "other": 0,
     "file_bytes": 0,
-    "oldest_modified_at": null,
-    "latest_modified_at": null
+    "oldest_modified_at": "2025-03-21T00:00:00",
+    "latest_modified_at": "2025-03-21T00:00:00"
   },
-  "entries": []
+  "entries": [
+    {
+      "name": "pub",
+      "type": "directory",
+      "size": 4096,
+      "modified_at": "2025-03-21T00:00:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": "1000",
+      "group": "2000",
+      "uid": null,
+      "gid": null,
+      "permissions": "drwxrwsr-x",
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    }
+  ]
 }

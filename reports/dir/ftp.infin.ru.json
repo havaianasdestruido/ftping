@@ -3,11 +3,11 @@
   "url": "ftp://ftp.infin.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-18T05:58:36.798Z",
-  "tcp_latency_ms": 463.665,
-  "started_at": "2026-11-18T06:00:03.385Z",
-  "listed_at": "2026-11-18T06:00:06.443Z",
-  "duration_ms": 3057.653,
+  "checked_at": "2026-11-19T05:59:08.160Z",
+  "tcp_latency_ms": 451.015,
+  "started_at": "2026-11-19T06:00:33.986Z",
+  "listed_at": "2026-11-19T06:00:37.789Z",
+  "duration_ms": 3803.105,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -67,7 +67,7 @@
     "other": 0,
     "file_bytes": 31912832,
     "oldest_modified_at": "2021-05-02T17:00:06Z",
-    "latest_modified_at": "2026-11-17T07:17:00Z"
+    "latest_modified_at": "2026-11-18T07:23:46Z"
   },
   "entries": [
     {
@@ -150,7 +150,7 @@
       "name": "distrib",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-17T07:17:00Z",
+      "modified_at": "2026-11-18T07:23:46Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

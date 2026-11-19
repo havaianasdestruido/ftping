@@ -3,11 +3,11 @@
   "url": "ftp://mask.wsisiz.edu.pl/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-18T05:58:25.030Z",
-  "tcp_latency_ms": 346.373,
-  "started_at": "2026-11-18T06:00:00.853Z",
-  "listed_at": "2026-11-18T06:00:03.276Z",
-  "duration_ms": 2423.234,
+  "checked_at": "2026-11-19T05:58:56.001Z",
+  "tcp_latency_ms": 329.262,
+  "started_at": "2026-11-19T06:00:31.786Z",
+  "listed_at": "2026-11-19T06:00:34.018Z",
+  "duration_ms": 2232.402,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -47,7 +47,7 @@
     "name": "/",
     "type": "directory",
     "size": null,
-    "modified_at": "2026-11-18T02:55:25Z",
+    "modified_at": "2026-11-19T03:02:12Z",
     "created_at": null,
     "accessed_at": null,
     "changed_at": null,
@@ -68,9 +68,9 @@
     "directories": 2,
     "links": 0,
     "other": 0,
-    "file_bytes": 236853368,
+    "file_bytes": 237606866,
     "oldest_modified_at": "2015-04-07T11:00:57Z",
-    "latest_modified_at": "2026-11-18T02:55:04Z"
+    "latest_modified_at": "2026-11-19T03:01:50Z"
   },
   "entries": [
     {
@@ -114,8 +114,8 @@
     {
       "name": "ls-lR.Z",
       "type": "file",
-      "size": 36880368,
-      "modified_at": "2026-11-18T02:55:04Z",
+      "size": 37276567,
+      "modified_at": "2026-11-19T03:01:50Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -133,8 +133,8 @@
     {
       "name": "ls-lR.gz",
       "type": "file",
-      "size": 25426265,
-      "modified_at": "2026-11-18T02:55:04Z",
+      "size": 25463844,
+      "modified_at": "2026-11-19T03:01:50Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -152,8 +152,8 @@
     {
       "name": "ls-lR",
       "type": "file",
-      "size": 174546735,
-      "modified_at": "2026-11-18T02:55:04Z",
+      "size": 174866455,
+      "modified_at": "2026-11-19T03:01:50Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -164,7 +164,7 @@
       "permissions": "-rw-------",
       "mode": "0600",
       "perm": "dfr",
-      "unique_id": "FC00UC6A600B",
+      "unique_id": "FC00UC6A6001",
       "media_type": null,
       "link_target": null
     }
