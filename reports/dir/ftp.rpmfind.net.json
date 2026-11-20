@@ -3,11 +3,11 @@
   "url": "ftp://ftp.rpmfind.net/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-19T05:58:28.476Z",
-  "tcp_latency_ms": 220.83,
-  "started_at": "2026-11-19T06:00:21.564Z",
-  "listed_at": "2026-11-19T06:00:24.969Z",
-  "duration_ms": 3404.958,
+  "checked_at": "2026-11-20T05:47:50.120Z",
+  "tcp_latency_ms": 345.824,
+  "started_at": "2026-11-20T05:49:54.340Z",
+  "listed_at": "2026-11-20T05:49:57.488Z",
+  "duration_ms": 3148.196,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 28,
     "oldest_modified_at": "2001-04-20T00:00:00",
-    "latest_modified_at": "2026-01-17T00:00:00"
+    "latest_modified_at": "2026-07-17T02:00:00"
   },
   "entries": [
     {
@@ -103,7 +103,7 @@
       "name": "pub",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-01-17T00:00:00",
+      "modified_at": "2026-07-17T02:00:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

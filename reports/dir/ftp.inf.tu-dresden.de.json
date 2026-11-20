@@ -3,11 +3,11 @@
   "url": "ftp://ftp.inf.tu-dresden.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-19T05:57:47.623Z",
-  "tcp_latency_ms": 399.357,
-  "started_at": "2026-11-19T06:00:10.536Z",
-  "listed_at": "2026-11-19T06:00:13.272Z",
-  "duration_ms": 2736.081,
+  "checked_at": "2026-11-20T05:47:04.805Z",
+  "tcp_latency_ms": 335.945,
+  "started_at": "2026-11-20T05:49:42.724Z",
+  "listed_at": "2026-11-20T05:49:44.874Z",
+  "duration_ms": 2150.393,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -66,7 +66,7 @@
     "other": 0,
     "file_bytes": 384,
     "oldest_modified_at": "2002-01-17T13:34:58Z",
-    "latest_modified_at": "2026-01-21T19:58:13Z"
+    "latest_modified_at": "2026-11-19T19:03:26Z"
   },
   "entries": [
     {
@@ -92,7 +92,7 @@
       "name": "gnu",
       "type": "directory",
       "size": 12288,
-      "modified_at": "2026-01-21T19:58:13Z",
+      "modified_at": "2026-11-19T19:03:26Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

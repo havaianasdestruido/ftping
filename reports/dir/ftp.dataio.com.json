@@ -3,11 +3,11 @@
   "url": "ftp://ftp.dataio.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-19T05:57:08.759Z",
-  "tcp_latency_ms": 41.929,
-  "started_at": "2026-11-19T06:00:03.376Z",
-  "listed_at": "2026-11-19T06:00:03.674Z",
-  "duration_ms": 297.922,
+  "checked_at": "2026-11-20T05:46:24.762Z",
+  "tcp_latency_ms": 60.396,
+  "started_at": "2026-11-20T05:49:33.580Z",
+  "listed_at": "2026-11-20T05:49:33.818Z",
+  "duration_ms": 238.116,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -52,7 +52,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2008-07-23T15:17:00",
-    "latest_modified_at": "2026-11-18T15:56:00"
+    "latest_modified_at": "2026-11-19T21:20:00"
   },
   "entries": [
     {
@@ -116,7 +116,7 @@
       "name": "betaalgs",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-18T15:56:00",
+      "modified_at": "2026-11-19T21:20:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -135,7 +135,7 @@
       "name": "current",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-18T07:54:00",
+      "modified_at": "2026-11-19T08:12:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

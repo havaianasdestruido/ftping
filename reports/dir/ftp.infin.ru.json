@@ -3,11 +3,11 @@
   "url": "ftp://ftp.infin.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-19T05:59:08.160Z",
-  "tcp_latency_ms": 451.015,
-  "started_at": "2026-11-19T06:00:33.986Z",
-  "listed_at": "2026-11-19T06:00:37.789Z",
-  "duration_ms": 3803.105,
+  "checked_at": "2026-11-20T05:48:34.859Z",
+  "tcp_latency_ms": 515.755,
+  "started_at": "2026-11-20T05:50:07.386Z",
+  "listed_at": "2026-11-20T05:50:09.950Z",
+  "duration_ms": 2563.997,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -16,7 +16,7 @@
   "timestamps_timezone": "utc",
   "unparsed_lines": 0,
   "server": {
-    "welcome": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 25 allowed.\n220-Local time is now 09:00. Server port: 21.\n220 You will be disconnected after 5 minutes of inactivity.",
+    "welcome": "220---------- Welcome to Pure-FTPd [privsep] [TLS] ----------\n220-You are user number 1 of 25 allowed.\n220-Local time is now 08:50. Server port: 21.\n220 You will be disconnected after 5 minutes of inactivity.",
     "login_response": "Your bandwidth usage is restricted\n230 Anonymous user logged in",
     "system": "UNIX Type: L8",
     "features": [
@@ -67,7 +67,7 @@
     "other": 0,
     "file_bytes": 31912832,
     "oldest_modified_at": "2021-05-02T17:00:06Z",
-    "latest_modified_at": "2026-11-18T07:23:46Z"
+    "latest_modified_at": "2026-11-19T07:13:55Z"
   },
   "entries": [
     {
@@ -150,7 +150,7 @@
       "name": "distrib",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-18T07:23:46Z",
+      "modified_at": "2026-11-19T07:13:55Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
