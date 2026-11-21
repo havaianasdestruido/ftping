@@ -3,11 +3,11 @@
   "url": "ftp://ftp.arnes.si/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-20T05:49:03.947Z",
-  "tcp_latency_ms": 397.696,
-  "started_at": "2026-11-20T05:50:11.439Z",
-  "listed_at": "2026-11-20T05:50:15.140Z",
-  "duration_ms": 3701.802,
+  "checked_at": "2026-11-21T05:43:15.706Z",
+  "tcp_latency_ms": 108.882,
+  "started_at": "2026-11-21T05:44:18.113Z",
+  "listed_at": "2026-11-21T05:44:20.520Z",
+  "duration_ms": 2406.537,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "1996-03-01T00:00:00",
-    "latest_modified_at": "2026-11-17T09:20:00"
+    "latest_modified_at": "2026-11-20T15:55:00"
   },
   "entries": [
     {
@@ -178,8 +178,8 @@
     {
       "name": "mirrors2",
       "type": "directory",
-      "size": 118,
-      "modified_at": "2026-05-11T00:00:00",
+      "size": 96,
+      "modified_at": "2026-11-20T15:55:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

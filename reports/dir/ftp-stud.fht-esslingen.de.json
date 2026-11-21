@@ -3,11 +3,11 @@
   "url": "ftp://ftp-stud.fht-esslingen.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-20T05:46:59.749Z",
-  "tcp_latency_ms": 632.061,
-  "started_at": "2026-11-20T05:49:40.451Z",
-  "listed_at": "2026-11-20T05:49:43.640Z",
-  "duration_ms": 3188.392,
+  "checked_at": "2026-11-21T05:41:15.612Z",
+  "tcp_latency_ms": 630.432,
+  "started_at": "2026-11-21T05:43:51.880Z",
+  "listed_at": "2026-11-21T05:43:53.815Z",
+  "duration_ms": 1935.346,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -56,9 +56,9 @@
     "directories": 3,
     "links": 13,
     "other": 0,
-    "file_bytes": 3034,
+    "file_bytes": 2322,
     "oldest_modified_at": "2001-09-24T00:00:00",
-    "latest_modified_at": "2026-11-20T06:49:00"
+    "latest_modified_at": "2026-11-21T06:43:00"
   },
   "entries": [
     {
@@ -293,7 +293,7 @@
       "name": "info",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-11-20T06:49:00",
+      "modified_at": "2026-11-21T06:43:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
@@ -406,8 +406,8 @@
     {
       "name": "robots.txt",
       "type": "file",
-      "size": 889,
-      "modified_at": "2003-03-24T00:00:00",
+      "size": 177,
+      "modified_at": "2026-11-20T12:02:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

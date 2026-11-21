@@ -3,11 +3,11 @@
   "url": "ftp://ftp.iszf.irk.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-20T05:48:37.490Z",
-  "tcp_latency_ms": 1453.94,
-  "started_at": "2026-11-20T05:50:07.717Z",
-  "listed_at": "2026-11-20T05:50:13.363Z",
-  "duration_ms": 5645.463,
+  "checked_at": "2026-11-21T05:42:50.384Z",
+  "tcp_latency_ms": 781.798,
+  "started_at": "2026-11-21T05:44:14.898Z",
+  "listed_at": "2026-11-21T05:44:18.967Z",
+  "duration_ms": 4069.401,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2008-02-18T00:00:00",
-    "latest_modified_at": "2026-10-22T00:53:00"
+    "latest_modified_at": "2026-11-20T08:25:00"
   },
   "entries": [
     {
@@ -141,7 +141,7 @@
       "name": "ks",
       "type": "directory",
       "size": 4096,
-      "modified_at": "2026-10-22T00:53:00",
+      "modified_at": "2026-11-20T08:25:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

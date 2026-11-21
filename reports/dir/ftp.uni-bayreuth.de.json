@@ -3,11 +3,11 @@
   "url": "ftp://ftp.uni-bayreuth.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-20T05:47:08.350Z",
-  "tcp_latency_ms": 304.264,
-  "started_at": "2026-11-20T05:49:44.506Z",
-  "listed_at": "2026-11-20T05:49:46.908Z",
-  "duration_ms": 2401.995,
+  "checked_at": "2026-11-21T05:41:23.582Z",
+  "tcp_latency_ms": 301.652,
+  "started_at": "2026-11-21T05:43:55.270Z",
+  "listed_at": "2026-11-21T05:43:56.945Z",
+  "duration_ms": 1674.537,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -16,8 +16,8 @@
   "timestamps_timezone": "utc",
   "unparsed_lines": 0,
   "server": {
-    "welcome": "220- \n  ----------             Rechenzentrum\n |\\  \\   |  |            Universitaet Bayreuth\n | \\  \\  |  |            Universitaetsstrasse 30\n |  \\  \\ |  |            D-95440 Bayreuth\n |   \\  \\|  |            Germany\n  ----------\n \n This server is located in Bayreuth, Germany.\n \n The local time is Fri Nov 20 06:49:44 2026 (Middle European Time Zone).\n Our service is available 24 hours a day, 7 days a week.\n \n All transfers are logged with your email address and your host address,\n so that if we d",
-    "login_response": "----------             IT-Servicezentrum\n |\\  \\   |  |            Universitaet Bayreuth\n | \\  \\  |  |            Universitaetsstrasse 30\n |  \\  \\ |  |            D-95440 Bayreuth\n |   \\  \\|  |            Germany\n  ----------\n \n This server is located in Bayreuth, Germany.\n \n The local time is Fri Nov 20 05:49:45 2026 (Middle European Time Zone).\n Our service is available 24 hours a day, 7 days a week.\n \n All transfers are logged with your email address and your host address,\n so that if we disco",
+    "welcome": "220- \n  ----------             Rechenzentrum\n |\\  \\   |  |            Universitaet Bayreuth\n | \\  \\  |  |            Universitaetsstrasse 30\n |  \\  \\ |  |            D-95440 Bayreuth\n |   \\  \\|  |            Germany\n  ----------\n \n This server is located in Bayreuth, Germany.\n \n The local time is Sat Nov 21 06:43:55 2026 (Middle European Time Zone).\n Our service is available 24 hours a day, 7 days a week.\n \n All transfers are logged with your email address and your host address,\n so that if we d",
+    "login_response": "----------             IT-Servicezentrum\n |\\  \\   |  |            Universitaet Bayreuth\n | \\  \\  |  |            Universitaetsstrasse 30\n |  \\  \\ |  |            D-95440 Bayreuth\n |   \\  \\|  |            Germany\n  ----------\n \n This server is located in Bayreuth, Germany.\n \n The local time is Sat Nov 21 05:43:55 2026 (Middle European Time Zone).\n Our service is available 24 hours a day, 7 days a week.\n \n All transfers are logged with your email address and your host address,\n so that if we disco",
     "system": "UNIX Type: L8",
     "features": [
       "AUTH",
@@ -70,14 +70,14 @@
     "other": 0,
     "file_bytes": 7192,
     "oldest_modified_at": "2012-07-02T05:56:50Z",
-    "latest_modified_at": "2026-11-20T04:22:38Z"
+    "latest_modified_at": "2026-11-21T04:22:41Z"
   },
   "entries": [
     {
       "name": ".snapshot",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-20T04:22:38Z",
+      "modified_at": "2026-11-21T04:22:41Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
