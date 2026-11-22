@@ -3,17 +3,17 @@
   "url": "ftp://ftp.math.fu-berlin.de/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-21T05:41:21.543Z",
-  "tcp_latency_ms": 599.385,
-  "started_at": "2026-11-21T05:43:54.131Z",
-  "listed_at": "2026-11-21T05:43:54.727Z",
-  "duration_ms": 595.249,
+  "checked_at": "2026-11-22T05:09:07.683Z",
+  "tcp_latency_ms": 588.207,
+  "started_at": "2026-11-22T05:11:42.173Z",
+  "listed_at": "2026-11-22T05:11:42.884Z",
+  "duration_ms": 710.878,
   "path": "/",
   "login": "anonymous",
   "status": "error",
   "error": {
     "type": "UnicodeDecodeError",
-    "message": "'utf-8' codec can't decode byte 0xe4 in position 161: invalid continuation byte"
+    "message": "'utf-8' codec can't decode byte 0xe4 in position 16: invalid continuation byte"
   },
   "listing_method": null,
   "timestamps_timezone": null,
