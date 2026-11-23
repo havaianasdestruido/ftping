@@ -3,11 +3,11 @@
   "url": "ftp://ftp.vernet.lv/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-22T05:09:41.948Z",
-  "tcp_latency_ms": 867.822,
-  "started_at": "2026-11-22T05:11:49.663Z",
-  "listed_at": "2026-11-22T05:11:52.080Z",
-  "duration_ms": 2416.979,
+  "checked_at": "2026-11-23T05:51:18.424Z",
+  "tcp_latency_ms": 807.209,
+  "started_at": "2026-11-23T05:53:32.010Z",
+  "listed_at": "2026-11-23T05:53:35.601Z",
+  "duration_ms": 3591.263,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -49,7 +49,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2002-07-04T00:00:00",
-    "latest_modified_at": "2026-11-20T17:48:00"
+    "latest_modified_at": "2026-11-23T01:05:00"
   },
   "entries": [
     {
@@ -93,8 +93,8 @@
     {
       "name": "incoming",
       "type": "directory",
-      "size": 10240,
-      "modified_at": "2026-11-20T17:48:00",
+      "size": 512,
+      "modified_at": "2026-11-23T01:05:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

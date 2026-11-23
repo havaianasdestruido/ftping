@@ -3,11 +3,11 @@
   "url": "ftp://ftp.3gpp.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-22T05:10:00.359Z",
-  "tcp_latency_ms": 271.214,
-  "started_at": "2026-11-22T05:11:53.589Z",
-  "listed_at": "2026-11-22T05:11:55.623Z",
-  "duration_ms": 2033.952,
+  "checked_at": "2026-11-23T05:51:36.188Z",
+  "tcp_latency_ms": 173.96,
+  "started_at": "2026-11-23T05:53:37.252Z",
+  "listed_at": "2026-11-23T05:53:40.142Z",
+  "duration_ms": 2890.374,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -60,7 +60,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2008-11-04T18:53:00",
-    "latest_modified_at": "2026-11-20T10:29:00"
+    "latest_modified_at": "2026-11-22T20:21:00"
   },
   "entries": [
     {
@@ -276,7 +276,7 @@
       "name": "Specs",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-10-16T08:34:00",
+      "modified_at": "2026-11-22T20:21:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
