@@ -3,11 +3,11 @@
   "url": "ftp://ftp.distributed.net/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-23T05:51:20.786Z",
-  "tcp_latency_ms": 45.725,
-  "started_at": "2026-11-23T05:53:32.776Z",
-  "listed_at": "2026-11-23T05:53:32.850Z",
-  "duration_ms": 73.848,
+  "checked_at": "2026-11-24T08:28:35.554Z",
+  "tcp_latency_ms": 176.15,
+  "started_at": "2026-11-24T08:30:43.785Z",
+  "listed_at": "2026-11-24T08:30:44.727Z",
+  "duration_ms": 941.758,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2016-06-13T00:00:00",
-    "latest_modified_at": "2026-11-23T05:49:00"
+    "latest_modified_at": "2026-11-24T06:04:00"
   },
   "entries": [
     {
@@ -140,8 +140,8 @@
     {
       "name": "debian",
       "type": "directory",
-      "size": 4096,
-      "modified_at": "2026-11-23T05:49:00",
+      "size": 311,
+      "modified_at": "2026-11-24T06:04:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
