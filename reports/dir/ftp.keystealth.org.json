@@ -3,11 +3,11 @@
   "url": "ftp://ftp.keystealth.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-24T08:28:57.417Z",
-  "tcp_latency_ms": 120.479,
-  "started_at": "2026-11-24T08:30:50.551Z",
-  "listed_at": "2026-11-24T08:30:51.413Z",
-  "duration_ms": 861.216,
+  "checked_at": "2026-11-25T07:04:02.675Z",
+  "tcp_latency_ms": 295.89,
+  "started_at": "2026-11-25T07:05:53.453Z",
+  "listed_at": "2026-11-25T07:05:54.720Z",
+  "duration_ms": 1267.777,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,7 +58,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2016-06-13T00:00:00",
-    "latest_modified_at": "2026-11-24T06:04:00"
+    "latest_modified_at": "2026-11-25T06:03:00"
   },
   "entries": [
     {
@@ -141,7 +141,7 @@
       "name": "debian",
       "type": "directory",
       "size": 311,
-      "modified_at": "2026-11-24T06:04:00",
+      "modified_at": "2026-11-25T06:03:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

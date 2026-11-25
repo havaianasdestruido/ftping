@@ -3,11 +3,11 @@
   "url": "ftp://ftp.ias.u-psud.fr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-24T08:28:19.573Z",
-  "tcp_latency_ms": 515.154,
-  "started_at": "2026-11-24T08:30:39.248Z",
-  "listed_at": "2026-11-24T08:30:41.217Z",
-  "duration_ms": 1968.754,
+  "checked_at": "2026-11-25T07:03:25.362Z",
+  "tcp_latency_ms": 691.557,
+  "started_at": "2026-11-25T07:05:41.716Z",
+  "listed_at": "2026-11-25T07:05:43.177Z",
+  "duration_ms": 1461.62,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -49,7 +49,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2010-01-19T14:14:58Z",
-    "latest_modified_at": "2026-11-19T15:39:57Z"
+    "latest_modified_at": "2026-11-24T14:20:18Z"
   },
   "entries": [
     {
@@ -702,7 +702,7 @@
       "name": "netadm",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-19T15:39:57Z",
+      "modified_at": "2026-11-24T14:20:18Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
