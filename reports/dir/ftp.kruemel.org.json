@@ -3,11 +3,11 @@
   "url": "ftp://ftp.kruemel.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-26T06:56:10.643Z",
-  "tcp_latency_ms": 831.951,
-  "started_at": "2026-11-26T06:58:04.027Z",
-  "listed_at": "2026-11-26T06:58:07.067Z",
-  "duration_ms": 3039.442,
+  "checked_at": "2026-11-27T06:48:55.720Z",
+  "tcp_latency_ms": 595.492,
+  "started_at": "2026-11-27T06:50:39.355Z",
+  "listed_at": "2026-11-27T06:50:42.776Z",
+  "duration_ms": 3420.709,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -57,7 +57,7 @@
     "other": 0,
     "file_bytes": 5913991,
     "oldest_modified_at": "1996-02-18T00:00:00",
-    "latest_modified_at": "2026-11-25T20:21:00"
+    "latest_modified_at": "2026-11-27T00:21:00"
   },
   "entries": [
     {
@@ -2306,7 +2306,7 @@
       "name": "nodelist",
       "type": "directory",
       "size": 308,
-      "modified_at": "2026-11-25T20:21:00",
+      "modified_at": "2026-11-27T00:21:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

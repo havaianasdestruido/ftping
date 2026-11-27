@@ -3,11 +3,11 @@
   "url": "ftp://ftp.3gpp.org/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-26T06:56:03.383Z",
-  "tcp_latency_ms": 168.766,
-  "started_at": "2026-11-26T06:58:00.739Z",
-  "listed_at": "2026-11-26T06:58:03.344Z",
-  "duration_ms": 2605.003,
+  "checked_at": "2026-11-27T06:48:49.556Z",
+  "tcp_latency_ms": 199.498,
+  "started_at": "2026-11-27T06:50:36.464Z",
+  "listed_at": "2026-11-27T06:50:39.509Z",
+  "duration_ms": 3044.848,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -60,7 +60,7 @@
     "other": 0,
     "file_bytes": 0,
     "oldest_modified_at": "2008-11-04T18:53:00",
-    "latest_modified_at": "2026-11-25T11:52:00"
+    "latest_modified_at": "2026-11-26T19:06:00"
   },
   "entries": [
     {
@@ -181,7 +181,7 @@
       "name": "LS_Files",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-25T11:52:00",
+      "modified_at": "2026-11-26T19:06:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
