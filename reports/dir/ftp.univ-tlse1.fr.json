@@ -3,11 +3,11 @@
   "url": "ftp://ftp.univ-tlse1.fr/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-27T06:48:24.009Z",
-  "tcp_latency_ms": 599.57,
-  "started_at": "2026-11-27T06:50:28.450Z",
-  "listed_at": "2026-11-27T06:50:31.293Z",
-  "duration_ms": 2842.718,
+  "checked_at": "2026-11-28T06:23:05.742Z",
+  "tcp_latency_ms": 542.386,
+  "started_at": "2026-11-28T06:25:22.356Z",
+  "listed_at": "2026-11-28T06:25:24.696Z",
+  "duration_ms": 2340.536,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -17,7 +17,7 @@
   "unparsed_lines": 0,
   "server": {
     "welcome": "220 FTP Server ready.",
-    "login_response": "*** Welcome to this anonymous ftp server! ***\n \n     You are user 2 out of a maximum of 400 authorized anonymous logins.\n     The current time here is Fri Nov 27 07:50:29 2026.\n     If you experience any problems here, contact : ftpmaster@ut-capitole.fr\n \n \n230 Anonymous login ok, restrictions apply.",
+    "login_response": "*** Welcome to this anonymous ftp server! ***\n \n     You are user 3 out of a maximum of 400 authorized anonymous logins.\n     The current time here is Sat Nov 28 07:25:23 2026.\n     If you experience any problems here, contact : ftpmaster@ut-capitole.fr\n \n \n230 Anonymous login ok, restrictions apply.",
     "system": "UNIX Type: L8",
     "features": [
       "MFF",
@@ -61,7 +61,7 @@
     "other": 0,
     "file_bytes": 224,
     "oldest_modified_at": "2011-12-01T11:08:16Z",
-    "latest_modified_at": "2026-11-26T21:55:26Z"
+    "latest_modified_at": "2026-11-27T21:55:26Z"
   },
   "entries": [
     {
@@ -144,7 +144,7 @@
       "name": "hidden",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-26T21:55:26Z",
+      "modified_at": "2026-11-27T21:55:26Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

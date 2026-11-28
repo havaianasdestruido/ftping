@@ -3,11 +3,11 @@
   "url": "ftp://ftp.ai.kyutech.ac.jp/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-27T06:48:29.425Z",
-  "tcp_latency_ms": 592.541,
-  "started_at": "2026-11-27T06:50:31.042Z",
-  "listed_at": "2026-11-27T06:50:34.406Z",
-  "duration_ms": 3364.541,
+  "checked_at": "2026-11-28T06:23:12.392Z",
+  "tcp_latency_ms": 855.396,
+  "started_at": "2026-11-28T06:25:24.044Z",
+  "listed_at": "2026-11-28T06:25:27.828Z",
+  "duration_ms": 3783.562,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -58,14 +58,14 @@
     "other": 0,
     "file_bytes": 4922,
     "oldest_modified_at": "2010-07-20T00:00:00",
-    "latest_modified_at": "2026-01-21T00:00:00"
+    "latest_modified_at": "2026-11-26T21:11:00"
   },
   "entries": [
     {
       "name": "GNU",
       "type": "directory",
       "size": 12288,
-      "modified_at": "2026-01-21T00:00:00",
+      "modified_at": "2026-11-26T21:11:00",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

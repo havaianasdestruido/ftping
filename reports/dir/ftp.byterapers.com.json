@@ -3,27 +3,33 @@
   "url": "ftp://ftp.byterapers.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-27T06:47:19.827Z",
-  "tcp_latency_ms": 424.181,
-  "started_at": "2026-11-27T06:50:13.750Z",
-  "listed_at": "2026-11-27T06:50:16.866Z",
-  "duration_ms": 3116.397,
+  "checked_at": "2026-11-28T06:21:56.624Z",
+  "tcp_latency_ms": 484.749,
+  "started_at": "2026-11-28T06:25:07.975Z",
+  "listed_at": "2026-11-28T06:25:25.894Z",
+  "duration_ms": 17919.581,
   "path": "/",
   "login": "anonymous",
-  "status": "error",
-  "error": {
-    "type": "OSError",
-    "message": "[Errno 113] No route to host"
-  },
-  "listing_method": null,
-  "timestamps_timezone": null,
+  "status": "ok",
+  "error": null,
+  "listing_method": "list",
+  "timestamps_timezone": "server-local",
   "unparsed_lines": 0,
   "server": {
-    "welcome": null,
-    "login_response": null,
-    "system": null,
-    "features": [],
-    "encoding": null
+    "welcome": "220 (vsFTPd 3.0.5)",
+    "login_response": "Login successful.",
+    "system": "UNIX Type: L8",
+    "features": [
+      "EPRT",
+      "EPSV",
+      "MDTM",
+      "PASV",
+      "REST",
+      "SIZE",
+      "TVFS",
+      "UTF8"
+    ],
+    "encoding": "utf-8"
   },
   "root": {
     "name": "/",
@@ -45,14 +51,34 @@
     "link_target": null
   },
   "summary": {
-    "entries": 0,
+    "entries": 1,
     "files": 0,
-    "directories": 0,
+    "directories": 1,
     "links": 0,
     "other": 0,
     "file_bytes": 0,
-    "oldest_modified_at": null,
-    "latest_modified_at": null
+    "oldest_modified_at": "2026-11-24T06:29:00",
+    "latest_modified_at": "2026-11-24T06:29:00"
   },
-  "entries": []
+  "entries": [
+    {
+      "name": "pub",
+      "type": "directory",
+      "size": 124,
+      "modified_at": "2026-11-24T06:29:00",
+      "created_at": null,
+      "accessed_at": null,
+      "changed_at": null,
+      "created_by": "48",
+      "group": "50",
+      "uid": null,
+      "gid": null,
+      "permissions": "drwxrwxr-x",
+      "mode": null,
+      "perm": null,
+      "unique_id": null,
+      "media_type": null,
+      "link_target": null
+    }
+  ]
 }

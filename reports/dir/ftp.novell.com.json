@@ -3,11 +3,11 @@
   "url": "ftp://ftp.novell.com/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-27T06:47:36.039Z",
-  "tcp_latency_ms": 566.157,
-  "started_at": "2026-11-27T06:50:16.697Z",
-  "listed_at": "2026-11-27T06:50:18.465Z",
-  "duration_ms": 1768.125,
+  "checked_at": "2026-11-28T06:22:13.636Z",
+  "tcp_latency_ms": 327.307,
+  "started_at": "2026-11-28T06:25:10.984Z",
+  "listed_at": "2026-11-28T06:25:11.833Z",
+  "duration_ms": 849.155,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -64,14 +64,14 @@
     "other": 0,
     "file_bytes": 4710,
     "oldest_modified_at": "2013-04-04T21:26:40Z",
-    "latest_modified_at": "2026-11-26T22:42:37Z"
+    "latest_modified_at": "2026-11-28T06:22:17Z"
   },
   "entries": [
     {
       "name": "incoming",
       "type": "directory",
       "size": 1654784,
-      "modified_at": "2026-11-26T22:42:37Z",
+      "modified_at": "2026-11-28T06:22:17Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,

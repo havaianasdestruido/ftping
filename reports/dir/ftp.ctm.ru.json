@@ -3,11 +3,11 @@
   "url": "ftp://ftp.ctm.ru/",
   "port": 21,
   "scheme": "ftp",
-  "checked_at": "2026-11-27T06:49:14.097Z",
-  "tcp_latency_ms": 734.75,
-  "started_at": "2026-11-27T06:50:45.194Z",
-  "listed_at": "2026-11-27T06:50:47.593Z",
-  "duration_ms": 2399.229,
+  "checked_at": "2026-11-28T06:24:03.054Z",
+  "tcp_latency_ms": 449.119,
+  "started_at": "2026-11-28T06:25:38.338Z",
+  "listed_at": "2026-11-28T06:25:40.626Z",
+  "duration_ms": 2288.455,
   "path": "/",
   "login": "anonymous",
   "status": "ok",
@@ -65,7 +65,7 @@
     "other": 0,
     "file_bytes": 4631,
     "oldest_modified_at": "2009-10-15T17:28:18Z",
-    "latest_modified_at": "2026-11-20T21:10:01Z"
+    "latest_modified_at": "2026-11-27T21:05:58Z"
   },
   "entries": [
     {
@@ -91,7 +91,7 @@
       "name": "ctm",
       "type": "directory",
       "size": null,
-      "modified_at": "2026-11-20T21:10:01Z",
+      "modified_at": "2026-11-27T21:05:58Z",
       "created_at": null,
       "accessed_at": null,
       "changed_at": null,
